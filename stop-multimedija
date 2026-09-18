@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Ustavi lokalno dev okolje (baza in datoteke v www/ ostanejo).
+set -euo pipefail
+cd "$(dirname "$(readlink -f "$0")")"
+docker compose --profile tools down
+echo "Ustavljeno. Ponovni zagon: ./start-multimedija"

@@ -1,0 +1,32 @@
+# lokalne nastavitve
+.env
+
+# WordPress stran v www/ – ne sledimo (jedro, vtičniki, uploads).
+# Struktura je večplastna, da lahko kasneje dodamo izjemo za lastno (child) temo.
+www/*
+!www/.gitkeep
+!www/wp-content/
+www/wp-content/*
+!www/wp-content/themes/
+www/wp-content/themes/*
+# primer (odkomentiraj, ko obstaja):
+# !www/wp-content/themes/multimedija-child/
+
+# posnetki teme brez odvisnosti
+snapshot/**/node_modules/
+snapshot/**/vendor/
+
+# arhivi, izvozi baze, Duplicator paketi
+*.daf
+*.zip
+*.sql
+*.sql.gz
+*.tar.gz
+installer.php
+*_installer.php
+
+# OS / urejevalniki
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
