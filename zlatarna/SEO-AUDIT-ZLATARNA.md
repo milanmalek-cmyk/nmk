@@ -38,21 +38,21 @@ Ta dokument je **samo audit**. Na strani ni bilo nič spremenjeno.
 
 | # | Prioriteta | Problem | Kje |
 |---|---|---|---|
-| 1 | KRITIČNO | `/kontakt/` je na **obeh** domenah za strežniško zaščito »Bot Verification« (LiteSpeed reCAPTCHA). Googlebot, Bingbot in OAI-SearchBot gredo skozi. **PerplexityBot, ClaudeBot** in obiskovalci iz nekaterih omrežij dobijo stran z reCAPTCHA namesto kontakta. Slabo za GEO in UX. | strežnik / gostitelj |
+| 1 | KRITIČNO | `/kontakt/` je na **obeh** domenah za strežniško zaščito »Bot Verification« (LiteSpeed reCAPTCHA). Googlebot, Bingbot in OAI-SearchBot gredo skozi. **PerplexityBot, ClaudeBot** in v našem testu **vsak zahtevek z navadnim brskalnikom** dobijo stran z reCAPTCHA (tudi slikovni izziv) namesto kontakta. Slabo za GEO, UX in konverzije. Preveri še z domačega omrežja in telefona. | strežnik / gostitelj |
 | 2 | KRITIČNO ob prehodu | Dev ima `noindex, nofollow` samo iz WordPressa (`blog_public=0`), brez `X-Robots-Tag`. Ob prehodu je treba `blog_public` vklopiti, sicer bo produkcija noindex. | nastavitve |
 | 3 | VISOKO | Vseh 340 starih URL-jev obstaja tudi na novi strani (200). Edina 301 je `/4017-2/ → /guess-nakit/`. `/cene-porocnih-prstanov-v-letu-2024/` še ni preusmerjen. `/kategorija-izdelka/porocni-prstani/` je **podvojen URL** z 200. | `redirect-map.csv` |
-| 4 | VISOKO | Na domači in zaročni strani DOM ne vsebuje presledkov med `<span>` deli naslovov: »Poročni prstani,ki«, »Dva prstana,ena zgodba.«, »Ročno.Z ljubeznijo.Za vedno.«, »Unikatni zaročni prstani,izdelani«. | Elementor / `zd-n__a` |
+| 4 | VISOKO | Na vseh straneh (vzorec `zd-n__a`/`zd-n__b` in `zd-rokopis`) DOM ne vsebuje presledkov med `<span>` deli naslovov, npr. »Poročni prstani,ki«, »Dva prstana,ena zgodba.«, »Ročno.Z ljubeznijo.Za vedno.«, »Unikatni zaročni prstani,izdelani«. | Elementor / `zd-n__a` |
 | 5 | VISOKO | `/3902-2/` še vsebuje »V oddaji vam bomo predstavili…«, odstavek o Tiffany & Co., Cartier in Bvlgari ter **izmišljeno primerjalno tabelo cen** (999 €, 2.499 €, 1.799 €, platina). | vsebina |
 | 6 | VISOKO | `/cena-zarocnih-prstanov/`: »povprečne stroške zaročnega prstana v letu 2020«. `/cena-porocnih-prstanov/`: »od 200 € dalje« in »višino dveh mesečnih plač«. Naročnik mora potrditi, ali sme ostati. | vsebina |
 | 7 | VISOKO | 251 izdelkov: **0** jih ima opis. H1 je skrajšan na »433 Poročna prstana« (144 izdelkov ima H1 s ≤ 3 besedami). 206 glavnih slik ima prazen alt. Opisi so predloga (»… Model si oglejte …«). | WooCommerce |
 | 8 | VISOKO | Valuta WooCommerce je **USD** (cene 0). Na stari strani se v glavi izpiše »0.00$«. Če bi kdaj nastal Offer v shemi, bi bil napačen. | WooCommerce nastavitve |
-| 9 | SREDNJE | Kanibalizacija: domača in `/porocni-prstani/` imata v predlogih skoraj enak title (»Poročni prstani po meri | …«). Oznake (`/tag/zarocni-prstan/`, `/oznaka-izdelka/zarocni-prstan/` …) tekmujejo z glavnimi stranmi. | title, taksonomije |
+| 9 | SREDNJE | Kanibalizacija: domača in `/porocni-prstani/` imata v predlogih skoraj enak title (»Poročni prstani po meri \| …«). Oznake (`/tag/zarocni-prstan/`, `/oznaka-izdelka/zarocni-prstan/` …) tekmujejo z glavnimi stranmi. | title, taksonomije |
 | 10 | SREDNJE | Izdelek shema: ni `Product` (samo `ItemPage`). JSON drobtine izdelka (Domov › Katalog › izdelek) se ne ujemajo z vidnimi (Domov › Katalog › Poročni prstani › izdelek). Ime v drobtinah ima neodkodiran `&#8211;`. | Yoast / child tema |
 | 11 | SREDNJE | Arhivi oznak izdelkov imajo napačen H1 »Katalog naših prstanov.«. 63 URL-jev nima meta description. | predloge, Yoast |
 | 12 | SREDNJE | Stara produkcija preusmerja `http://zlatarna-breznik.si/` v **verigi dveh 301** (→ https brez www → https www). | `.htaccess` ob prehodu |
 | 13 | SREDNJE | Ob prehodu odstraniti ali zakleniti razvojne vtičnike: Duplicator (javni REST `duplicator/v1`), **`elementor-mcp-composer`** (javni REST namespace) in `elementor-ai`. | varnost |
 | 14 | NIZKO | Favicon je `.ico` tudi za `apple-touch-icon` in 192×192. Manjkata PNG 180×180 in 192/512. | tema |
-| 15 | NIZKO | Na stari strani je Google Analytics **UA-135258619-1** (Universal Analytics ne zbira več podatkov). Nova stran nima analitike. | naročnik / GA4 |
+| 15 | NIZKO | Stara stran ima Google Analytics **UA-135258619-1** (Universal Analytics ne zbira več podatkov). Nova ima GA4 `G-L0M9SC4KZ6`, ki se naloži šele po privolitvi ✅. Preveri, da je lastnina GA4 na računu naročnika in povezana z GSC. | naročnik / GA4 |
 
 Podrobnosti in dokazi so v poglavjih spodaj.
 
@@ -236,7 +236,7 @@ V Yoastu je treba te naslove vpisati kot celoten SEO title, brez dodatnega `%%se
 - **Product: ni ga.** Izdelki imajo samo `ItemPage` + `ImageObject`. Ni nobenega `Offer`, `AggregateRating` ali `Review` ✅ (pravilno po navodilih).
   - Če dodamo `Product` brez `offers/review/aggregateRating`, ga Google za rich results ne upošteva. V GSC bo »Product snippets – manjka offers«, kar ni napaka indeksiranja.
   - Predlog: `Product` z `name`, `image`, `sku`/`mpn` (model), `brand` (Zlatarna Brežnik), `material`, `category`, **brez cene**. Opozorilo v GSC sprejmemo. Druga možnost je, da Product ne dodamo. Odločitev v poglavju 18.
-- **VideoObject:** na pregledanih straneh ni bilo videa (YouTube iframe ni najden v HTML). Če je video na kateri podstrani, dodaj VideoObject in fasado (poglavje 15).
+- **VideoObject: ga ni.** Na domači in na O nas je YouTube video `s2Mb0vOy48E` (»Ročna izdelava prstana«) kot fasada na klik ✅. Dodaj `VideoObject` z `name`, `description`, `thumbnailUrl`, `uploadDate` (z YouTuba) in `embedUrl`. Brez tega video ni upravičen do prikaza v Googlu kot video rezultat.
 
 ---
 
@@ -411,7 +411,88 @@ Popolnoma enakih slik ali naslovov med izdelki ni.
 
 ## 15. Hitrost, UX in dostopnost (točke 22–24)
 
-<!-- PERF -->
+Celotno poročilo s tabelami, selektorji in priporočili je v **`HITROST-UX-POROCILO.md`**.
+- Merjeno z Lighthouse 12.8 (mobilno: slow 4G, 4× CPU) in Playwright pri 360, 375, 390, 430 in 1440 px, z axe-core.
+- Merjeno prek izhodnega proxyja, ki doda ~0,3–0,5 s na povezavo, zato so absolutni časi okvirni.
+- Izbrani posnetki so v `posnetki/`.
+
+### 15.1 Številke
+
+| | Stara produkcija (mobilno) | Nova dev (mobilno) | Nova dev (namizno) |
+|---|---|---|---|
+| Domača: Performance | 56 | 77–83 | 89 |
+| Domača: LCP / FCP | 6,3 s / 5,8 s | 3,6–4,1 s / 2,7 s | 1,4 s / 1,1 s |
+| Domača: TBT / CLS | 153 ms / 0,027 | 2 ms / 0 | 0 / 0 |
+| Domača: teža / zahtevki | 4.717 KB / 116 | 836 KB / 53 | 1.004 KB / 61 |
+| `/porocni-prstani/`: Performance / LCP / CLS | 51 / 5,2 s / **0,234** | 75–86 / 3,9–4,9 s / 0 | 93 / 1,4 s / 0 |
+| Izdelek (`/147-porocna-prstana/`) | – | 86 / 3,5 s | 92 / 1,4 s |
+| `/3902-2/` | – | **64 / 6,8 s** | 86 / 1,8 s |
+
+- **CLS ≤ 0,1** ✅ povsod.
+- **INP:** TBT 0–2 ms je dober posredni kazalnik (≤ 200 ms) ✅.
+- **LCP ≤ 2,5 s:** namizno ✅, mobilno ❌ (3,5–4,9 s, `/3902-2/` 6,8 s).
+- Dostopnost: 86–88 mobilno in 91–93 namizno. Best Practices: 100. SEO: 66 izključno zaradi `noindex`.
+
+### 15.2 Glavni vzroki in popravki brez spremembe dizajna
+
+1. **LCP podstrani je CSS ozadje `ozadje-marmor-svetlo.jpg`** v `section.zd-glava-strani` (82 KB JPG).
+   - Ni prednaloženo, zato se odkrije šele po CSS: zakasnitev 2,1–2,6 s, na `/3902-2/` 4,8 s.
+   - Popravek: pretvorba v WebP, `<link rel="preload" as="image" fetchpriority="high">` na vseh predlogah z glavo strani, mobilna različica.
+2. **Ni predpomnilnika strani:** HTML nima `x-litespeed-cache`, PHP doda ~0,3–0,5 s TTFB. Popravek: LSCache »Cache« vklopljen na produkciji.
+3. **9–16 blokirajočih virov v `<head>`:** jQuery + jquery-migrate (Elementor strani), Cookie Notice JS, 10+ drobnih CSS, Trustindex CSS dvakrat.
+   - Popravek: defer in JS v nogo, združitev drobnih CSS, `@font-face` inline, odstranitev dvojnika.
+   - Lokalna seja je jQuery že umaknila, a na mmedija.com se še nalaga. Preveri po prenosu.
+4. **`/3902-2/`:** 5 slik v HTML kot **base64** (HTML ima 569 KB), brez `width/height`. Prenesi jih v knjižnico medijev. Slug ostane.
+5. **Logotip** v glavi ima `fetchpriority="high"` in tekmuje s hero sliko. Odstrani prioriteto, pretvori v SVG/WebP.
+6. **Trustindex:**
+   - takoj ob nalaganju pomeni 9 zahtev in 97 KB, `loader.js` brez cache glave;
+   - widget je do zagona JS skrit (`opacity:0;height:0`).
+   - Popravek: nalaganje ob približanju `#mnenja` (IntersectionObserver) in strežniško izrisan HTML viden brez JS.
+7. **Google Maps** na Kontaktu se kljub `loading="lazy"` naloži takoj (~470–630 KB) in pred privolitvijo v piškotke. Popravek: fasada na klik, enako kot za YouTube.
+8. **Slike:**
+   - ozadji kolekcij na domači sta JPG (127 KB in 89 KB);
+   - starejši izdelki so JPG;
+   - 5 slik pod pregibom na domači ni lazy;
+   - prva kartica v katalogu je lazy, čeprav je na 390 px v prvem zaslonu;
+   - prevelike slike na O nas (~180 KB).
+9. **Pisave:** lokalne woff2 s `font-display: swap` ✅. Prednaložene so samo `latin`, **`latin-ext` (č/š/ž) ne**, zato se č/š/ž v naslovih na kratko izrišejo z nadomestno pisavo. Popravek: preload `jost-latin-ext` in `cinzel-…-latin-ext`.
+10. **Predpomnilnik statičnih virov** je 7 dni. Priporočeno je 1 leto + `immutable` za `?ver=`, pisave in `uploads`.
+11. Stisnjenje: `br` ✅.
+
+### 15.3 UX in dostopnost
+
+- **Gumb mobilnega menija** `button.zd-glava__odpri`:
+  - nima dostopnega imena (»Meni« ima `display:none`);
+  - meri **22×13 px**;
+  - po odprtju Tab gre na vsebino za menijem (povezave so v DOM pred gumbom, fokus ni ujet);
+  - pri zaprtem meniju je fokusabilna nevidna povezava »Svet prstanov«.
+- **»Preskoči na vsebino«** ob fokusu ostane nevidna.
+- **Kontrast zlate:**
+  - `#a07d45` na beli 3,8:1, `#a8844e` 3,45:1, bel tekst na zlatih gumbih 3,45–3,8:1;
+  - primeri: »POGLEJ« 24× na vsakem arhivu, »OGLED KOLEKCIJE«, »Pošlji sporočilo«;
+  - `#90703e` doseže 4,59:1 in je komaj opazno temnejši;
+  - velike naslove in dekor lahko ostanejo.
+- **Srca (priljubljeni):**
+  - pravilno: `<button>`, `aria-label` z modelom, `aria-pressed`, Enter/Space delujeta ✅;
+  - na karticah domače merijo 19×19 px, v glavi 21×21 px;
+  - števec v glavi ni del imena;
+  - **na karticah kataloga in kategorij srca ni**: nedoslednost ali namen?
+- **Piškotna pasica:**
+  - na mobilnem prekrije 25 % zaslona (208 px) in zakrije fokusirane elemente (WCAG 2.4.11);
+  - `aria-label` »Cookie Compliance« je angleški.
+  - Posnetek: `posnetki/domaca-prvi-zaslon-390.jpg`.
+- **Kontaktni obrazec:**
+  - ✅ oznake (ovijajoči `<label>`), `autocomplete`, napake prek CF7 `aria-live`;
+  - ❌ obvezna polja niso vidno označena;
+  - ❌ ob obrazcu ni stavka o zasebnosti;
+  - ❌ polja imajo ob fokusu `outline:none`.
+- **Cilji dotika < 44 px:** povezave v nogi in drobtine so visoke 20–23 px, Facebook ikona 20×28. Popravek s paddingom, ikone ostanejo enake.
+- **Postavitev:** vodoravnega preliva ni na nobeni širini (360–1440) ✅. Meni se odpre in zapre s klikom in z Escape, `aria-expanded` ✅.
+- **YouTube:** fasada na klik (`a.zd-video`, video `s2Mb0vOy48E`, `youtube-nocookie`) na domači in O nas ✅, pred klikom 0 B. Popraviti:
+  - `aria-label` se ne ujema z vidnim »Oglejte si film«;
+  - vsi videi imajo enak `iframe.title`.
+- **Analitika:** GA4 `G-L0M9SC4KZ6` se naloži šele po privolitvi ✅.
+- Arhivi: `section.zd-glava-strani` (H1 in uvod) je zunaj `<main>`. Na `/3902-2/` je preskočen nivo naslova (h3 brez h2).
 
 ---
 
@@ -421,9 +502,9 @@ Popolnoma enakih slik ali naslovov med izdelki ni.
   - CSS `trustindex-google-widget.css` se na domači naloži **dvakrat**;
   - vtičnik nalaga JS in vire s cdn.trustindex.io (glej poglavje 15);
   - shema `AggregateRating` iz teh mnenj **ni** dodana ✅ in je ne dodajamo.
-- **YouTube:** v HTML pregledanih strani ni bil najden. Če je video kje v vsebini, uporabi fasado (lite embed, iframe šele po kliku).
-- **Google Maps:** iframe na `/kontakt/` (`maps.google.com/maps?q=…&output=embed`). Naj ima `loading="lazy"`, ali pa fasado s sliko in povezavo.
-- **Analitika:** stara stran ima Universal Analytics `UA-135258619-1` (ne deluje več). Nova stran nima ničesar. Potreben je GA4 (ali Plausible) z izbiro piškotkov (Cookie Notice).
+- **YouTube:** video `s2Mb0vOy48E` na domači in O nas je narejen kot fasada (iframe `youtube-nocookie` šele po kliku) ✅. Manjka VideoObject (poglavje 8).
+- **Google Maps:** iframe na `/kontakt/` ima `loading="lazy"`, a se naloži takoj (~470–630 KB, piškotki pred privolitvijo). Predlog: fasada s statično sliko in povezavo.
+- **Analitika:** stara stran ima Universal Analytics `UA-135258619-1` (ne deluje več). Nova ima GA4 `G-L0M9SC4KZ6`, ki se naloži šele po privolitvi (Cookie Notice) ✅. Pred prehodom preveri lastništvo računa, povezavo z GSC in nastavljene konverzije (oddaja obrazca, klik na telefon).
 - **Pred prehodom odstrani ali zakleni:**
   - **Duplicator** (javni REST `duplicator/v1`; po selitvi izbriši pakete in `installer.php`);
   - **Elementor MCP Composer** (javni REST `elementor-mcp-composer/v1.0.18` je razvojno orodje za AI urejanje);

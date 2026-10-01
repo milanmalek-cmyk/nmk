@@ -19,7 +19,7 @@ Vse spodaj izhaja iz auditu (`SEO-AUDIT-ZLATARNA.md`) in navodila »ne izmišlja
 | **Google Business Profile** (upravitelj) | Usklajen naslov, delovni čas, kategorije, fotografije in spletna stran; odgovori na mnenja. Najpomembnejši signal za »zlatarna Žalec / pri Celju«. |
 | **Gostovanje (cPanel / LiteSpeed)** in **DNS / registrar** | `/kontakt/` je za strežniškim »Bot Verification« (reCAPTCHA), zaradi česar AI iskalniki in nekateri obiskovalci ne vidijo kontakta. Nastavitev je pri gostitelju. Za prehod potrebujemo tudi `.htaccess`, SSL in DNS. |
 | **Facebook stran** (admin) ali nekdo, ki jo ureja | Ime strani je »Zlatarna Brežnik – Celje, Žalec«. Uskladiti naslov in povezavo. |
-| Google Analytics: kdo je lastnik starega računa `UA-135258619-1` | UA ne deluje več. Postavimo GA4 (ali alternativo brez piškotkov) na račun naročnika. |
+| **Google Analytics:** dostop do računa z GA4 `G-L0M9SC4KZ6` (nova stran) in do starega `UA-135258619-1` | Na novi strani je GA4 že vgrajen (po privolitvi). Preveriti moramo, da je na **vašem** računu, ga povezati s Search Console in nastaviti merjenje povpraševanj in klikov na telefon. Stari UA ne deluje več. |
 
 ---
 
@@ -98,7 +98,7 @@ Navodilo je: brez izmišljenih cen. Potrebujemo odločitev:
   - Potrebno za `/porocni-prstani/unikatni-porocni-prstani/` in prenovo članka `/3902-2/`.
 - **Fotografije lokacije:** zunanjost trgovine (z napisom), notranjost, delavnica, Dejan pri delu. Za shemo LocalBusiness, »O nas«, Google profil in stran »Zlatarna pri Celju«.
 - **Logotip** v vektorski obliki (SVG/AI/PDF) in kvadraten znak za favicon (vsaj 512×512).
-- **Video:** imate posnetke izdelave ali YouTube kanal? Če da, jih vključimo z lahko vgradnjo (brez upočasnitve).
+- **Video:** na strani je že en YouTube video (»Ročna izdelava prstana«). Imate še druge posnetke izdelave ali svoj YouTube kanal? Za vsak video potrebujemo naslov in kratek opis (za strukturirane podatke VideoObject).
 - **Kratke izjave Dejana** (2–3 stavki) na vprašanja:
   - kaj je unikaten prstan;
   - belo ali rumeno zlato;
@@ -145,10 +145,13 @@ Dizajna ne spreminjamo brez razloga. Za te popravke potrebujemo potrditev:
 - **Gumbi na domači:** namesto 4× »Ogled kolekcije« uporabimo »Oglejte si poročne prstane« in »Oglejte si zaročne prstane«.
 - **Filtri po materialu** na `/porocni-prstani/`: Belo zlato · Rumeno zlato · Rdeče zlato · Kombinirano zlato · Z briljanti. Potrdite, da so oznake materiala na izdelkih pravilne.
 - **Priljubljeni (srce):** kaj naj se zgodi s seznamom? Predlog: gumb »Pošlji povpraševanje za izbrane modele«, ki seznam vstavi v obrazec.
+- **Zlata barva drobnega besedila in gumbov:** zdajšnja zlata (`#a07d45`) ima na beli premalo kontrasta za drobno besedilo (3,8:1, zahteva je 4,5:1). Predlagamo komaj opazno temnejši odtenek `#90703e` samo za drobno besedilo in gumbe. Veliki naslovi in okraski ostanejo. Potrebujemo vašo potrditev.
+- **Piškotna pasica na telefonu:** prekrije četrtino zaslona. Predlagamo nižjo pasico (gumbi v eni vrstici), besedilo ostane enako.
+- **Srce (priljubljeni) na karticah kataloga:** zdaj je samo na domači in na strani izdelka. Ga dodamo tudi v katalog in kategorije?
 - **Kontaktni obrazec:** ali želite možnost **priloge** (skica, slika prstana) in izbiro »želim termin posveta«?
 - **Naročanje termina:** samo telefon, ali spletni koledar za posvet (tudi sobota po dogovoru)?
 - **Kanali:** naj bodo na strani vidni še WhatsApp ali Viber (mobilna številka)?
-- **Piškotki in analitika:** GA4 s soglasjem? Meta Pixel ali oglasi (Google Ads)?
+- **Piškotki in analitika:** GA4 s soglasjem je že vgrajen. Želite še Meta Pixel ali oglase (Google Ads)? Vsako dodatno orodje zahteva posodobitev pasice in politike piškotkov.
 
 ---
 
@@ -156,6 +159,6 @@ Dizajna ne spreminjamo brez razloga. Za te popravke potrebujemo potrditev:
 
 - Tehnični SEO: presledki v naslovih, H1, title in meta, sitemap, sheme, drobtine, favicon, valuta, varnost.
 - Popravke imen izdelkov, alt besedila slik iz obstoječih podatkov, primarne kategorije.
-- Hitrost in dostopnost (glej poglavje 15 v auditu).
+- Hitrost in dostopnost: poglavje 15 v auditu in `HITROST-UX-POROCILO.md`.
 - Preusmeritve, ki so nedvoumne (`/4017-2/`, `/kategorija-izdelka/*`).
 - Prehod na produkcijo po checklisti, ko potrdite datum.
