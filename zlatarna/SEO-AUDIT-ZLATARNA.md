@@ -573,6 +573,8 @@ Celotno poročilo s tabelami, selektorji in priporočili je v **`HITROST-UX-PORO
 
 ## 18. Odločitve, ki čakajo (MANUAL REVIEW)
 
+> **Posodobitev 2. 10. 2026:** Milan je odločil o vseh spodnjih točkah, glej `ODLOCITVE.md`. Odprti ostajajo le GSC-odvisni (oznake bloga, 118, 067/068, članki Trendi) in podatki naročnika.
+
 1. Oznake bloga in izdelkov: 301, `noindex, follow` ali KEEP, po GSC klikih (poglavje 10.2, `redirect-map.csv`).
 2. Podvojeni izdelki 118 in 067/068: kateri URL je canonical.
 3. Product shema brez cene (sprejmemo opozorilo GSC) ali brez Product.

@@ -1,164 +1,94 @@
-# Kaj potrebujemo od naročnika – Zlatarna Brežnik
+# Kaj še potrebujemo od Zlatarne Brežnik
 
-Za novo stran `www.zlatarna-breznik.si` (SEO, GEO, UX/UI). Datum: 1. 10. 2026
+Za novo spletno stran `www.zlatarna-breznik.si`. Posodobljeno 2. 10. 2026, po odločitvah izvajalca (`ODLOCITVE.md`).
 
-Vse spodaj izhaja iz auditu (`SEO-AUDIT-ZLATARNA.md`) in navodila »ne izmišljaj podatkov«. Brez teh podatkov lahko stran tehnično uredimo, vsebine pa ne napišemo do konca.
+Stran lahko tehnično dokončamo brez vas, vsebine pa ne. Na strani objavimo samo podatke, ki jih potrdite vi. Nič ne bomo izmišljevali.
 
 **Prioritete**
-- **P1:** blokira objavo ali tvega izgubo obstoječih pozicij.
-- **P2:** potrebno, da bo SEO in GEO »top«.
-- **P3:** dodatna izboljšava.
+- **P1:** brez tega strani ne objavimo.
+- **P2:** potrebno, da bo stran v iskalnikih in AI odgovorih res dobra.
 
 ---
 
-## 1. Dostopi (P1)
+## 1. Pregled in potrditev vsebine (P1)
+
+Nova stran se na `www.zlatarna-breznik.si` objavi šele, ko jo potrdite.
+- Preglejte besedila na straneh Domov, Poročni prstani, Unikatni poročni prstani, Zaročni prstani, Ženski prstani, Cena poročnih prstanov, Cena zaročnega prstana, O nas, Kontakt in nova stran »Zlatarna pri Celju«.
+- Povezavo do predogleda vam pošljemo, ko so popravki narejeni.
+
+## 2. Dostopi (P1)
 
 | Kaj | Zakaj |
 |---|---|
-| **Google Search Console** za `zlatarna-breznik.si` (polni uporabnik) | Katere strani in poizvedbe prinašajo klike. Brez tega so odločitve o oznakah, podvojenih izdelkih in naslovih domače strani ugibanje. Po selitvi spremljamo napake. |
-| **Google Business Profile** (upravitelj) | Usklajen naslov, delovni čas, kategorije, fotografije in spletna stran; odgovori na mnenja. Najpomembnejši signal za »zlatarna Žalec / pri Celju«. |
-| **Gostovanje (cPanel / LiteSpeed)** in **DNS / registrar** | `/kontakt/` je za strežniškim »Bot Verification« (reCAPTCHA), zaradi česar AI iskalniki in nekateri obiskovalci ne vidijo kontakta. Nastavitev je pri gostitelju. Za prehod potrebujemo tudi `.htaccess`, SSL in DNS. |
-| **Facebook stran** (admin) ali nekdo, ki jo ureja | Ime strani je »Zlatarna Brežnik – Celje, Žalec«. Uskladiti naslov in povezavo. |
-| **Google Analytics:** dostop do računa z GA4 `G-L0M9SC4KZ6` (nova stran) in do starega `UA-135258619-1` | Na novi strani je GA4 že vgrajen (po privolitvi). Preveriti moramo, da je na **vašem** računu, ga povezati s Search Console in nastaviti merjenje povpraševanj in klikov na telefon. Stari UA ne deluje več. |
+| **Google Business Profile**: dodajte nas kot upravitelja | Usklajen naslov, delovni čas, fotografije in povezava na novo stran. Iz profila vzamemo tudi točno lokacijo za zemljevid. |
+| **Google Analytics:** potrditev, da je merjenje (GA4) na vašem računu | Da bodo podatki o obiskih vaši in jih povežemo s Search Console. |
 
----
+## 3. Pot do zlatarne (P1)
 
-## 2. Podatki o podjetju – potrditev (P1)
+Za novo stran »Zlatarna pri Celju – obiščite nas v Žalcu« in za pogosta vprašanja:
+- Kje lahko stranke parkirajo? Je parkiranje plačljivo?
+- Kje je vhod? Ali je dostop primeren za invalide?
+- Kako vas najdejo iz Celja? Približen čas vožnje, avtobus.
+- Kako se stranka dogovori za soboto?
 
-Na novi strani so že objavljeni. Potrdite ali popravite:
+## 4. Podatki o modelih (P1 za najbolj obiskane modele)
 
-- **Delovni čas:**
-  - pon–pet 8–12 in 14–17, sobota po dogovoru, nedelja in prazniki zaprto;
-  - ali velja tudi poleti in v decembru;
-  - kako se dogovori za soboto.
-- **Telefona:** 03 710 40 60 in **041 424 648**. Ali je mobilna številka lahko javna? Čigava je (Dejan)?
-- **E-pošta:** info@zlatarna-breznik.si. Kam naj prihajajo povpraševanja iz obrazca?
-- **Lokacija:**
-  - točen vhod;
-  - **parkiranje** (kje, ali je plačljivo);
-  - dostop za invalide;
-  - pot iz Celja (približno 10 km, 15 min).
-  - Potrebno za novo stran »Zlatarna pri Celju – obiščite nas v Žalcu« in za GEO odgovore.
-- **Koordinate / Google profil:** povezava do vašega profila na Google Zemljevidih (da shema in zemljevid kažeta točno lokacijo).
-- **Zgodovina:**
-  - začetek leta 1999 v Celju;
-  - **kdaj** ste se preselili v Žalec;
-  - ali je bila trgovina v Celju zaprta (stran zdaj piše »ne več«).
-- **Mod'Art, razstavni salon Domžale** (Slamnikarska c. 3) je bil na stari kontaktni strani. Ali je še aktualen? Če ne, ga odstranimo iz vseh imenikov.
-- **Dejan Brežnik:**
-  - naziv (mojster zlatar?), leta izkušenj, izobrazba, nagrade, članstva.
-  - **Samo resnični podatki.** Uporabimo jih za »O nas« in kot avtorja strokovnih člankov (E-E-A-T).
-
----
-
-## 3. Podatki o izdelkih (P1 za ključne modele, P2 za ostale)
-
-Trenutno nima opisa noben od 251 izdelkov. Unikatnih opisov **ne bomo izmišljevali**. Za vsak model (najprej serija 4xx in 30 najbolj obiskanih po GSC) potrebujemo:
+Noben od 251 modelov na strani nima opisa. Za vsak model, najprej za novejšo serijo 4xx in najbolj obiskane modele, potrebujemo:
 
 | Podatek | Primer odgovora |
 |---|---|
-| Vrsta zlata in **karatnost** | belo zlato 585 (14 k) / 750 (18 k) |
+| Vrsta zlata in **karatnost** | belo zlato 585 (14 k) ali 750 (18 k) |
 | Širina in debelina | 4 mm / 1,8 mm |
-| Profil in površina | ravni, zaobljen, mat, kovan, peskan, poliran |
-| Kamni | briljanti, skupaj 0,10 ct, kakovost (če jo poznate), cirkoni? |
+| Profil in površina | raven, zaobljen; mat, kovan, peskan, poliran |
+| Kamni | briljanti, skupaj 0,10 ct, kakovost, če jo poznate |
 | Kaj se da prilagoditi | širina, zlato, kamni, gravura |
 | Ali model še izdelujete | da / ne / samo po naročilu |
 
-**Odprta vprašanja pri izdelkih:**
-1. **Serija 432–442** obstaja dvakrat:
-   - poročna prstana (dodana dec. 2025);
-   - zaročni prstani s kamnom (dodani dec. 2024).
-   - To niso podvojeni izdelki, številke pa so enake. Imate v delavnici drugačno oznako (npr. Z-433)?
-2. **118** (dva URL-ja z istim dizajnom) in **067/068** (skoraj enaka fotografija): isti model ali različna?
-3. **152 – Posebni – Unikatni poročni prstani:** potrdite, da je poročni par (z diamanti na enem).
-4. **Swarovski elements** (20 izdelkov y1–y20) in **Guess nakit:** ali ju še prodajate?
-5. **Srebro, slovenski les, platina** se omenjajo v FAQ in člankih. Ali jih res izdelujete?
-6. Napake v imenih (»rumenga«, »Birlijanti« …) popravimo sami. Ne vpliva na URL.
+Najlažje: tabela (Excel) z modeli po vrsticah. Lahko tudi samo za 20–30 modelov, ki jih imate najraje.
+
+## 5. Odgovori na pogosta vprašanja strank (P2)
+
+Te odgovore iskalniki in AI asistenti najpogosteje povzemajo. Prosimo za kratke, točne odgovore:
+
+1. **Rok izdelave:** koliko časa traja izdelava modela iz kataloga in koliko unikata po meri? Koliko prej priporočate naročilo pred poroko?
+2. **Zlato:** katero karatnost uporabljate (14 k / 18 k)? Lahko stranka izbira? Ali belo zlato rodirate?
+3. **Drugi materiali:** ali izdelujete tudi iz srebra, platine ali lesa? Stara stran to omenja.
+4. **Kamni:** katere kamne vgrajujete (briljanti, diamanti, cirkoni, barvni kamni)? Imajo diamanti certifikat?
+5. **Velikost:** ali velikost izmerite brezplačno? Kaj svetujete stranki, ki ne more priti v Žalec?
+6. **Gravura:** ali je ob nakupu poročnih prstanov vključena? Ročno ali laserno?
+7. **Garancija in vzdrževanje:** kakšna je garancija? Ali prstan očistite, spolirate ali povečate oziroma zmanjšate? Je to brezplačno?
+8. **Staro zlato:** ali lahko stranka prinese svoje zlato za nov prstan? Ali ga odkupujete?
+9. **Plačilo:** gotovina, kartica, obroki? Ali je pri izdelavi po meri potrebna ara?
+10. **Cene:** stara stran je pisala »od 200 € dalje« in »približno dve mesečni plači«. To smo zaenkrat umaknili. Želite, da kaj od tega ostane? Na straneh cen ne bomo objavljali zneskov, razen če to izrecno želite.
+
+## 6. Zgodbe in fotografije (P2)
+
+- **3–5 resničnih zgodb prstanov po meri:** želja stranke → skica → izbor zlata → izdelava → pomerjanje → končni prstan.
+  - Fotografije skic, dela v delavnici in končnega prstana.
+  - Dovoljenje strank za objavo (lahko brez imen).
+  - Potrebne so za stran »Unikatni poročni prstani po meri« in za članek »Najlepši unikatni prstani za poroko«.
+- **Fotografije zlatarne:** zunanjost z napisom, notranjost, delavnica, zlatar pri delu.
+- **Logotip** v vektorski obliki (SVG, AI ali PDF) in kvadraten znak (vsaj 512 × 512 px) za ikono strani.
+- **Video:** na strani je video »Zlatarstvo Brežnik« z YouTuba (kanal Trgovina Virum). Imate še kakšne posnetke izdelave?
+
+## 7. Po objavi: imeniki in profili (P2)
+
+Po objavi uskladimo zapis v imenikih: Facebook, moja-dejavnost.si, poroka-bo.si, visitcelje.eu, povezujemo.si, bizi.si, toplocalplaces.com.
+- Ponekod še piše Celje, Domžale (Mod'Art) ali napačen »Šlandov trg«.
+- Potrebovali bomo dostop do Facebook strani, za ostale imenike pa vaše dovoljenje.
+
+Enoten zapis bo:
+
+> Zlatarna Brežnik, Dejan Brežnik s.p., Šlandrov trg 39, 3310 Žalec · 03 710 40 60 · 041 424 648 · info@zlatarna-breznik.si · https://www.zlatarna-breznik.si/
 
 ---
 
-## 4. Cene in storitve (P1, za strani cen)
+## Kar je že potrjeno
 
-Navodilo je: brez izmišljenih cen. Potrebujemo odločitev:
-
-- **Ali smemo objaviti okvirne cene ali razpone?** Na primer »poročna prstana iz 14 k zlata od X € za par« ali »graviranje vključeno«.
-  - Stara stran piše »**od 200 € dalje**« in »približno **dve mesečni plači**«. Je to še res? Če ne, umaknemo.
-- **Graviranje:** ali je brezplačno (stari članek trdi »brezplačno graviranje zaročnega prstana«), kakšna besedila in pisave, ročno ali laser.
-- **Rok izdelave:** koliko tednov za model iz kataloga in koliko za unikat po meri. Koliko prej priporočate naročilo (FAQ zdaj piše 2–3 mesece)?
-- **Merjenje velikosti:** brezplačno v trgovini (piše na strani)? Pošiljate merilni obroček?
-- **Predelava starega zlata:** ali vzamete staro zlato v račun ali v predelavo?
-- **Garancija**, čiščenje, poliranje, rodiniranje belega zlata, povečava/zmanjšava prstana: ali so storitve in pod katerimi pogoji?
-- **Plačilo:** obroki, predračun, avans za izdelavo po meri.
-
----
-
-## 5. Vsebine in fotografije (P2)
-
-- **3–5 resničnih zgodb unikatnih prstanov po meri:** ideja ali želja stranke → **skica** → izbor materiala → izdelava → pomerjanje → končni izdelek. Fotografije (skice, delo v delavnici, končni prstan). **Dovoljenje strank** za objavo (lahko brez imen).
-  - Potrebno za `/porocni-prstani/unikatni-porocni-prstani/` in prenovo članka `/3902-2/`.
-- **Fotografije lokacije:** zunanjost trgovine (z napisom), notranjost, delavnica, Dejan pri delu. Za shemo LocalBusiness, »O nas«, Google profil in stran »Zlatarna pri Celju«.
-- **Logotip** v vektorski obliki (SVG/AI/PDF) in kvadraten znak za favicon (vsaj 512×512).
-- **Video:** na strani je že en YouTube video (»Ročna izdelava prstana«). Imate še druge posnetke izdelave ali svoj YouTube kanal? Za vsak video potrebujemo naslov in kratek opis (za strukturirane podatke VideoObject).
-- **Kratke izjave Dejana** (2–3 stavki) na vprašanja:
-  - kaj je unikaten prstan;
-  - belo ali rumeno zlato;
-  - diamant ali briljant;
-  - kako izbrati širino.
-  - Citati strokovnjaka močno pomagajo pri GEO (AI povzetki).
-
----
-
-## 6. Zunanji imeniki – usklajen naslov (P2)
-
-V imenikih se še pojavlja **Celje** ali napačen zapis »Šlandov trg«. Uskladiti je treba ime, naslov, telefon in spletno stran:
-
-- Facebook (»Zlatarna Brežnik – Celje, Žalec«)
-- moja-dejavnost.si (vnosa »Poročni prstani Celje« in »… Domžale«)
-- poroka-bo.si (»Zlatarna Celje«)
-- visitcelje.eu, povezujemo.si, bizi.si, toplocalplaces.com
-
-Naredite sami ali nam dajte dovoljenje in dostope. Enoten zapis:
-
-> Zlatarna Brežnik, Dejan Brežnik s.p., Šlandrov trg 39, 3310 Žalec · 03 710 40 60 · https://www.zlatarna-breznik.si/
-
----
-
-## 7. Odločitve (P1 pred objavo)
-
-| # | Odločitev | Naš predlog |
-|---|---|---|
-| 1 | Oznake bloga in izdelkov (50 URL-jev) | Glede na GSC: tiste s kliki → 301 na glavno stran, ostale `noindex`. Seznam v `redirect-map.csv`. |
-| 2 | `/cene-porocnih-prstanov-v-letu-2024/` | Uporabno vsebino prenesemo v `/cena-porocnih-prstanov/`, nato 301 (po navodilih). |
-| 3 | Članka »Trendi zaročnih prstanov 2020 / 2021« | Posodobimo v en evergreen članek, drugega preusmerimo (po GSC). |
-| 4 | Nova stran `/zlatarna-celje/` | Da, če potrdite podatke za prihod in parkiranje. |
-| 5 | Avtor člankov | Dejan Brežnik ali »Zlatarna Brežnik« namesto izvajalca. |
-| 6 | Strukturirani podatki izdelka (Product) brez cene | Da. Google bo opozoril, da manjka cena. Ni napaka in ne škodi. |
-| 7 | Prikaz Google mnenj | Ostanejo vidni (zvezdic v shemi ne dodajamo, tako zahtevajo Googlova pravila). |
-| 8 | Arhiv avtorja »Milan« | Izklopimo. |
-
----
-
-## 8. UX/UI – potrditve in želje (P2)
-
-Dizajna ne spreminjamo brez razloga. Za te popravke potrebujemo potrditev:
-
-- **Gumbi na domači:** namesto 4× »Ogled kolekcije« uporabimo »Oglejte si poročne prstane« in »Oglejte si zaročne prstane«.
-- **Filtri po materialu** na `/porocni-prstani/`: Belo zlato · Rumeno zlato · Rdeče zlato · Kombinirano zlato · Z briljanti. Potrdite, da so oznake materiala na izdelkih pravilne.
-- **Priljubljeni (srce):** kaj naj se zgodi s seznamom? Predlog: gumb »Pošlji povpraševanje za izbrane modele«, ki seznam vstavi v obrazec.
-- **Zlata barva drobnega besedila in gumbov:** zdajšnja zlata (`#a07d45`) ima na beli premalo kontrasta za drobno besedilo (3,8:1, zahteva je 4,5:1). Predlagamo komaj opazno temnejši odtenek `#90703e` samo za drobno besedilo in gumbe. Veliki naslovi in okraski ostanejo. Potrebujemo vašo potrditev.
-- **Piškotna pasica na telefonu:** prekrije četrtino zaslona. Predlagamo nižjo pasico (gumbi v eni vrstici), besedilo ostane enako.
-- **Srce (priljubljeni) na karticah kataloga:** zdaj je samo na domači in na strani izdelka. Ga dodamo tudi v katalog in kategorije?
-- **Kontaktni obrazec:** ali želite možnost **priloge** (skica, slika prstana) in izbiro »želim termin posveta«?
-- **Naročanje termina:** samo telefon, ali spletni koledar za posvet (tudi sobota po dogovoru)?
-- **Kanali:** naj bodo na strani vidni še WhatsApp ali Viber (mobilna številka)?
-- **Piškotki in analitika:** GA4 s soglasjem je že vgrajen. Želite še Meta Pixel ali oglase (Google Ads)? Vsako dodatno orodje zahteva posodobitev pasice in politike piškotkov.
-
----
-
-## 9. Kaj naredimo sami (ne rabimo naročnika)
-
-- Tehnični SEO: presledki v naslovih, H1, title in meta, sitemap, sheme, drobtine, favicon, valuta, varnost.
-- Popravke imen izdelkov, alt besedila slik iz obstoječih podatkov, primarne kategorije.
-- Hitrost in dostopnost: poglavje 15 v auditu in `HITROST-UX-POROCILO.md`.
-- Preusmeritve, ki so nedvoumne (`/4017-2/`, `/kategorija-izdelka/*`).
-- Prehod na produkcijo po checklisti, ko potrdite datum.
+- **Naslov in kontakt:** Šlandrov trg 39, 3310 Žalec. Telefona 03 710 40 60 in 041 424 648 (oba javna).
+- **Delovni čas:** pon–pet 8–12 in 14–17, sobota po dogovoru, nedelja in prazniki zaprto.
+- **Zgodovina:** začeli ste leta 1999 v Celju, danes ste samo v Žalcu. Salon Mod'Art v Domžalah ni več aktualen.
+- **Ponudba:**
+  - Swarovski nakit ostane v katalogu.
+  - Guess je samo na pasici na prvi strani, brez posebne strani.
+- **Članki:** avtor je Zlatarna Brežnik.
