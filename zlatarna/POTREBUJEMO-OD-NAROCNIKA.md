@@ -16,14 +16,7 @@ Nova stran se na `www.zlatarna-breznik.si` objavi šele, ko jo potrdite.
 - Preglejte besedila na straneh Domov, Poročni prstani, Unikatni poročni prstani, Zaročni prstani, Ženski prstani, Cena poročnih prstanov, Cena zaročnega prstana, O nas, Kontakt in nova stran »Zlatarna pri Celju«.
 - Povezavo do predogleda vam pošljemo, ko so popravki narejeni.
 
-## 2. Dostopi (P1)
-
-| Kaj | Zakaj |
-|---|---|
-| **Google Business Profile**: dodajte nas kot upravitelja | Usklajen naslov, delovni čas, fotografije in povezava na novo stran. Iz profila vzamemo tudi točno lokacijo za zemljevid. |
-| **Google Analytics:** potrditev, da je merjenje (GA4) na vašem računu | Da bodo podatki o obiskih vaši in jih povežemo s Search Console. |
-
-## 3. Pot do zlatarne (P1)
+## 2. Pot do zlatarne (P1)
 
 Za novo stran »Zlatarna pri Celju – obiščite nas v Žalcu« in za pogosta vprašanja. Ljudje vas v Googlu pogosto iščejo z »zlatarna Celje« (več kot 10.000 prikazov v letu), zato mora ta stran ob objavi obstajati:
 - Kje lahko stranke parkirajo? Je parkiranje plačljivo?
@@ -31,7 +24,7 @@ Za novo stran »Zlatarna pri Celju – obiščite nas v Žalcu« in za pogosta v
 - Kako vas najdejo iz Celja? Približen čas vožnje, avtobus.
 - Kako se stranka dogovori za soboto?
 
-## 4. Podatki o modelih (P1 za najbolj obiskane modele)
+## 3. Podatki o modelih (P1 za najbolj obiskane modele)
 
 Noben od 251 modelov na strani nima opisa. Najprej potrebujemo podatke za modele, ki jih ljudje v Googlu najpogosteje odprejo:
 
@@ -50,7 +43,7 @@ Za vsak model:
 
 Najlažje: tabela (Excel) z modeli po vrsticah. Lahko tudi samo za 20–30 modelov, ki jih imate najraje.
 
-## 5. Odgovori na pogosta vprašanja strank (P2)
+## 4. Odgovori na pogosta vprašanja strank (P2)
 
 Te odgovore iskalniki in AI asistenti najpogosteje povzemajo. Prosimo za kratke, točne odgovore:
 
@@ -65,7 +58,7 @@ Te odgovore iskalniki in AI asistenti najpogosteje povzemajo. Prosimo za kratke,
 9. **Plačilo:** gotovina, kartica, obroki? Ali je pri izdelavi po meri potrebna ara?
 10. **Cene:** stara stran je pisala »od 200 € dalje« in »približno dve mesečni plači«. To smo zaenkrat umaknili. Želite, da kaj od tega ostane? Na straneh cen ne bomo objavljali zneskov, razen če to izrecno želite.
 
-## 6. Zgodbe in fotografije (P2)
+## 5. Zgodbe in fotografije (P2)
 
 - **3–5 resničnih zgodb prstanov po meri:** želja stranke → skica → izbor zlata → izdelava → pomerjanje → končni prstan.
   - Fotografije skic, dela v delavnici in končnega prstana.
@@ -75,7 +68,7 @@ Te odgovore iskalniki in AI asistenti najpogosteje povzemajo. Prosimo za kratke,
 - **Logotip** v vektorski obliki (SVG, AI ali PDF) in kvadraten znak (vsaj 512 × 512 px) za ikono strani.
 - **Video:** na strani je video »Zlatarstvo Brežnik« z YouTuba (kanal Trgovina Virum). Imate še kakšne posnetke izdelave?
 
-## 7. Po objavi: imeniki in profili (P2)
+## 6. Po objavi: imeniki in profili (P2)
 
 Po objavi uskladimo zapis v imenikih: Facebook, moja-dejavnost.si, poroka-bo.si, visitcelje.eu, povezujemo.si, bizi.si, toplocalplaces.com.
 - Ponekod še piše Celje, Domžale (Mod'Art) ali napačen »Šlandov trg«.
@@ -96,3 +89,4 @@ Enoten zapis bo:
   - Swarovski nakit ostane v katalogu.
   - Guess je samo na pasici na prvi strani, brez posebne strani.
 - **Članki:** avtor je Zlatarna Brežnik.
+- **Dostopi:** Google Business Profile in Google Analytics že ima izvajalec (Multimedija).

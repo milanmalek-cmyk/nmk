@@ -161,7 +161,7 @@ Stolpci so ID, URL (ostane), IME ZDAJ, IME NOVO (= H1), SEO TITLE, H1, ALT GLAVN
 ## 6. Strukturirani podatki
 
 - **JewelryStore/Organization:**
-  - `geo` iz Google profila (#43): place_id `ChIJCf_FfvtwZUcReHnal3fewYQ`, koordinate preberi iz profila, ne iz starega embed zemljevida;
+  - `geo` iz Google profila (#43): place_id `ChIJCf_FfvtwZUcReHnal3fewYQ`. Milan ima dostop do profila, koordinate vzemi iz njega ali vprašaj Milana, ne iz starega embed zemljevida;
   - `image` (fotografija zlatarne, ko jo pošlje naročnik, do takrat izpusti);
   - `sameAs`: Facebook in Google profil;
   - `openingHoursSpecification` ostane.

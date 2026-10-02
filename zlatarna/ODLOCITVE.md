@@ -8,7 +8,7 @@ Milan, 2. 10. 2026, iz vprašalnika »Odločitve za Zlatarno Brežnik«. Števil
 |---|---|
 | 1 | LiteSpeed reCAPTCHA na `/kontakt/` **izklopimo**, spam ustavimo na obrazcu (honeypot ali Turnstile). |
 | 2 | Gostovanje in DNS ureja Multimedija, dostopi so. |
-| 3 | GSC: Milan ima polni dostop. |
+| 3 | GSC: Milan ima polni dostop. Ima tudi dostop do **Google Business Profila** in **Google Analytics** (2. 10. 2026). |
 | 4 | Dev domeni dobita `X-Robots-Tag: noindex, nofollow`, vezan na ime domene. |
 | 5 | Valuta WooCommerce → **EUR**. |
 | 6 | Pred objavo odstranimo **Duplicator** in **Elementor MCP Composer**. |
