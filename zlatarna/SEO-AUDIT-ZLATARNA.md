@@ -610,3 +610,72 @@ Celotno poročilo s tabelami, selektorji in priporočili je v **`HITROST-UX-PORO
 7. Hitrost in UX po poglavju 15.
 8. Oznake in preusmeritve po odločitvah MANUAL REVIEW.
 9. Ponoven audit (isti skripti) in šele nato prehod (poglavje 17).
+
+---
+
+## 20. Search Console (6/2025–9/2026)
+
+Vir: izvoz »Performance on Search« (spletno iskanje, 1. 6. 2025–30. 9. 2026) in »Coverage drilldown« (Crawled – currently not indexed), naložena 2. 10. 2026.
+- **Skupaj:** 5.780 klikov, 257.310 prikazov na 389 URL-jih. Telefon prinaša 74 % klikov (pol. 7,1), računalnik pa le 25 % (pol. 15,6).
+- **Prvih 5 URL-jev:** `/` 2.778, `/porocni-prstani/` 904, `/katalog/` 224, `/cena-porocnih-prstanov/` 210 in `/barve-diamanta/` 141 klikov.
+- Vseh 33 URL-jev s prioriteto HIGH je v `redirect-map.csv`. Vsak obstaja na novi strani ali ima en 301.
+- **Oštevilčene strani iz GSC:** `/porocni-prstani/page/16/`, `/katalog/page/27/` … Na novi strani je izdelkov na stran več, zato visoke številke ne obstajajo. Nova stran jih že preusmeri z enim 301 na prvo stran kategorije ✅.
+- **Stari `/product/…`:** že en 301 na nov URL ✅.
+- **Stari filtri `?filter_materiali=…`** (malo prikazov): zdaj 302 in pri visokih številkah strani še en 301 (veriga). Predlog: en 301 naravnost na `/kategorija/` brez parametra.
+
+### 20.1 Ključne besede iz navodil
+
+| Poizvedba | Kliki | Prikazi | Pol. |
+|---|---|---|---|
+| poročni prstani | 480 | 15.965 | 8,5 |
+| zlatarna žalec | 203 | 790 | 1,2 |
+| zaročni prstan | 80 | 1.745 | 14,9 |
+| zaročni prstani | 43 | 1.680 | 13,5 |
+| zlatarstvo žalec | 36 | 123 | 1,0 |
+| poročni prstani cena | 29 | 1.885 | 10,1 |
+| unikatni poročni prstani | 29 | 712 | 2,5 |
+| cena poročnih prstanov | 28 | 597 | 3,3 |
+| unikatni prstani | 14 | 323 | 5,2 |
+| moški poročni prstani | 9 | 110 | 6,0 |
+| diamantni prstan | 9 | 615 | 10,3 |
+| zlatarstvo celje | 8 | 293 | 5,9 |
+| zlatarna celje | 7 | **6.202** | 5,4 |
+| unikatni zaročni prstani | 6 | 1.240 | 13,4 |
+| ženski prstani | 5 | 678 | 17,9 |
+| zlati poročni prstani | 5 | 439 | 5,8 |
+| unikatni ženski prstani | 0 | 28 | 22,1 |
+| cena zaročnega prstana, prstani z diamanti, prstani z briljanti | – | – | ni med 1.000 poizvedbami |
+
+**Ugotovitve:**
+- **Celje:**
+  - poizvedbe s »celj« prinesejo 98 klikov in 10.544 prikazov (»zlatarna celje« 6.202 prikazov na pol. 5,4, »zlatarne v celju« 35 klikov);
+  - stara stran je imela »Celje« v naslovu kontakta (»Zlatarna Brežnik Celje«), nova ga nima;
+  - **`/zlatarna-celje/` mora biti objavljena hkrati s prehodom** in povezana s Kontakta in noge, sicer tvegamo te pozicije.
+- **Zaročni:**
+  - oznake `/oznaka-izdelka/zarocni-prstan/` (68 klikov, pol. 2,2), `/tag/zarocni-prstan/` (53) in `/tag/zarocni-prstani/` (33) imajo skupaj 154 klikov, glavna `/zarocni-prstani/` pa samo 51 (pol. 16,9);
+  - po odločitvi #10/#11 se preusmerijo na `/zarocni-prstani/` (navodila, točka 13: glavna zaročna stran);
+  - zato mora `/zarocni-prstani/` vsebovati tudi ednino »zaročni prstan« (uvod ali H2) in imeti dober uvod;
+  - po prehodu jo 4–6 tednov spremljaj v GSC.
+- **Moški:**
+  - `/tag/moski-porocni-prstani/` ima 32 klikov in se preusmeri na `/porocni-prstani/`;
+  - poizvedbe »moški prstan belo zlato« (397 prikazov) in »moški prstani iz belega zlata« (294);
+  - `/porocni-prstani/` naj ima stavek o moških poročnih prstanih in filter po materialu.
+- **Domžale:** »zlatarna domžale« ima 36 klikov in 1.016 prikazov na pol. 5,5. Ta promet je prihajal zaradi salona Mod'Art. Ker salon ni več aktualen (#41), ta promet izgine. To je pričakovano, ne napaka.
+- **Izdelek 398:** poizvedba »398 oznaka za nakit« prinese 23 klikov na pol. 2,2. Ljudje iščejo pomen oznake na nakitu in najdejo `/398-porocna-prstana-iz-rumenega-zlata/` (32 klikov). URL in številka v naslovu ostaneta.
+- **`/3902-2/`** ima 11.688 prikazov na pol. 43. Prenova (#33) ima velik potencial.
+- **»Crawled – currently not indexed«** (18 URL-jev):
+  - večinoma RSS feedi oznak in kategorij (`/tag/…/feed/`, `/porocni-prstani/feed/`);
+  - poleg tega `/my-account/`, `/tag/zaroka/`, stari `?taxonomy=pa_materiali&term=…` ter 2 izdelka (144, 130).
+  - Predlog: v Yoastu (Optimizacija pajkanja) izklopi feede kategorij, oznak in avtorjev. Ostalo rešijo noindex in preusmeritve.
+
+### 20.2 Odločitve iz GSC (pravila #10, #12, #17 in #18)
+
+| Kaj | Rezultat |
+|---|---|
+| Oznake in kategorije bloga (32) | **15 s kliki → 301** na predlagani cilj, **17 brez klikov → noindex** |
+| Model 118 | ostane `/118-porocna-prstana/` (23 prikazov), 301 `/118-rocno-izdelana-…/` (10 prikazov). Oba 0 klikov. |
+| Modela 067/068 | ostane `/068-porocna-prstana/` (18 prikazov), 301 `/067-porocna-prstana/` (15 prikazov). Oba 0 klikov. |
+| Trendi | ostane `/trendi-zarocnih-prstanov-za-leto-2021/` (15 klikov), 301 `/trendi-zarocnih-prstanov-v-letu-2020/` (3 kliki) |
+| GSC PRIORITY | HIGH 33, MEDIUM 88, LOW 225 (pravilo: HIGH ≥ 10 klikov ali top 20, MEDIUM 1–9 klikov ali ≥ 100 prikazov) |
+
+`redirect-map.csv` nima več vrstic MANUAL REVIEW: KEEP 311, 301 35.
