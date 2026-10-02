@@ -1,6 +1,6 @@
 # Kaj še potrebujemo od Zlatarne Brežnik
 
-Za novo spletno stran `www.zlatarna-breznik.si`. Posodobljeno 2. 10. 2026, po odločitvah izvajalca (`ODLOCITVE.md`).
+Za novo spletno stran `www.zlatarna-breznik.si`. Posodobljeno 2. 10. 2026, po odločitvah izvajalca (`ODLOCITVE.md`) in podatkih iz Google Search Console.
 
 Stran lahko tehnično dokončamo brez vas, vsebine pa ne. Na strani objavimo samo podatke, ki jih potrdite vi. Nič ne bomo izmišljevali.
 
@@ -25,7 +25,7 @@ Nova stran se na `www.zlatarna-breznik.si` objavi šele, ko jo potrdite.
 
 ## 3. Pot do zlatarne (P1)
 
-Za novo stran »Zlatarna pri Celju – obiščite nas v Žalcu« in za pogosta vprašanja:
+Za novo stran »Zlatarna pri Celju – obiščite nas v Žalcu« in za pogosta vprašanja. Ljudje vas v Googlu pogosto iščejo z »zlatarna Celje« (več kot 10.000 prikazov v letu), zato mora ta stran ob objavi obstajati:
 - Kje lahko stranke parkirajo? Je parkiranje plačljivo?
 - Kje je vhod? Ali je dostop primeren za invalide?
 - Kako vas najdejo iz Celja? Približen čas vožnje, avtobus.
@@ -33,7 +33,11 @@ Za novo stran »Zlatarna pri Celju – obiščite nas v Žalcu« in za pogosta v
 
 ## 4. Podatki o modelih (P1 za najbolj obiskane modele)
 
-Noben od 251 modelov na strani nima opisa. Za vsak model, najprej za novejšo serijo 4xx in najbolj obiskane modele, potrebujemo:
+Noben od 251 modelov na strani nima opisa. Najprej potrebujemo podatke za modele, ki jih ljudje v Googlu najpogosteje odprejo:
+
+**398, 150, 410–413, 166, 152, 137, 007, 180, 388, 325** ter novejšo serijo **432–445** (poročni in zaročni).
+
+Za vsak model:
 
 | Podatek | Primer odgovora |
 |---|---|
