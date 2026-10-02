@@ -52,7 +52,7 @@ Vse v vtičniku **Redirection** (izvozi pravila v `docs/redirection-<datum>.json
   - materialne oznake izdelkov (`belo-zlato`, `rumeno-zlato`, `rdeco-zlato`, `beli-/rumeni-/rdeci-porocni-prstan`, `kombinirani-porocni-prstan`, `posebni-prstan`, `prstan-iz-srebra-in-zlata`, `prstan-z-naravnimi-kamni`, `zarocni-in-porocni-prstan`) dobijo `noindex, follow` (#11);
   - `/cart/`, `/checkout/` in `/my-account/` dobijo noindex (#15).
   - Vse te izginejo iz sitemapa.
-- **Oznake bloga in kategorije bloga** (#10) ter MANUAL REVIEW za 118 (#17), 067/068 (#18) in članke Trendi (#12): po sklopu 11 (podatki v `docs/gsc`).
+- **Oznake bloga in kategorije bloga** (#10) ter MANUAL REVIEW za 118 (#17), 067/068 (#18) in članke Trendi (#12): po sklopu 10 (podatki v `docs/gsc`).
 
 **Preveri:** skripta prebere `redirect-map.csv` in za vsako vrstico z ACTION 301 preveri, da OLD (na `zlatar.ddev.site`) vrne **en** 301 na NEW in NEW vrne 200. Za KEEP mora isti URL vrniti 200. Rezultat shrani v `docs/redirect-preverba-<datum>.txt`.
 
@@ -228,7 +228,7 @@ Selektorji in podrobnosti so v `HITROST-UX-POROCILO.md`, poglavja 9–13.
 
 ---
 
-## 11. Odločitve, odvisne od GSC (podatki v `docs/gsc/*.xlsx`)
+## 10. Odločitve, odvisne od GSC (podatki v `docs/gsc/*.xlsx`)
 
 Milan je pravila že potrdil (#10, #12, #17, #18). Izvedi jih s podatki iz `docs/gsc`:
 - list »Strani« (stolpci: URL, Kliki, Prikazi, CTR, Položaj);
@@ -260,7 +260,7 @@ Milan je pravila že potrdil (#10, #12, #17, #18). Izvedi jih s podatki iz `docs
 
 ---
 
-## 12. Na koncu: poročilo Milanu
+## 11. Na koncu: poročilo Milanu
 
 Kratko, po točkah iz navodil (točka 27):
 1. kaj si spremenil;

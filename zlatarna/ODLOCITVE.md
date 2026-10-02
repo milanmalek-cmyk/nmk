@@ -89,6 +89,6 @@ Milan, 2. 10. 2026, iz vprašalnika »Odločitve za Zlatarno Brežnik«. Števil
 
 ## Še odprto
 
-- **GSC** (#10, #12, #17, #18 in stolpec GSC PRIORITY): podatki so lokalno v `~/projekti/zlatar/docs/gsc`. Pravila so v `NAVODILA-ZA-IZVEDBO.md`, sklop 11. Izvede jih seja »zlatar«, pred izvedbo pokaže povzetek Milanu.
+- **GSC** (#10, #12, #17, #18 in stolpec GSC PRIORITY): podatki so lokalno v `~/projekti/zlatar/docs/gsc`. Pravila so v `NAVODILA-ZA-IZVEDBO.md`, sklop 10. Izvede jih seja »zlatar«, pred izvedbo pokaže povzetek Milanu.
 - **Zaročni + Ostali prstani** (približno 18 izdelkov): ali velja isto pravilo kot #20? V `izdelki-popravki.csv` je označeno, ni izvedeno.
 - **Od naročnika:** parkiranje in prihod (#44), podatki o modelih (#28), potrditev vsebine pred prehodom (#7). Glej `POTREBUJEMO-OD-NAROCNIKA.md`.
