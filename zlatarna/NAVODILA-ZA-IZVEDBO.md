@@ -52,7 +52,7 @@ Vse v vtičniku **Redirection** (izvozi pravila v `docs/redirection-<datum>.json
   - materialne oznake izdelkov (`belo-zlato`, `rumeno-zlato`, `rdeco-zlato`, `beli-/rumeni-/rdeci-porocni-prstan`, `kombinirani-porocni-prstan`, `posebni-prstan`, `prstan-iz-srebra-in-zlata`, `prstan-z-naravnimi-kamni`, `zarocni-in-porocni-prstan`) dobijo `noindex, follow` (#11);
   - `/cart/`, `/checkout/` in `/my-account/` dobijo noindex (#15).
   - Vse te izginejo iz sitemapa.
-- **Oznake bloga in kategorije bloga** (#10) ter MANUAL REVIEW za 118 (#17), 067/068 (#18) in članke Trendi (#12): **še ne.** Čakajo izvoz GSC, Milan ga pošlje.
+- **Oznake bloga in kategorije bloga** (#10) ter MANUAL REVIEW za 118 (#17), 067/068 (#18) in članke Trendi (#12): po sklopu 11 (podatki v `docs/gsc`).
 
 **Preveri:** skripta prebere `redirect-map.csv` in za vsako vrstico z ACTION 301 preveri, da OLD (na `zlatar.ddev.site`) vrne **en** 301 na NEW in NEW vrne 200. Za KEEP mora isti URL vrniti 200. Rezultat shrani v `docs/redirect-preverba-<datum>.txt`.
 
@@ -228,7 +228,39 @@ Selektorji in podrobnosti so v `HITROST-UX-POROCILO.md`, poglavja 9–13.
 
 ---
 
-## 10. Na koncu: poročilo Milanu
+## 11. Odločitve, odvisne od GSC (podatki v `docs/gsc/*.xlsx`)
+
+Milan je pravila že potrdil (#10, #12, #17, #18). Izvedi jih s podatki iz `docs/gsc`:
+- list »Strani« (stolpci: URL, Kliki, Prikazi, CTR, Položaj);
+- če je izvozov več, seštej klike in prikaze po URL-ju;
+- URL-je normaliziraj na pot z zaključno poševnico, brez `?…` in `#…`.
+
+1. **Napiši skripto** `scripts/gsc-odlocitve.php`, ki prebere `docs/gsc` in `zlatarna/redirect-map.csv`. Za vsako vrstico izpiše klike in prikaze ter odločitev po pravilih spodaj. Ničesar ne spreminja, zapiše `docs/gsc-odlocitve-<datum>.csv`.
+2. **Oznake in kategorije bloga** (`/tag/*`, `/category/*`, #10):
+   - **kliki ≥ 1** → 301 na NEW URL iz `redirect-map.csv` (predlagani cilj je že vpisan);
+   - **kliki = 0** → `noindex, follow` (Yoast za termin), URL ostane, iz sitemapa.
+3. **Pari** (en URL ostane, drugi 301 nanj):
+   - modela 118: `/118-rocno-izdelana-porocna-prstana-iz-belega-in-rumenega-zlata/` in `/118-porocna-prstana/` (#17);
+   - modela 067/068: `/067-porocna-prstana/` in `/068-porocna-prstana/` (#18);
+   - članka Trendi: `/trendi-zarocnih-prstanov-v-letu-2020/` in `/trendi-zarocnih-prstanov-za-leto-2021/` (#12).
+   - Ostane URL z več kliki. Pri enakem številu odločijo prikazi, pri enakih prikazih privzeto: `118-rocno-…`, `067`, `trendi-…-2021`.
+   - Pri Trendih: ohranjeni članek posodobi v evergreen (brez »2020«/»2021« v H1 in besedilu, **URL ostane**), drugi 301.
+4. **Stolpec GSC PRIORITY** za vse vrstice:
+   - **HIGH**: ≥ 10 klikov ali med 20 URL-ji z največ kliki;
+   - **MEDIUM**: 1–9 klikov ali ≥ 100 prikazov;
+   - **LOW**: ostalo.
+   - Zapiši v `zlatarna/redirect-map.csv`, ACTION za rešene vrstice spremeni iz MANUAL REVIEW v 301 ali KEEP. V NOTE dopiši »GSC: X klikov, Y prikazov«.
+5. **Pred izvedbo pokaži Milanu povzetek:**
+   - koliko oznak gre na 301 in koliko na noindex;
+   - kateri URL ostane pri vsakem paru;
+   - 20 HIGH URL-jev.
+   - Če je kateri HIGH URL med tistimi, ki jih preusmerjamo, ga posebej izpostavi.
+   - **Po potrditvi** dodaj pravila v Redirection in noindex v Yoast, nato preverjanje iz sklopa 2.
+6. **Podatkov GSC ne objavljaj** v javni repozitorij `nmk`. V `redirect-map.csv` gredo le seštevki v NOTE. Surovi izvozi ostanejo lokalno.
+
+---
+
+## 12. Na koncu: poročilo Milanu
 
 Kratko, po točkah iz navodil (točka 27):
 1. kaj si spremenil;
