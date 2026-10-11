@@ -16,10 +16,31 @@ Spodaj `$M` = `ai-office/moduli/redesign`, `$P` = mapa projekta. Python skripte 
 - `/redesign https://…` → `python3 -I $M/scripts/manifest.py najdi URL`. Če projekt obstaja, ga nadaljuj.
   Sicer `manifest.py init URL --stranka <slug> --naziv "<Naziv d.o.o.>"`. Slug določi iz domene (npr. `bio-sad`).
 - `/redesign <stranka>` → poišči projekt v `ai-office/projekti/<stranka>/` (zadnji po imenu) in nadaljuj.
+  Če projekta ni, poišči podjetje v evidenci Google Sheets (glej spodaj) in vzemi URL iz stolpca »Spletna stran«.
 - Dodatna beseda: `stanje` (samo pokaži), `gradnja` (F6), `predogled` (F7), `prodaja` (F8).
 
 Vedno najprej `manifest.py stanje $P`. Nato izvajaj faze po vrsti od prve nezaključene in se ustavi pri vratih.
 Po vsaki fazi: `manifest.py faza $P Fx zakljuceno --izhod <poti>` in commit + push v razvojno vejo.
+
+## Povezava z evidenco (Google Sheets »Podjetja Redesign«)
+
+Postopek branja in varnega pisanja: `ai-office/moduli/marketing/README.md`. Zapisuj samo prek
+`evidenca.py nacrt`.
+
+- **Iskanje:** `evidenca.py najdi $S/evidenca.json "<ime ali domena>"` vrne vrstico, URL, cenovno skupino,
+  status in obstoječe ugotovitve. Te upoštevaj kot izhodišče za F1–F2.
+- **Povezava projekta:** v `projekt.json` nastavi `stranka.crm_id` na `"sheets:<matična številka>"`
+  (ali `"sheets:<Podjetje>"`, če matične ni).
+- **Ob začetku:** stanje `V TEKU` + vrstica v Dnevnik.
+- **Po F5:**
+  - stanje `PAKET PRIPRAVLJEN`, datum analize, Mapa materialov (`github_projekti` + `<stranka>/<projekt>`);
+  - ZIP `<stranka>-chatgpt.zip` je shranjen v git (izjema v `.gitignore`), commit in push;
+  - ZIP in poziv pošlji uporabniku;
+  - vrstica v Dnevnik.
+- **Ko uporabnik pove, da dela dizajn v ChatGPT:** stanje `ČAKA DIZAJN`.
+- **Po F6:** stanje `HTML PRIPRAVLJEN`, Predogled = povezava zasebnega Artifacta.
+- **Po F7 (objava po V2):** stanje `PREDOGLED OBJAVLJEN`, Predogled = URL predogleda. Gesla nikoli ne vpiši v preglednico.
+- **Ob napaki:** stanje `NAPAKA` + vzrok v Dnevnik.
 
 ## Splošna pravila
 

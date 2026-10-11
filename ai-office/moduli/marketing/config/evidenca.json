@@ -1,0 +1,59 @@
+{
+  "spreadsheet_id": "1kk_e0gYn79nxNZpbfxxVvlqYwNwJxvlOFRpkUdbGnH8",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1kk_e0gYn79nxNZpbfxxVvlqYwNwJxvlOFRpkUdbGnH8/edit",
+  "github_projekti": "https://github.com/milanmalek-cmyk/nmk/tree/claude/quirky-shannon-vydgbs/ai-office/projekti/",
+  "zavihki": {
+    "evidenca": "Predizbor 30",
+    "ocene": "AI ocene",
+    "dnevnik": "Dnevnik",
+    "povzetek": "Povzetek",
+    "merila": "Merila in postopek"
+  },
+  "tabele": {
+    "evidenca": {"ime": "LeadPreselection", "id": "2037265845", "sheet_id": 1936790025},
+    "ocene": {"ime": "AIOcene", "id": "652083448", "sheet_id": 2001},
+    "dnevnik": {"ime": "Dnevnik", "id": "711607984", "sheet_id": 2002}
+  },
+  "_stolpci": "vloga → začetek imena glave (stolpec se poišče po imenu, ne po črki)",
+  "stolpci": {
+    "podjetje": "Podjetje",
+    "kraj": "Kraj",
+    "dejavnost": "Dejavnost",
+    "spletna_stran": "Spletna stran",
+    "prihodki": "Prihodki",
+    "dobicek": "Čisti dobiček",
+    "marza": "Marža",
+    "zaposleni": "Zaposleni",
+    "cenovna_skupina": "Cenovna skupina",
+    "status": "Status",
+    "ugotovitev": "Ugotovitev",
+    "naslednji_korak": "Predlagan naslednji korak",
+    "vir_financ": "Vir financ",
+    "vir_strani": "Vir strani",
+    "naloga": "Naloga za Claude",
+    "maticna": "Matična številka",
+    "ai_ocena": "AI ocena",
+    "stanje": "Stanje priprave",
+    "datum_analize": "Datum analize",
+    "mapa": "Mapa materialov",
+    "predogled": "Predogled",
+    "prodajna_faza": "Prodajna faza",
+    "naslednji_kontakt": "Naslednji kontakt"
+  },
+  "_lastnistvo": "kdo sme pisati v stolpec; potrdil uporabnik 11. 10. 2026",
+  "lastnistvo": {
+    "samo_uporabnik": ["podjetje", "kraj", "dejavnost", "cenovna_skupina", "status", "ugotovitev", "naslednji_korak", "naloga"],
+    "claude_ce_prazno": ["spletna_stran", "prihodki", "dobicek", "marza", "zaposleni", "vir_financ", "vir_strani", "maticna", "naslednji_kontakt"],
+    "claude": ["ai_ocena", "stanje", "datum_analize", "mapa", "predogled"],
+    "claude_omejeno": {"prodajna_faza": ["PREDLOG PRIPRAVLJEN"]}
+  },
+  "vrednosti": {
+    "naloga": ["OCENI", "ZA ANALIZO", "PRIPRAVI PONUDBO", "USTAVI"],
+    "stanje": ["OCENJENO", "V TEKU", "PAKET PRIPRAVLJEN", "ČAKA DIZAJN", "HTML PRIPRAVLJEN", "PREDOGLED OBJAVLJEN", "NAPAKA"],
+    "prodajna_faza": ["PREDLOG PRIPRAVLJEN", "PREGLEDANO", "POSLANO", "ODGOVORIL", "ŽELI PONUDBO", "PRIDOBLJENO", "ZAVRNJENO"]
+  },
+  "omejitve": {
+    "polnih_paketov_na_zagon": 2,
+    "polnih_demov_hkrati": 3
+  }
+}

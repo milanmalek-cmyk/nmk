@@ -40,3 +40,5 @@ ai-office/moduli/redesign/config/nastavitve.env
 ai-office/projekti/**/06_predogled/izdaja/
 ai-office/projekti/**/06_predogled/.dostop
 ai-office/projekti/**/06_predogled/.htpasswd
+# paketi za ChatGPT se shranjujejo (stalna povezava za prenos)
+!ai-office/projekti/**/*-chatgpt.zip

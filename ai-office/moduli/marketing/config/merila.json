@@ -1,0 +1,41 @@
+{
+  "_vir": "zavihek 'Merila in postopek' v preglednici Podjetja Redesign",
+  "skupine": {
+    "finance": {
+      "ime": "Finančna sposobnost",
+      "merila": {
+        "prihodki_v_razponu": {"tocke": 10, "opis": "prihodki v ciljnem razponu 100.000–1.500.000 €"},
+        "dobicek_2_leti": {"tocke": 10, "opis": "pozitiven dobiček vsaj 2 leti zapored"},
+        "marza_trend": {"tocke": 10, "opis": "dobičkonosnost in gibanje rezultatov zadnjih let"}
+      }
+    },
+    "spletna_stran": {
+      "ime": "Spletna stran – potreba po prenovi",
+      "merila": {
+        "zastarelost": {"tocke": 10, "opis": "starost in sodobnost dizajna (več točk = bolj zastarelo)"},
+        "mobilno": {"tocke": 10, "opis": "mobilna uporabniška izkušnja (več točk = slabša)"},
+        "seo_geo": {"tocke": 8, "opis": "SEO in GEO pomanjkljivosti"},
+        "predstavitev": {"tocke": 7, "opis": "predstavitev izdelkov/storitev, kakovost besedil, reference"},
+        "povprasevanje": {"tocke": 3, "opis": "pot do povpraševanja in kontaktni obrazci"},
+        "hitrost": {"tocke": 2, "opis": "hitrost nalaganja"}
+      }
+    },
+    "potencial": {
+      "ime": "Poslovni potencial",
+      "merila": {
+        "vec_povprasevanj": {"tocke": 10, "opis": "boljša stran prinese več kakovostnih povpraševanj"},
+        "poslovni_razlog": {"tocke": 8, "opis": "jasen poslovni razlog za prenovo"},
+        "odlocevalec": {"tocke": 6, "opis": "neposreden dostop do lastnika ali direktorja"},
+        "lokacija": {"tocke": 3, "opis": "Maribor in približno 50 km"},
+        "cenovni_razred": {"tocke": 3, "opis": "prenova ustreza skupini A (1.500–2.500 €) ali B (2.500–4.000 €)"}
+      }
+    }
+  },
+  "pragovi": {"PREDNOSTNO": 70, "PREVERI": 50, "spodaj": "NI PRIORITETA"},
+  "izlocitve": {
+    "sodobna_stran": "IZLOČI – NOVA STRAN",
+    "nizek_dobicek": "IZLOČI – NIZEK DOBIČEK",
+    "izven_obmocja": "IZVEN OBMOČJA",
+    "izven_velikosti": "IZVEN VELIKOSTNEGA FILTRA"
+  }
+}
