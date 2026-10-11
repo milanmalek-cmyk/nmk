@@ -1,0 +1,315 @@
+{
+ "url": "https://www.geofoto.si/",
+ "css": [
+  "https://www.geofoto.si/css/fonts.css",
+  "https://www.geofoto.si/css/flexslider.css",
+  "https://www.geofoto.si/css/KoGrid.css",
+  "https://www.geofoto.si/css/style.css"
+ ],
+ "css_preskoceno_knjiznice": [],
+ "barve": [
+  {
+   "hex": "#ffffff",
+   "st": 31,
+   "kje": [
+    ".page-loader img  (style.css)",
+    "a._orderServiceBtn  (style.css)",
+    "a.read-more  (style.css)",
+    "a.btn  (style.css)"
+   ]
+  },
+  {
+   "hex": "#000000",
+   "st": 13,
+   "kje": [
+    ".flex-direction-nav a  (flexslider.css)",
+    ".flex-direction-nav a:before  (flexslider.css)",
+    ".flex-pauseplay a  (flexslider.css)",
+    ".flex-control-paging li a  (flexslider.css)"
+   ]
+  },
+  {
+   "hex": "#d01623",
+   "st": 8,
+   "kje": [
+    "a._linkWithIcon:hover  (style.css)",
+    "a._linkWithIcon i  (style.css)",
+    "._serviceListContainer ._service .read-more  (style.css)",
+    "._serviceListContainer ._service .read-more  (style.css)"
+   ]
+  },
+  {
+   "hex": "#626c74",
+   "st": 6,
+   "kje": [
+    "section.section-sub  (style.css)",
+    "._blockListContainer ._block  (style.css)",
+    "._blockListContainer ._block a  (style.css)",
+    "._referencesContainer ul li  (style.css)"
+   ]
+  },
+  {
+   "hex": "#041320",
+   "st": 5,
+   "kje": [
+    ".header  (style.css)",
+    "nav._mobileMainNav > a.active  (style.css)",
+    ".header  (style.css)",
+    "._productNavContainer  (style.css)"
+   ]
+  },
+  {
+   "hex": "#afaeae",
+   "st": 4,
+   "kje": [
+    "::-webkit-input-placeholder  (KoGrid.css)",
+    ":-moz-placeholder  (KoGrid.css)",
+    "::-moz-placeholder  (KoGrid.css)",
+    ":-ms-input-placeholder  (KoGrid.css)"
+   ]
+  },
+  {
+   "hex": "#4b4b4b",
+   "st": 4,
+   "kje": [
+    "body  (style.css)",
+    "a.btn-sec  (style.css)",
+    "nav._mobileMainNav  (style.css)",
+    ".footer ._cr  (style.css)"
+   ]
+  },
+  {
+   "hex": "#db1927",
+   "st": 4,
+   "kje": [
+    ".header nav._mainNav a.active  (style.css)",
+    "nav._mobileMainNav > a:hover  (style.css)",
+    "nav._mobileMainNav > a.active  (style.css)",
+    "._sliderNavigation ul li:hover a, ._sliderNavigation ul li.active a  (style.css)"
+   ]
+  },
+  {
+   "hex": "#236181",
+   "st": 4,
+   "kje": [
+    "._serviceList a ._icon  (style.css)",
+    "._serviceList a:hover ._icon  (style.css)",
+    "._serviceList a:hover ._icon  (style.css)",
+    "._serviceListContainer ._service ._icon i  (style.css)"
+   ]
+  },
+  {
+   "hex": "#c2c2c2",
+   "st": 3,
+   "kje": [
+    "h1._title  (style.css)",
+    "a._showAll  (style.css)",
+    "a._showAll:after  (style.css)"
+   ]
+  },
+  {
+   "hex": "#ff0000",
+   "st": 3,
+   "kje": [
+    "._contactForm ul li label span  (style.css)",
+    "._contactForm ul li input.error, ._contactForm ul li textarea.error  (style.css)",
+    "._contactForm ul li label.error  (style.css)"
+   ]
+  },
+  {
+   "hex": "#21a6d3",
+   "st": 2,
+   "kje": [
+    "a._orderServiceBtn  (style.css)",
+    "._contactForm ul li button  (style.css)"
+   ]
+  },
+  {
+   "hex": "#1c90b7",
+   "st": 2,
+   "kje": [
+    "a._orderServiceBtn:hover  (style.css)",
+    "._contactForm ul li button:hover  (style.css)"
+   ]
+  },
+  {
+   "hex": "#f4f4f4",
+   "st": 2,
+   "kje": [
+    "section.section-sub.-gray  (style.css)",
+    "._serviceListContainer ._service:hover  (style.css)"
+   ]
+  },
+  {
+   "hex": "#ebebeb",
+   "st": 2,
+   "kje": [
+    "._serviceListContainer ._service:after  (style.css)",
+    "._serviceListContainer ._service:before  (style.css)"
+   ]
+  },
+  {
+   "hex": "#d7d7d7",
+   "st": 2,
+   "kje": [
+    ".section-sub ._breadCrumbs  (style.css)",
+    ".section-sub ._breadCrumbs a  (style.css)"
+   ]
+  },
+  {
+   "hex": "#84929d",
+   "st": 2,
+   "kje": [
+    "._aboutUsInfoContainer  (style.css)",
+    "._whyGeoContainer  (style.css)"
+   ]
+  },
+  {
+   "hex": "#d8d8d8",
+   "st": 2,
+   "kje": [
+    "._contactForm ul li input, ._contactForm ul li textarea  (style.css)",
+    "._contactForm ul li input, ._contactForm ul li textarea  (style.css)"
+   ]
+  },
+  {
+   "hex": "#848484",
+   "st": 2,
+   "kje": [
+    ".footer ._cr  (style.css)",
+    ".footer ._cr a  (style.css)"
+   ]
+  },
+  {
+   "hex": "#666666",
+   "st": 1,
+   "kje": [
+    ".flex-control-paging li a  (flexslider.css)"
+   ]
+  },
+  {
+   "hex": "#333333",
+   "st": 1,
+   "kje": [
+    ".flex-control-paging li a:hover  (flexslider.css)"
+   ]
+  },
+  {
+   "hex": "#ffff00",
+   "st": 1,
+   "kje": [
+    "mark  (KoGrid.css)"
+   ]
+  },
+  {
+   "hex": "#2b4858",
+   "st": 1,
+   "kje": [
+    "a._linkWithIcon  (style.css)"
+   ]
+  },
+  {
+   "hex": "#195a7b",
+   "st": 1,
+   "kje": [
+    "a.btn  (style.css)"
+   ]
+  },
+  {
+   "hex": "#1d536f",
+   "st": 1,
+   "kje": [
+    "a.btn:hover  (style.css)"
+   ]
+  },
+  {
+   "hex": "#20a6d2",
+   "st": 1,
+   "kje": [
+    "a.btn-sec.blue  (style.css)"
+   ]
+  },
+  {
+   "hex": "#e1e1e1",
+   "st": 1,
+   "kje": [
+    "._serviceList a ._icon  (style.css)"
+   ]
+  },
+  {
+   "hex": "#172937",
+   "st": 1,
+   "kje": [
+    "._serviceListContainer ._service ._title  (style.css)"
+   ]
+  },
+  {
+   "hex": "#7f7f7f",
+   "st": 1,
+   "kje": [
+    "._sendInquiryBox p  (style.css)"
+   ]
+  },
+  {
+   "hex": "#2a4852",
+   "st": 1,
+   "kje": [
+    "._blockListContainer ._block h3  (style.css)"
+   ]
+  }
+ ],
+ "pisave_google": [
+  "Rubik"
+ ],
+ "pisave_css": [
+  {
+   "ime": "icomoon",
+   "st": 1
+  },
+  {
+   "ime": "icomoon' !important",
+   "st": 1
+  },
+  {
+   "ime": "sans-serif",
+   "st": 1
+  },
+  {
+   "ime": "monospace",
+   "st": 1
+  },
+  {
+   "ime": "Rubik",
+   "st": 1
+  }
+ ],
+ "logotip": {
+  "pot": "/tmp/claude-0/-home-user-nmk/b29555ae-1666-5aa4-9a46-72a81a174a6e/scratchpad/review-geofoto/images/logo.png",
+  "barve": [
+   {
+    "hex": "#ffffff",
+    "delez": 0.964
+   },
+   {
+    "hex": "#cf1623",
+    "delez": 0.006
+   },
+   {
+    "hex": "#cb1521",
+    "delez": 0.005
+   },
+   {
+    "hex": "#ce1623",
+    "delez": 0.003
+   },
+   {
+    "hex": "#d91724",
+    "delez": 0.003
+   },
+   {
+    "hex": "#d11623",
+    "delez": 0.003
+   }
+  ]
+ }
+}

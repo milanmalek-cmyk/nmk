@@ -13,50 +13,70 @@
     {
       "id": "F0",
       "ime": "Inventar",
-      "stanje": "caka",
-      "posodobljeno": null,
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T05:22:08+00:00",
       "izhodi": [],
-      "opomba": ""
+      "opomba": "Nov projekt iz evidence Sheets (vrstica GEOFOTO); ocena 81/100 že narejena."
     },
     {
       "id": "F1",
       "ime": "Pregled strani",
-      "stanje": "caka",
-      "posodobljeno": null,
-      "izhodi": [],
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T05:22:08+00:00",
+      "izhodi": [
+        "01_analiza/analiza.md",
+        "01_analiza/brand.json",
+        "01_analiza/pages.json",
+        "01_analiza/slike.tsv"
+      ],
       "opomba": ""
     },
     {
       "id": "F2",
       "ime": "Raziskava",
-      "stanje": "caka",
-      "posodobljeno": null,
-      "izhodi": [],
-      "opomba": ""
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T05:22:09+00:00",
+      "izhodi": [
+        "01_analiza/dejstva.md"
+      ],
+      "opomba": "Leto ustanovitve neusklajeno (1992/1994/1995) – v besedilih »več kot 30 let«."
     },
     {
       "id": "F3",
       "ime": "Vsebina",
-      "stanje": "caka",
-      "posodobljeno": null,
-      "izhodi": [],
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T05:24:32+00:00",
+      "izhodi": [
+        "02_vsebina/besedila.md",
+        "02_vsebina/seo-geo.md",
+        "02_vsebina/struktura.md"
+      ],
       "opomba": ""
     },
     {
       "id": "F4",
       "ime": "Vizualni materiali",
-      "stanje": "caka",
-      "posodobljeno": null,
-      "izhodi": [],
-      "opomba": ""
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T05:25:39+00:00",
+      "izhodi": [
+        "03_paket-chatgpt/EVIDENCA.md",
+        "03_paket-chatgpt/barve.md",
+        "03_paket-chatgpt/izbor.tsv",
+        "03_paket-chatgpt/slike.json"
+      ],
+      "opomba": "17 originalov (11 fotografij, logotip, 5 logotipov naročnikov), 0 ponovnih prenosov."
     },
     {
       "id": "F5",
       "ime": "Paket za ChatGPT",
-      "stanje": "caka",
-      "posodobljeno": null,
-      "izhodi": [],
-      "opomba": ""
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T05:25:39+00:00",
+      "izhodi": [
+        "03_paket-chatgpt/chatgpt-poziv.md",
+        "03_paket-chatgpt/smernice.md",
+        "geofoto-chatgpt.zip"
+      ],
+      "opomba": "Čaka V1."
     },
     {
       "id": "F6",
@@ -89,5 +109,5 @@
     "url": null,
     "objavljeno": null
   },
-  "posodobljeno": "2026-10-11T05:14:33+00:00"
+  "posodobljeno": "2026-10-11T05:25:39+00:00"
 }
