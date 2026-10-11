@@ -36,10 +36,12 @@
     {
       "id": "F2",
       "ime": "Raziskava",
-      "stanje": "caka",
-      "posodobljeno": null,
-      "izhodi": [],
-      "opomba": ""
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T04:36:53+00:00",
+      "izhodi": [
+        "01_analiza/dejstva.md"
+      ],
+      "opomba": "IFS Food Higher Level 98,04 % (do 19. 11. 2026), ISO 9001 do 2029, 11 medalj. Odprto: aktualnost podatkov 2019, pravna skladnost oglaševanja alkohola."
     },
     {
       "id": "F3",
@@ -96,5 +98,5 @@
     "url": null,
     "objavljeno": null
   },
-  "posodobljeno": "2026-10-11T04:30:14+00:00"
+  "posodobljeno": "2026-10-11T04:36:53+00:00"
 }

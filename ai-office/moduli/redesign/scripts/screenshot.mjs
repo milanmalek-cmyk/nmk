@@ -61,7 +61,9 @@ try {
       userAgent: ua === "brskalnik" ? UA_BRSKALNIK : undefined,
     });
     const stran = await ctx.newPage();
-    await stran.goto(url, { waitUntil: "networkidle", timeout: 60000 });
+    await stran.goto(url, { waitUntil: "load", timeout: 60000 });
+    // strani z analitiko ali odprtimi povezavami nikoli ne utihnejo – počakaj največ 10 s
+    await stran.waitForLoadState("networkidle", { timeout: 10000 }).catch(() => {});
     if (!samoZaslon) {
       // počasno drsenje sproži leno nalaganje slik
       await stran.evaluate(async () => {
