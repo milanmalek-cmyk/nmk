@@ -1,6 +1,14 @@
 # Multimedija AI Office – Marketing in AI Redesign z Google Sheets
 
-**Status:** načrt za potrditev (11. 10. 2026). V preglednici ni bilo nič spremenjeno.
+**Status (11. 10. 2026):** potrjeno in izvedeno M1–M4.
+
+- naloga v ločenem stolpcu;
+- stolpci O–W, zavihka »AI ocene« in »Dnevnik«;
+- zapolnjevanje praznih celic s preverjenimi podatki;
+- neobvezne spremembe 3.3;
+- ZIP-i v gitu.
+
+Test GEOFOTO: ocena 81/100, paket za ChatGPT. Čaka M5 (dnevna rutina in združitev v glavno vejo).
 **Preglednica:** »Podjetja Redesign« (`1kk_e0gYn79nxNZpbfxxVvlqYwNwJxvlOFRpkUdbGnH8`) – ostane glavna evidenca.
 
 ## 1. Ugotovljeno stanje
