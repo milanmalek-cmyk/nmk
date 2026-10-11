@@ -12,7 +12,7 @@ Vsebina ZIP-a (<stranka>-chatgpt/):
   04_BARVE-IN-LOGOTIP.md   ← 03_paket-chatgpt/barve.md
   05_EVIDENCA-SLIK.md      ← 03_paket-chatgpt/EVIDENCA.md
   slike/…                  ← 03_paket-chatgpt/slike/
-  referenca/…              ← 01_analiza/posnetki/obstojeca-*.jpg (trenutno stanje, če obstaja)
+  referenca/…              ← 01_analiza/posnetki/obstojeca-1440.jpg (trenutno stanje, če obstaja)
 ZIP se zapiše v PROJEKT_MAPA/<stranka>-chatgpt.zip (v git ne gre).
 """
 import glob
@@ -56,8 +56,9 @@ def main():
     for pot in sorted(glob.glob(os.path.join(slike, "**", "*"), recursive=True)):
         if os.path.isfile(pot):
             vsebina.append((pot, f"{koren}/slike/{os.path.relpath(pot, slike)}"))
-    for pot in sorted(glob.glob(os.path.join(projekt, "01_analiza", "posnetki", "obstojeca-*.jpg"))):
-        vsebina.append((pot, f"{koren}/referenca/{os.path.basename(pot)}"))
+    referenca = os.path.join(projekt, "01_analiza", "posnetki", "obstojeca-1440.jpg")
+    if os.path.exists(referenca):
+        vsebina.append((referenca, f"{koren}/referenca/obstojeca-1440.jpg"))
     if manjka:
         sys.exit("Paket ni popoln, manjka: " + ", ".join(manjka))
     if not any("/slike/" in arc for _, arc in vsebina):

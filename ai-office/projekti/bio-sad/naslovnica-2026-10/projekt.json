@@ -58,18 +58,26 @@
     {
       "id": "F4",
       "ime": "Vizualni materiali",
-      "stanje": "caka",
-      "posodobljeno": null,
-      "izhodi": [],
-      "opomba": ""
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T04:43:11+00:00",
+      "izhodi": [
+        "03_paket-chatgpt/EVIDENCA.md",
+        "03_paket-chatgpt/barve.md",
+        "03_paket-chatgpt/izbor.tsv",
+        "03_paket-chatgpt/slike.json"
+      ],
+      "opomba": "29/29 slik ponovno uporabljenih, 0 prenesenih."
     },
     {
       "id": "F5",
       "ime": "Paket za ChatGPT",
-      "stanje": "caka",
-      "posodobljeno": null,
-      "izhodi": [],
-      "opomba": ""
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T04:43:11+00:00",
+      "izhodi": [
+        "03_paket-chatgpt/chatgpt-poziv.md",
+        "03_paket-chatgpt/smernice.md"
+      ],
+      "opomba": "ZIP bio-sad-chatgpt.zip (7,6 MB) – čaka V1."
     },
     {
       "id": "F6",
@@ -102,5 +110,5 @@
     "url": null,
     "objavljeno": null
   },
-  "posodobljeno": "2026-10-11T04:40:47+00:00"
+  "posodobljeno": "2026-10-11T04:43:11+00:00"
 }

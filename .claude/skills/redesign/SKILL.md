@@ -96,7 +96,7 @@ Uporabi predloge iz `templates/`. Za SEO lahko naložiš skill `anthropic-skills
 1. `$P/03_paket-chatgpt/smernice.md` in `chatgpt-poziv.md` po predlogah. Poziv izpolni do konca:
    brez `{…}`, s posebnimi pravili projekta in smerjo oblikovanja.
 2. `python3 -I $M/scripts/package.py $P` sestavi in preveri `$P/<stranka>-chatgpt.zip`.
-3. ZIP pošlji uporabniku (SendUserFile), poziv pa prikaži v odgovoru za kopiranje.
+3. ZIP in `chatgpt-poziv.md` pošlji uporabniku (SendUserFile), da lahko poziv kopira v ChatGPT.
 4. **Ustavi se: vrata V1.** Uporabnik v ChatGPT izdela in potrdi koncept ter posnetke in specifikacijo
    odloži v `04_dizajn/` (ali jih priloži v pogovor, ti pa jih shraniš tja).
 

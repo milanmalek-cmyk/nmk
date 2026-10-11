@@ -1,6 +1,7 @@
 # Multimedija AI Office – modul AI REDESIGN
 
-**Status:** osnutek zasnove za potrditev. Razvoj se še ni začel.
+**Status:** zasnova potrjena 11. 10. 2026. Izvedena K1 (ogrodje modula) in K2 (BIO-SAD faze F0–F5); čaka V1.
+Modul: `ai-office/moduli/redesign/` · ukaz: `/redesign` · projekt BIO-SAD: `ai-office/projekti/bio-sad/naslovnica-2026-10/`
 **Prvi testni projekt:** BIO-SAD (https://www.bio-sad.si/sl/)
 
 ## 1. Namen in meje
@@ -143,7 +144,7 @@ Paket za prenos (`prenos-artifact.md`) vsebuje:
 
 ## 11. BIO-SAD: kaj imamo, kaj manjka, kaj ponovno uporabimo
 
-**Imamo trajno (v gitu):** `materiali/bio-sad-naslovnica/` – 29 originalnih datotek:
+**Imamo trajno (v gitu):** `materiali/bio-sad-naslovnica/` (zdaj `ai-office/projekti/bio-sad/naslovnica-2026-10/03_paket-chatgpt/`) – 29 originalnih datotek:
 
 - logotip
 - 2 hero fotografiji in 3 fotografije proizvodnje
