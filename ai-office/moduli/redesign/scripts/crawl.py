@@ -155,7 +155,7 @@ def analiziraj(url, koncni, h, gostitelji):
         "h1": oznake(h, "h1"), "h2": oznake(h, "h2"), "h3": oznake(h, "h3")[:30],
         "jsonld_tipi": tipi,
         "st_besed": len(t.split()),
-        "besedilo": t[:6000],
+        "besedilo": t[:15000],
         "slike": [dict(z, izvor=sorted(z["izvor"])) for z in slike.values()],
     }
 

@@ -61,6 +61,8 @@ Novejših priznanj po 2021 na strani ni ❓. Imena slik diplom (`Diploma maj 202
 ## 4. Ponudba in blagovne znamke
 
 - **Lastni blagovni znamki:** Bio-Sad in Apis ✅ S1. Linije: Mister & Miss Gin, The Borovnička, Fazan, Crème de Chocolate, Cremoso, Bishé, BIO-SAD sadni sirupi ✅ S6.
+- **Domači rum Apis:** izdelek z geografsko označbo, tradicija od leta 1962 ✅ S6. Prodaja: Mercator, Spar, Interspar, Tuš ✅ S6.
+- **The Borovnička:** borovničev liker 23 vol. % z dodanimi plodovi gozdnih borovnic ✅ S6.
 - **Kategorije:** žgane pijače, likerji, pijače na osnovi vina (aromatizirana vina), sadni sirupi ✅ S6. Novost: miniaturke 50 ml ✅ (novica).
 - **Polnitve (B2B):** polnitve pod blagovno znamko kupca, po recepturi podjetja ali kupca ✅ S1, S5.
   - Kupci: Hofer, Lidl, Mercator, Eurospin, Jager, Spar, Tuš ter srbska blagovna znamka Gorki list ✅ S1.
