@@ -1,0 +1,1774 @@
+{
+ "zacetni_url": "https://www.geofoto.si/",
+ "domena": "www.geofoto.si",
+ "jezik": null,
+ "ua": "modul",
+ "datum": "2026-10-11",
+ "strani": [
+  {
+   "url": "https://www.geofoto.si/",
+   "koncni_url": "https://www.geofoto.si/",
+   "title": "GEOFOTO",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [
+    "NAŠE STORITVE",
+    "Pošljite povpraševanje",
+    "Aktualno"
+   ],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 253,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nInženirska geodezija\nKadar mora biti zares natančno!\nLasersko skeniranje\nMetoda skeniranja omogoča zajem velike količine podatkov v kratkem času.\nAerofotogrametrija\nFotogrametrija je veda pridobivanja informacij o iz fotografij.\nGIS\nRazvoj prostorsko-informacijskih sistemov po meri naročnika.\nNAŠE STORITVE\nPrikaži vse storitve\nINŽENIRSKA\nGEODEZIJA\nZEMLJIŠKI\nKATASTER\nLASERSKO\nSKENIRANJE\nBLIŽJESLIKOVNA\nFOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO\nIZVEDENIŠTVO\nPošljite povpraševanje\nPošljite povpraševanje in z veseljem se vam bomo posvetili.\nNa podlagi dvajset in več letnih izkušenj z vodenjem ter izvedbo zahtevnih projektov, vam bomo podali ustrezno ponudbo.\nPOŠLJITE POVPRAŠEVANJE\nAktualno\nGeodetski načrti in evidentiranje stavb // 13.12.2020\nV zimskem času, ko vsi razmišljajo le o oddihu na morju, smo za vas pripravili posebne akcijske cene geodetskih načrtov.\nNovi prostri v Slovenskih Konjicah // 21.9.2020\nZa Vas smo postali še dostopnejši. Odprli smo poslovno enoto v Slovenskih Konjicah, na naslovu Mestni trg 6. Vabljeni!\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slide-1.jpg",
+     "izvor": [
+      "poster",
+      "poster~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/prizma_JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/Vinica_1_J_B.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/slides-fin-5JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/GIS_slika.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slides-fin-2.jpg",
+     "izvor": [
+      "css",
+      "css~koren"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve",
+   "koncni_url": "https://www.geofoto.si/storitve",
+   "title": "GEOFOTO || Storitve",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 155,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nStoritve\nPreverite široko ponudbo geodetsko-informacijskih storitev, ki jih izvajamo.\nDomov\nStoritve\nINŽENIRSKA\nGEODEZIJA\nPreberi več\nZEMLJIŠKI\nKATASTER\nPreberi več\nLASERSKO\nSKENIRANJE\nPreberi več\nBLIŽJESLIKOVNA\nFOTOGRAMETRIJA\nPreberi več\nGIS\nPreberi več\nKARTOGRAFIJA\nPreberi več\nHIDROGRAFIJA\nPreberi več\nSODNO\nIZVEDENIŠTVO\nPreberi več\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/slides-fin-2.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/reference",
+   "koncni_url": "https://www.geofoto.si/reference",
+   "title": "GEOFOTO || Reference",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 175,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nReference\nNaši zadovoljni poslovni partnerji\nDomov\nReference\nInfra d.o.o.\nDRSC - Direkcija Republike Slovenije za ceste\nDEM d.o.o.\nHESS d.o.o.\nDARS - Družba za avtoceste v Republiki Sloveniji d.d.\nObčina Slovenske Konjice\nObčina Zreče\nObčina Rogaška Slatina\nObčina Vitanje\nObčina Slovenska Bistrica\nObčina Rače-Fram\nObčina Hoče-Slivnica\nMOM - Mestna občina Maribor\nMOL - Mestna občina Ljubljana\nElektro Celje\nLEK d.d.\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/infra-logo-color.png",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/rs-logo-color.png",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/dem-logo-color.png",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/hes-logo-color.png",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/dars-logo-color.png",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/fotkeozadje/reference-cover.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/o-podjetju",
+   "koncni_url": "https://www.geofoto.si/o-podjetju",
+   "title": "GEOFOTO || O podjetju",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "Kdo smo?",
+    "Zaposleni",
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [
+    "DIREKTOR",
+    "SODNO IZVEDENIŠTVO",
+    "GIS, KARTOGRAFIJA",
+    "TAJNIŠTVO",
+    "KATASTER",
+    "",
+    "GEODETSKI NAČRTI",
+    "INŽENIRSKA GEODEZIJA, FOTOGRAMETRIJA, SKENIRANJE, MODELIRANJE"
+   ],
+   "jsonld_tipi": [],
+   "st_besed": 554,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nO podjetju\nGeofoto d.o.o. je na slovenskem trgu prisotno že od davnega leta 1995, ko je podjetje zaposlovalo le\nDomov\nO podjetju\nSedež podjetja\nGeofoto d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nE: info@geofoto.si\nPE Slovenske Konjice\nGeofoto d.o.o.\nMestni trg 6\n3210 Slovenske Konjice\nE: info@geofoto.si\nPE Rogaška Slatina\nGeofoto d.o.o.\nGubčeva ul. 2\n3250 Rogaška Slatina\nE: info-rs@geofoto.si\nKdo smo?\nDanes se podjetje uvršča v vrh slovenskih ponudnikov geodetskega inženiringa in geoinformacijskih storitev tako po številu zaposlenih kot tudi po strokovnosti in usposobljenosti kadra. Z multidisciplinarnim pristopom izvajamo celovit spekter svetovalnih in izvedbenih geodetskih storitev na področju nepremičnin, infrastrukture in prostora. Sodelujemo v vseh fazah investicijskih procesov, od načrtovanja, gradnje stavb in objektov gospodarske javne infrastrukture do evidentiranja nepremičnin in ureditve lastništva. Našim strokovno izvedenim storitvam zaupajo številne ustanove državne in javne uprave, podjetja in nenazadnje zasebni naročniki, ki se k nam redno vračajo po strokovne nasvete.\nVabimo Vas, da nas obiščete v prostorih na Mariborski cesti 5 v Slovenski Bistrici, Mestni trg 6 v Slovenskih Konjicah ali na Gubčevi ulici 2 v Rogaški Slatini, ali nas pokličete oz. nam pišete .\nZaposleni\nV podjetju Geofoto d.o.o. število zaposlenih od njegove ustanovitve vseskozi raste in je trenutno pri številki 17. Velika večina nas je geodetov, v naših vrstah pa najdete tudi informatika, gradbenika in ekonomistko. Sedem zaposlenih ima opravljen strokovni izpit za opravljanje geodetskih storitev. Redno sodelujemo tudi s študenti Fakultete za gradbeništvo in geodezijo, ki lahko znanje, pridobljeno v okviru študija, pri nas uporabijo še v praksi.\nDIREKTOR\nmag.Aljaž Lesjak\nuniv. dipl. inž. geod.\nE: aljaz.lesjak[@]geofoto.si\nT: 051 663 798\nSODNO IZVEDENIŠTVO\nBranko Novak\ninž. geod.\nE: branko.novak[@]geofoto.si\nT: 02 840 13 40\nGIS, KARTOGRAFIJA\nRenata Novak\ninž. rač.\nE: renata.novak[@]geofoto.si\nT: 031 541 203\nTAJNIŠTVO\nBojana Kidrič\ndipl.ekon.\nE: tajnistvo[@]geofoto.si\nT: 02 840 13 40\nKATASTER\nMatic Fuhrer\nuniv. dipl. inž. geod.\nE: matic.fuhrer[@]geofoto.si\nT: 041 310 311\nMarija Korže\ngeod. teh.\nE: marija.korze[@]geofoto.si\nT: 02 840 13 40\nJerneja Marinšek\ndipl. inž. geod\nE: jerneja.marinsek[@]geofoto.si\nT: 051 663 330\nPeter Žličar\nuniv.dipl.inž.geod.\nE: peter.zlicar[@]geofoto.si\nT: 041 220 322\nLovro Smogavec\nuniv.dipl.inž.geod.\nE: lovro.smogavec[@]geofoto.si\nT: 031 870 391\nŠpela Šega\nuniv.dipl.inž.geod.\nE: spela.sega[@]geofoto.si\nT: 02 840 13 40\nKlemen Stoporko\nmag.inž.geod.geoinf.\nE: klemen.stoporko[@]geofoto.si\nT: 040 651 866\nTomaž Fekonja\nuniv.dipl.inž.geod.\nE: tomaz.fekonja[@]geofoto.si\nT: 02 840 13 40\nPatricija Vrhovšek\nmag.inž.geod.geoinf.\nE: patricija.vrhovsek[@]geofoto.si\nT: 051 663 330\nGEODETSKI NAČRTI\nPrimož Kuperti\ngradb.teh.\nE: primoz.kuperti[@]geofoto.si\nT: 02 840 13 40\nSuzana Lah\ngeod. teh.\nE: suzana.lah[@]geofoto.si\nT: 02 840 13 40\nUroš Jelenko\nE: uros.jelenko[@]geofoto.si\nT: 02 840 13 40\nINŽENIRSKA GEODEZIJA, FOTOGRAMETRIJA, SKENIRANJE, MODELIRANJE\nJaka Kotnik\nuniv. dipl. inž. geod.\nE: jaka.kotnik[@]geofoto.si\nT: 051 391 438\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/fotkeozadje/o-podjetju-cover.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/kontakt",
+   "koncni_url": "https://www.geofoto.si/kontakt",
+   "title": "GEOFOTO || Kontakt",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "Pošljite povpraševanje",
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 183,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nKontakt\nPošljite povpraševanje ali nam pišite za dodatne informacije o naših storitvah.\nDomov\nKontakt\nSedež podjetja\nGeofoto d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nE: info@geofoto.si\nPE Slovenske Konjice\nGeofoto d.o.o.\nMestni trg 6\n3210 Slovenske Konjice\nE: info@geofoto.si\nPE Rogaška Slatina\nGeofoto d.o.o.\nGubčeva ul. 2\n3250 Rogaška Slatina\nE: info-rs@geofoto.si\nPošljite povpraševanje\nIme in priimek *\nPodjetje\nGSM\nE-naslov *\nSporočilo *\nKontakti zaposlenih\nPošlji povpraševanje\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/fotkeozadje/kontakt-cover.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/lasersko-skeniranje.php",
+   "koncni_url": "https://www.geofoto.si/lasersko-skeniranje.php",
+   "title": "GEOFOTO",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [
+    "NAŠE STORITVE",
+    "Pošljite povpraševanje",
+    "Aktualno"
+   ],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 253,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nInženirska geodezija\nKadar mora biti zares natančno!\nLasersko skeniranje\nMetoda skeniranja omogoča zajem velike količine podatkov v kratkem času.\nAerofotogrametrija\nFotogrametrija je veda pridobivanja informacij o iz fotografij.\nGIS\nRazvoj prostorsko-informacijskih sistemov po meri naročnika.\nNAŠE STORITVE\nPrikaži vse storitve\nINŽENIRSKA\nGEODEZIJA\nZEMLJIŠKI\nKATASTER\nLASERSKO\nSKENIRANJE\nBLIŽJESLIKOVNA\nFOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO\nIZVEDENIŠTVO\nPošljite povpraševanje\nPošljite povpraševanje in z veseljem se vam bomo posvetili.\nNa podlagi dvajset in več letnih izkušenj z vodenjem ter izvedbo zahtevnih projektov, vam bomo podali ustrezno ponudbo.\nPOŠLJITE POVPRAŠEVANJE\nAktualno\nGeodetski načrti in evidentiranje stavb // 13.12.2020\nV zimskem času, ko vsi razmišljajo le o oddihu na morju, smo za vas pripravili posebne akcijske cene geodetskih načrtov.\nNovi prostri v Slovenskih Konjicah // 21.9.2020\nZa Vas smo postali še dostopnejši. Odprli smo poslovno enoto v Slovenskih Konjicah, na naslovu Mestni trg 6. Vabljeni!\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slide-1.jpg",
+     "izvor": [
+      "poster",
+      "poster~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/prizma_JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/Vinica_1_J_B.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/slides-fin-5JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/GIS_slika.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slides-fin-2.jpg",
+     "izvor": [
+      "css",
+      "css~koren"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/aerofotogrametrija.php",
+   "koncni_url": "https://www.geofoto.si/aerofotogrametrija.php",
+   "title": "GEOFOTO",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [
+    "NAŠE STORITVE",
+    "Pošljite povpraševanje",
+    "Aktualno"
+   ],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 253,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nInženirska geodezija\nKadar mora biti zares natančno!\nLasersko skeniranje\nMetoda skeniranja omogoča zajem velike količine podatkov v kratkem času.\nAerofotogrametrija\nFotogrametrija je veda pridobivanja informacij o iz fotografij.\nGIS\nRazvoj prostorsko-informacijskih sistemov po meri naročnika.\nNAŠE STORITVE\nPrikaži vse storitve\nINŽENIRSKA\nGEODEZIJA\nZEMLJIŠKI\nKATASTER\nLASERSKO\nSKENIRANJE\nBLIŽJESLIKOVNA\nFOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO\nIZVEDENIŠTVO\nPošljite povpraševanje\nPošljite povpraševanje in z veseljem se vam bomo posvetili.\nNa podlagi dvajset in več letnih izkušenj z vodenjem ter izvedbo zahtevnih projektov, vam bomo podali ustrezno ponudbo.\nPOŠLJITE POVPRAŠEVANJE\nAktualno\nGeodetski načrti in evidentiranje stavb // 13.12.2020\nV zimskem času, ko vsi razmišljajo le o oddihu na morju, smo za vas pripravili posebne akcijske cene geodetskih načrtov.\nNovi prostri v Slovenskih Konjicah // 21.9.2020\nZa Vas smo postali še dostopnejši. Odprli smo poslovno enoto v Slovenskih Konjicah, na naslovu Mestni trg 6. Vabljeni!\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slide-1.jpg",
+     "izvor": [
+      "poster",
+      "poster~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/prizma_JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/Vinica_1_J_B.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/slides-fin-5JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/GIS_slika.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slides-fin-2.jpg",
+     "izvor": [
+      "css",
+      "css~koren"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/inzenirskageodezija",
+   "koncni_url": "https://www.geofoto.si/storitve/inzenirskageodezija",
+   "title": "GEOFOTO || INŽENIRSKA GEODEZIJA",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [
+    "Pred gradnjo: geodetski načrt in zakoličba objekta",
+    "Med gradnjo in po končani gradnji",
+    "Geodetski monitoring",
+    "Niveliranje"
+   ],
+   "jsonld_tipi": [],
+   "st_besed": 552,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nInženirska geodezija\nINŽENIRSKA GEODEZIJA\nZEMLJIŠKI KATASTER\nLASERSKO SKENIRANJE\nBLIŽJESLIKOVNA FOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO IZVEDENIŠTVO\nDomov\nStoritve\nInženirska geodezija\nGeodeti smo s svojimi poznavanjem prostora prisotni na vseh gradbiščih . Smo prvi, ki stopimo na gradbišče in zadnji, ki ga zapustimo. Sodelujemo pri izvedbi preciznih geodetskih opazovanj (monitoring) z namenom ugotovitev morebitnih premikov in deformacij, izredno natančno določamo absolutne in relativne višine z metodo niveliranja itd.\nPred gradnjo: geodetski načrt in zakoličba objekta\nGeodetski načrt je prikaz fizičnih struktur in pojavov na zemeljskem površju, nad in pod njim v pomanjšanem merilu po kartografskih pravilih. Geodetski načrt lahko vsebuje podatke o reliefu, vodah, rastlinstvu, stavbah, gradbenih inženirskih objektih, rabi zemljišč, zemljepisnih imenih, geodetskih točkah, zemljiških parcelah*, administrativnih mejah in drugih fizičnih strukturah in pojavih. Geodetski načrt je sestavljen iz grafičnega dela geodetskega načrta in certifikata geodetskega načrta.\nGeodetski načrti glede na njihov namen:\ngeodetski načrt za pripravo projektne dokumentacije za graditev objekta\ngeodetski načrt novega stanja zemljišča\ngeodetski načrt za pripravo lokacijskega načrta\nPred začetkom gradnje novega objekta, za katerega je predpisano gradbeno dovoljenje, mora izvajalec poskrbeti tudi za zakoličenje objekta . Zakoličenje objekta se izvede v skladu s pogoji, določenimi v gradbenem dovoljenju.Zakoličenje objekta se izvede kot geodetska storitev po predpisih o geodetski dejavnosti. Zakoličenje izvede geodet, ki izpolnjuje pogoje, določene z geodetskimi predpisi. Pri zakoličenju je lahko prisoten tudi pooblaščeni predstavnik občine. O zakoličenju objekta se v skladu z geodetskimi predpisi izdela poseben zakoličbeni načrt, na podlagi katerega je omogočeno zakoličenje objekta v skladu s pogoji iz gradbenega dovoljenja. Zakoličbeni načrt podpišeta odgovorni geodet in izvajalec, lahko pa tudi pooblaščeni predstavnik občine, če je pri zakoličenju navzoč.\nMed gradnjo in po končani gradnji\nMed samo gradnjo geodeti sodelujemo z zakoličbo posameznih delov objektov, kontrolnimi meritvami, geodetskim nadzorom gradnje objekta itd.\nPo končani gradnji pa z izdelavo geodetskega načrta novega stanja, geodetskim monitoringom in evidentiranjem objekta v uradne evidence.\nGeodetski monitoring\nV živlenjskem ciklusu objektov je zaradi različnih dejavnikov potrebno njihovo periodično ali intervalno spremljanje. Pravočasno odkrivanje neželenih premikov ali deformacij nam namreč omogoča sprejemanje ustreznih ukrepov in s tem zmanjša stroške morebitnih večjih rekonstrukcijskih del.\nGeodetski monitoring se lahko izvaja periodično (namestitev opreme v okolici objekta in njegovo spremljanje v realnem času) ali intervalno (v vnaprej določenih intervalih). Za izvajanje geodetskega monitoringa je potrebna specializirana oprema, ki obsega precizen merski instrumentarij in kakovosten pomožni pribor, saj so rezultati velikostnega razreda manj kot 1mm.\nNiveliranje\nNiveliranje je najnatančenjša metoda določanja relativnih oz. absolutnih višin. Omogoča nam prenos višin več kilometrov daleč (nivelmanska mreža je razvejana po celotni državi) z veliko natančnostjo, na drugi strani pa se precej uporablja v industriji za spremljanje minimalnih premikov (nekaj stotink milimetra).\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Inzenirska_geodezija/gn.JPG",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Inzenirska_geodezija/zakolicba.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Inzenirska_geodezija/prizma.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Inzenirska_geodezija/lata.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/files/slider/Inzenirska_geodezija/Inzenir_1_JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/zemljiski-kataster",
+   "koncni_url": "https://www.geofoto.si/storitve/zemljiski-kataster",
+   "title": "GEOFOTO || ZEMLJIŠKI KATASTER",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [
+    "Na nas se lahko obrnete, če potrebujete...",
+    "Ureditev meje",
+    "Parcelacijo",
+    "Izravnavo meje",
+    "Označitev meje",
+    "Pridobitev hišne številke",
+    "Vpis zemljišča pod stavbo",
+    "Vpis stavbe v kataster stavb"
+   ],
+   "jsonld_tipi": [],
+   "st_besed": 300,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nEvidentiranje nepremičnin\nZemljiški kataster, kataster stavb, register nepremičnin,...\nINŽENIRSKA GEODEZIJA\nZEMLJIŠKI KATASTER\nLASERSKO SKENIRANJE\nBLIŽJESLIKOVNA FOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO IZVEDENIŠTVO\nDomov\nStoritve\nEvidentiranje nepremičnin\nV podjetju Geofoto d.o.o. imamo dolgoletne izkušnje z izvajanjem geodetskih storitev. Vse od naše ustanovitve (leta 1994), smo prisotni na trgu urejanja nepremičninskih evidenc. Naš pečat smo pustili pri mnogih projektih državnega pomena (izgradnja cestne in železniške infrastrukture, gradnja hidroenergetskih objektov,...), kakor tudi pri vsakodnevnih manjših geodetskih storitvah, kot so ureditve meje, parcelacije, izravnave mej, evidentiranja stavb, itd.\nNa nas se lahko obrnete, če potrebujete...\nUreditev meje\nUreditev meje je postopek, v katerem se ugotavlja\npotek parcelnih mej\nParcelacijo\nParcelacija je postopek združitve ali delitve parcel\nIzravnavo meje\nIzravnava meje je postopek, pri katerem izravnamo\nurejen del meje med dvema parcelama\nOznačitev meje\nOznačitev meje je postopek, v katerem z mejnimi\nznamenji označimo že urejeno mejo\nPridobitev hišne številke\nUredimo vse potrebno za pridobitev hišne številke\nVpis zemljišča pod stavbo\nUredimo vse potrebno za vpis zemljišča pod stavbo\nVpis stavbe v kataster stavb\nUredimo vse potrebno za vpis stavbe v kataster stavb\nin spremembo podatkov v katastru stavb\nPošlji povpraševanje\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/fotkeozadje/zem-kataster-banner.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/lasersko-skeniranje",
+   "koncni_url": "https://www.geofoto.si/storitve/lasersko-skeniranje",
+   "title": "GEOFOTO || LASERSKO SKENIRANJE",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 320,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nLasersko skeniranje\nGeofoto d.o.o. je na slovenskem trgu prisotno že od davnega leta 1995,\nINŽENIRSKA GEODEZIJA\nZEMLJIŠKI KATASTER\nLASERSKO SKENIRANJE\nBLIŽJESLIKOVNA FOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO IZVEDENIŠTVO\nDomov\nStoritve\nLasersko skeniranje\nTerestrično lasersko skeniranje (TLS) je brezkontaktna metoda izmere, ki omogoča celovito zajemanje prostorskih podatkov. S 3D laserskim skenerjem v nekaj minutah z veliko natančnostjo in učinkovitostjo zajamemo milijone 3D točk in pri tem ne izpustimo nobene podrobnosti.\nBistvene prednosti TLS pred klasičnimi geodetskimi metodami zajema prostorskih podatkov so predvsem v:\nbrezkontaktnem zajemu podatkov (delovni proces ni moten, minimalni posegi v objekt, varno za operaterja),\nnatančnosti in celovitosti zajema (visoka detajlnost metričnih 3D modelov),\nhitrosti zajema (do milijonov točk v sekundi)\n3D lasersko skeniranje poleg geodezije in arhitekture poseglo še na mnoga druga področja. Prisotnost 3D laserskih skenerjev lahko opazimo tudi v forenziki, medicini, ladjedelništvu itd.\nNajpogostejši produkti 3D laserskega skeniranja so tako:\ndokumentiranje objektov kulturne dediščine,\nBIM - informacijsko modeliranje zgradb,\ntopografska ali detajlna izmera\ndigitalni modeli reliefa,\nizračuni volumnov zemeljskih mas,\nmonitoring deformacij,\nreverzno inženirstvo.\nDosedanji projekti:\nSkeniranje pretočnih traktov HE Brežice (in njihova primerjava s projektno dokumentacijo)\nSkeniranje gradu Vinica (dokumentiranje za potrebe kulturne dediščine)\nSkeniranje plašča rezervoarja za tekoče tovore (Luka Koper)\nSkeniranje proizvodnih prostorov in izdelava načrtov v podjetju IMPOL\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/skeniranje/skeniranje_2.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/skeniranje/Petkov_mlin.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Vinica_1__1.JPG",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/aerofotogrametrija",
+   "koncni_url": "https://www.geofoto.si/storitve/aerofotogrametrija",
+   "title": "GEOFOTO || BLIŽJESLIKOVNA FOTOGRAMETRIJA",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "Digitalni ortofoto (DOF)",
+    "Digitalni model reliefa (DMR)",
+    "3D modeli objektov",
+    "UAV video",
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 379,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nAerofotogrametrija\nFotogrametrija je veda pridobivanja informacij o realnem svetu iz fotografij.\nINŽENIRSKA GEODEZIJA\nZEMLJIŠKI KATASTER\nLASERSKO SKENIRANJE\nBLIŽJESLIKOVNA FOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO IZVEDENIŠTVO\nDomov\nStoritve\nAerofotogrametrija\nFotogrametrija je veda pridobivanja informacij o realnem svetu iz fotografij. V današnjem svetu zmogljivih digitlnih fotoaparatov je zelo napredovala tehnologija bližjeslikovne fotogrametrije. Pri tem je fotoaparat lahko pritrjen na stativ, lahko ga držimo v roki, lahko pa ga namestimo tudi na brezpilotno zražno plovilo (UAV). V tem primeru govorimo o zračni (aero) fotogrametriji. Ob upoštevanju pravil fotografiranja in s kasnejšim procesiranjem zajetih fotografij, dobimo različne fotogrametrične izdelke, kot so 3D modeli objektov, digitalni ortofoto mozaik, digitalni model reliefa (DMR), oblak točk itd...\nDigitalni ortofoto (DOF)\nOrtofoto načrt združuje lastnosti fotografije (po vsebini) in načrta (v metričnem smislu). Zaradi kombinacije teh dveh nosilcev informacij je ortofoto idealna podlaga za vse, ki kakorkoli obdelujejo prostor.\nDigitalni model reliefa (DMR)\nDigitalni model reliefa je 3D predstavitev zemeljskega površja. Uporabljamo ga pri izdelavi digitalnega ortofota, projektiranju dolžinskih objektov in hidrotehničnih posegov, izdelavi kart itn... Podatke za izdelavo DMR-ja običajno dobimo z množičnim zajemom prostorskih podatkov (fotogrametrija ali lasersko skeniranje), lahko pa se poslužujemo klasičnih geodetskih metod izmere.\n3D modeli objektov\nZ uporabo bližjeslikovne fotogrametrije lahko izdelamo 3D modele objektov. Pri tem nismo omejeni le na enostavne objekte. Lastna brezpilotna plovila nam omogoča celostno fotografiranje objekta, ne glede na njegovo višino ali druge fizične omejitve.\nGrad SLivnica - KIPEC by jaka.kotnik on Sketchfab\nUAV video\nZ uporabo brezpilotnih letalnikov, ki so posebej prirejeni za video zajem, lahko sodelujemo pri različnih projektih (periodični monitoring pri gradnji, reklamni oz. promocijski posnetki, ...)\nPošlji povpraševanje\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/fotkeozadje/slides-fin-5.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/gis",
+   "koncni_url": "https://www.geofoto.si/storitve/gis",
+   "title": "GEOFOTO || GIS",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 260,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nGIS\nGeofoto d.o.o. je na slovenskem trgu prisotno že od davnega leta 1995\nINŽENIRSKA GEODEZIJA\nZEMLJIŠKI KATASTER\nLASERSKO SKENIRANJE\nBLIŽJESLIKOVNA FOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO IZVEDENIŠTVO\nDomov\nStoritve\nGIS\nGeografski informacijski sistem (GIS) je skupek strojne in programske opremo ter postopkov, ki obsegajo zajemanje, upravljanje, analiziranje in prikazovanje vseh oblik geografsko referenčnih informacij. GIS omogoča ogled, razumevanje, razlaganje in vizualizacijo podatkov na veliko načinov, ki razkrivajo odnose, vzorce in trende v obliki zemljevidov, globusov, poročil in kart.\nProces vzpostavitve geografsko informacijskega sistema je v veliki meri odvisen od kvalitete in kvantitete zajetih terenskih podatkov. V Sloveniji za vzdrževanje in vzpostavljanje evidenc terenskih podatkov skrbi Geodetska uprava RS, kjer so vsi podatki javno dostopni; pridobimo lahko podatke okatastrskem stanju, gospodarski javni infrastrukturi, aeroposnetkih, reliefu, varovanih območjih itd. Zaradi specifičnosti del posameznih naročnikov izvajamo tudi terenski zajem podatkov s tehnologijo GPS, izvajamo vektorizacijo analognih kartografskih podlag itd.\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/gis-thumb-1.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": "sklop1"
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/gis-thumb-2.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": "sklop1"
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/fotkeozadje/gis-banner.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/kartografija",
+   "koncni_url": "https://www.geofoto.si/storitve/kartografija",
+   "title": "GEOFOTO || KARTOGRAFIJA",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "Izdelava predstavitvenih filmov",
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [
+    "IZDELAVA KLASIČNIH KART"
+   ],
+   "jsonld_tipi": [],
+   "st_besed": 360,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nKartografija\nKartografíja je znanstvena veda, ki se ukvarja s proučevanjem, metodami in procesom konstruiranja in\nINŽENIRSKA GEODEZIJA\nZEMLJIŠKI KATASTER\nLASERSKO SKENIRANJE\nBLIŽJESLIKOVNA FOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO IZVEDENIŠTVO\nDomov\nStoritve\nKartografija\nKartografíja je znanstvena veda, ki se ukvarja s proučevanjem, metodami in procesom konstruiranja in sestavljanja zemljevidov. Proučuje zgodovino, sistematiko, klasifikacijo, tehnike sestavljanja, risanja in izdelovanja zemljevidov. Namen kartografije ni le tehnična izdelava in reprodukcija kart. Raziskuje in preučuje tudi prikazovanje površja, pojavov in drugih podatkov o zemeljskem površju ali površju drugih nebesnih teles (planetov, satelitov) na kartah. Pri kartografiji je poleg osnovnih matematičnih zakonov o prenosu zemeljskega površja na ravno ploskev in metod prikazovanja, pomemben tudi zunanji videz izdelka. Karta je namenjena vizualni uporabi, zato se morajo upoštevati tudi umetnostni principi.\nIZDELAVA KLASIČNIH KART\nZ uporabo sodobnih kartografskih programskih paketov izdelujemo:\nobčinske karte,\nmestne karte,\nplaninske karte,\n3D panoramske karte in\nostale karte s poljubno tematiko.\nIzdelava predstavitvenih filmov\nPotek izdelave sodobne karte je neposredno povezan z izdelavo trirazsežnega (3R) kartografskega modela, ki je osnova za izdelavo kratkih predstavitvenih filmov - preletov čez mesto, občino, zasnov predvidenih naselij itd.Takšne tehnike prikazovanja se uporabljajo za potrebe prostorskega načrtovanja, najrazličnejših predstavitev zasnov novih stanovanjskih sosesk, razvoja občin in mestnih jeder skozi čas itd. Raziskave so pokazale, da ima 80 % celotne populacije težave pri ustvarjanu 3R podobe v možganih na osnovi znakovno izdelanega načrta v dveh dimenzijah, zato kot pomoč pri odločitvah o načrtovanih posegih v prostoru služi kvalitetno izdelana 3R vizualizacija predvidenega kompleksa oz. objekta.\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/sample-thumb-white.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/fotkeozadje/kartografija-banner.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/hidrografija",
+   "koncni_url": "https://www.geofoto.si/storitve/hidrografija",
+   "title": "GEOFOTO || HIDROGRAFIJA",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 147,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nHidrografija\nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quo incidunt maxime aspernatur!.\nINŽENIRSKA GEODEZIJA\nZEMLJIŠKI KATASTER\nLASERSKO SKENIRANJE\nBLIŽJESLIKOVNA FOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO IZVEDENIŠTVO\nDomov\nStoritve\nHidrografija\nStran v izdelavi!\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/fotkeozadje/hidro-banner.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/sodnoizvedenistvo",
+   "koncni_url": "https://www.geofoto.si/storitve/sodnoizvedenistvo",
+   "title": "GEOFOTO || SODNO IZVEDENIŠTVO",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 451,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nINŽENIRSKA GEODEZIJA\nZEMLJIŠKI KATASTER\nLASERSKO SKENIRANJE\nBLIŽJESLIKOVNA FOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO IZVEDENIŠTVO\nDomov\nStoritve\nSodišče k delu pritegne sodnega izvedenca ali sodnega cenilca, če je za ugotovitev ali razjasnitev kakšnega dejstva potrebno strokovno znanje, s katerim sodišče ne razpolaga (243. člen Zakona o pravdnem postopku, podobno 248. člen Zakona o kazenskem postopku). Sodni izvedenec oziroma sodni cenilec je torej strokovni pomočnik sodišča . Že iz teh treh besed se da izluščiti vse bistvene značilnosti pristojnosti, nalog in dela sodnega izvedenca.\nSodni izvedenci oziroma cenilci so del pravosodnega sistema. Njihov položaj je tozadevno primerljiv s položajem npr. odvetnikov, notarjev ali izvršiteljev. Vsi navedeni sicer niso javni uslužbenci ali funkcionarji, vendar opravljajo pomembne uradne naloge v okviru pravosodja (in deloma tudi izven pravosodja, po naročilu strank, vendar z večjo \"težo,\" kot če bi te naloge opravila oseba, ki nima tega statusa). Ta svoj položaj oziroma status mora izvedenec oziroma cenilec upoštevati vselej, kadar opravlja svoje naloge po naročilu sodišča (pa tudi sicer).\nNaloge sodnega izvedenca so:\nodgovarja na vprašanja, ki mu jih je zastavilo sodišče (in ne stranke postopka, njihovi odvetniki, delodajalec itd.). Če pri svojem delu potrebuje dodatne napotke, pojasnila, usmeritve, dokumentacijo, se prav tako obrne na sodišče (izjema - sploh ne redka - je, kadar sodišče v sklepu o postavitvi izvedenca pooblasti, da sam pridobi določeno dokumentacijo).\nizvedenec je strogo nevtralen, nepristranski in neodvisen. Četudi je morda stranka tista, ki bo na koncu plačala njegovo delo, to nikakor ne sme vplivati na izvedenčevo pristranost.\npoda mnenje pri katerem mora, enako kot sodnik, ves čas ohranjati strogo nevtralno držo in se izogibati vrednostnih sodb. Čeprav bo mnenje najpogosteje v korist ene od strank v postopku in torej v škodo drugi, mora biti ta opredelitev utemeljena zgolj na strokovnih, znanstvenih kriterijih. Nevtralnost in nepristranskost je treba ohranjati tudi v odnosu do sodišča.\nV določenih primerih stranka ne more navesti pravno odločilnih dejstev oziroma ne more postaviti ustrezne trditvene podlage, če pred pravdo ne angažira izvedenca ustrezne stroke s pomočjo mnenja katerega nato oblikuje svoje (praviloma tožbene) trditve.\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/sodisce.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/files/fotkeozadje/reference-cover.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/o-podjetju/zaposleni",
+   "koncni_url": "https://www.geofoto.si/o-podjetju/zaposleni",
+   "title": "GEOFOTO",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [
+    "NAŠE STORITVE",
+    "Pošljite povpraševanje",
+    "Aktualno"
+   ],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 253,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nInženirska geodezija\nKadar mora biti zares natančno!\nLasersko skeniranje\nMetoda skeniranja omogoča zajem velike količine podatkov v kratkem času.\nAerofotogrametrija\nFotogrametrija je veda pridobivanja informacij o iz fotografij.\nGIS\nRazvoj prostorsko-informacijskih sistemov po meri naročnika.\nNAŠE STORITVE\nPrikaži vse storitve\nINŽENIRSKA\nGEODEZIJA\nZEMLJIŠKI\nKATASTER\nLASERSKO\nSKENIRANJE\nBLIŽJESLIKOVNA\nFOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO\nIZVEDENIŠTVO\nPošljite povpraševanje\nPošljite povpraševanje in z veseljem se vam bomo posvetili.\nNa podlagi dvajset in več letnih izkušenj z vodenjem ter izvedbo zahtevnih projektov, vam bomo podali ustrezno ponudbo.\nPOŠLJITE POVPRAŠEVANJE\nAktualno\nGeodetski načrti in evidentiranje stavb // 13.12.2020\nV zimskem času, ko vsi razmišljajo le o oddihu na morju, smo za vas pripravili posebne akcijske cene geodetskih načrtov.\nNovi prostri v Slovenskih Konjicah // 21.9.2020\nZa Vas smo postali še dostopnejši. Odprli smo poslovno enoto v Slovenskih Konjicah, na naslovu Mestni trg 6. Vabljeni!\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/o-podjetju/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img~koren",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/o-podjetju/images/slide-1.jpg",
+     "izvor": [
+      "poster"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slide-1.jpg",
+     "izvor": [
+      "poster~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/prizma_JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/Vinica_1_J_B.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/slides-fin-5JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/GIS_slika.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/o-podjetju/images/slides-fin-2.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slides-fin-2.jpg",
+     "izvor": [
+      "css~koren"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/aerofotogrametrija.php",
+   "koncni_url": "https://www.geofoto.si/storitve/aerofotogrametrija.php",
+   "title": "GEOFOTO",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [
+    "NAŠE STORITVE",
+    "Pošljite povpraševanje",
+    "Aktualno"
+   ],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 253,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nInženirska geodezija\nKadar mora biti zares natančno!\nLasersko skeniranje\nMetoda skeniranja omogoča zajem velike količine podatkov v kratkem času.\nAerofotogrametrija\nFotogrametrija je veda pridobivanja informacij o iz fotografij.\nGIS\nRazvoj prostorsko-informacijskih sistemov po meri naročnika.\nNAŠE STORITVE\nPrikaži vse storitve\nINŽENIRSKA\nGEODEZIJA\nZEMLJIŠKI\nKATASTER\nLASERSKO\nSKENIRANJE\nBLIŽJESLIKOVNA\nFOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO\nIZVEDENIŠTVO\nPošljite povpraševanje\nPošljite povpraševanje in z veseljem se vam bomo posvetili.\nNa podlagi dvajset in več letnih izkušenj z vodenjem ter izvedbo zahtevnih projektov, vam bomo podali ustrezno ponudbo.\nPOŠLJITE POVPRAŠEVANJE\nAktualno\nGeodetski načrti in evidentiranje stavb // 13.12.2020\nV zimskem času, ko vsi razmišljajo le o oddihu na morju, smo za vas pripravili posebne akcijske cene geodetskih načrtov.\nNovi prostri v Slovenskih Konjicah // 21.9.2020\nZa Vas smo postali še dostopnejši. Odprli smo poslovno enoto v Slovenskih Konjicah, na naslovu Mestni trg 6. Vabljeni!\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/storitve/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img~koren",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/storitve/images/slide-1.jpg",
+     "izvor": [
+      "poster"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slide-1.jpg",
+     "izvor": [
+      "poster~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/prizma_JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/Vinica_1_J_B.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/slides-fin-5JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/GIS_slika.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/storitve/images/slides-fin-2.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slides-fin-2.jpg",
+     "izvor": [
+      "css~koren"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/zemljiski-kataster/ureditev_meje",
+   "koncni_url": "https://www.geofoto.si/storitve/zemljiski-kataster/ureditev_meje",
+   "title": "GEOFOTO || Ureditev meje",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [
+    "Ureditev meje",
+    "Kaj je ureditev meje?",
+    "Kdaj in zakaj potrebujemo ureditev meje?",
+    "Kako poteka postopek ureditev meje?"
+   ],
+   "jsonld_tipi": [],
+   "st_besed": 563,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nUreditev meje\nKo ne veste, do kam segajo meje vaše parcele...\nDomov\nUreditev meje\nUreditev meje\nUreditev meje je postopek, v katerem se urejajo meje parcele. Postopek izvaja geodetsko podjetje kot geodetsko storitev. Upravni postopek evidentiranja urejene meje se uvede na zahtevo lastnika, kateregakoli solastnika ali skupnega lastnika parcele.\nZahteva za uvedbo postopka evidentiranja urejene meje se vloži na Geodetski upravi RS. Zahtevi je potrebno priložiti elaborat ureditve meje, ki ga izdela geodetsko podjetje z dovoljenjem za izvajanje geodetskih storitev.\nKaj je ureditev meje?\nUreditev meje je postopek, v katerem se urejajo meje parcele. Postopek izvaja geodetsko podjetje kot geodetsko storitev. Upravni postopek evidentiranja urejene meje se uvede na zahtevo lastnika, kateregakoli solastnika ali skupnega lastnika parcele.\nZahteva za uvedbo postopka evidentiranja urejene meje se vloži na Geodetski upravi RS. Zahtevi je potrebno priložiti elaborat ureditve meje, ki ga izdela geodetsko podjetje z dovoljenjem za izvajanje geodetskih storitev.\nKdaj in zakaj potrebujemo ureditev meje?\nPostopek ureditve meje potrebujete, kdar se s sosedom ne morete sporazumeti glede poteka meje oz. v primeru, da ne veste, kje v naravi poteka meja vaše parcele. Po končane postopku ureditve meje natančno vemo, kje potekajo meje naše parcele, kolikšna je površina parcele, itd. S tem lahko komurkoli dokažemo svoje lastništvo in se posledično izognemo morebitnim sporom s sosedi.\nKako poteka postopek ureditev meje?\nGeodetsko storitev ureditve meje lahko naroči katerikoli lastnik, solastnik, skupni lastnik ali pridobitelj parcele, katere meje urejamo. Ob naročilu storitve se z naročnikom dogovorimo, na kateri parceli in v kateri katastrski občini se bo izvajal postopek ureditve meje.\nGeodetsko podjetje izpelje pripravo na mejno obravnavo:\npreveri lastništvo na parcelah\nrazpiše termin mejne obravnave in\npovabi vse lastnike nepremičnin na mejno obravnavo).\nNa mejni obravnavi lastniki parcele, katere meje urejamo, in lastniki sosednjih parcel pokažejo meje v naravi. Če zahtevajo, jim geodet pokaže potek meje po podatkih zemljiškega katastra in jih opozori na stopnjo natančnosti katastrskih podatkov. Geodet torej predstavi predlog meje, ki izhaja iz podatkov zemljiškega katastra.\nČe se pokazane meje in predlagana meja ne razlikujejo in vsi lastniki parcel soglašajo s potekom meje, geodet pokazano mejo izmeri in jo prikaže v elaboratu ureditve meje kot predlagano mejo. Na željo lastnikov lahko mejo v naravi označi s trajnimi znamenji ali mejniki.\nČe se pokazane meje in predlagana meja razlikujejo oz. vsi lastniki parcel ne soglašajo s potekom predlagane meje, si geodet prizadeva za dosego sporazuma med lastniki. Če katerikoli lastnik zavrne, da bi pokazal svoj potek meje, se šteje, da soglaša s predlagano mejo. Geodet izmeri in v elaboratu ureditve meje prikaže predlagano mejo in vse pokazane meje.\nO postopku mejne obravnave vodimo zapisnik, zato morajo v postopku sodelovati vsi lastniki parcele, katere mejo urejamo, in tudi lastniki sosednjih parcel.\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/fotkeozadje/Evidentiranje/IMG_20170304_154651.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/zemljiski-kataster/parcelacija",
+   "koncni_url": "https://www.geofoto.si/storitve/zemljiski-kataster/parcelacija",
+   "title": "GEOFOTO || Parcelacija",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 332,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nDomov\nMeja parcele se lahko spremeni s parcelacijo, v postopku parcelacije, ki ga izvaja geodetsko podjetje v okviru geodetske storitve. Parcelacija je združitev parcel in delitev parcele.\nDelitev parcele je oblikovanje dveh ali več parcel iz ene parcele. Primer delitve parcel pred delitvijo in po delitvi:\nZdružitev parcel je oblikovanje ene parcele iz dveh ali več parcel, ki imajo enako pravno stanje glede lastninske pravice.\nPrimer združitve parcel pred združitvijo in po njej:\nNove parcele, nastale s parcelacijo, in njihove meje se evidentirajo v zemljiškem katastru na podlagi upravnega postopka. Zahtevo za uvedbo postopka evidentiranja parcelacije lahko vloži lastnik parcele oziroma druga oseba, ki ima po zakonu pravico zahtevati parcelacijo. Zahtevi za uvedbo upravnega postopka evidentiranja parcelacije je potrebno priložiti elaborat parcelacije, ki ga izdela geodetsko podjetje.\nPred evidentiranjem delitve parcele mora biti urejen del meje, ki se je dotika novi del meje, ki nastane z delitvijo. Postopek evidentiranja urejene meje in upravni postopek evidentiranja parcelacije se lahko izvedeta skupaj na podlagi enotnega elaborata, ki mora vsebovati sestavine elaborata ureditve meje in elaborata parcelacije.\nParcelacija se običajno izvede po želji strank, ko želite prodati ali podariti le del ene ali dele več posameznih parcel. Na območjih, ki so urejena s prostorskimi izvedbenimi akti pa je parcelacija možna samo na način, ki ga le ti določajo.\nPošlji povpraševanje\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Evidentiranje_nepremicnin/parc_2.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Evidentiranje_nepremicnin/parc_1.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Evidentiranje_nepremicnin/parc_4.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Evidentiranje_nepremicnin/parc_3.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/zemljiski-kataster/izravnava_meje",
+   "koncni_url": "https://www.geofoto.si/storitve/zemljiski-kataster/izravnava_meje",
+   "title": "GEOFOTO || Izravnava meje",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [
+    "Izravnava meje"
+   ],
+   "jsonld_tipi": [],
+   "st_besed": 220,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nDomov\nIzravnava meje\nPotek dokončne* meje, evidentirane v zemljiškem katastru, se lahko spremeni, če se lastnika sporazumeta o izravnavi meje in če meja v naravi poteka tako, da je onemogočena oziroma otežena uporaba\nali obdelava zemljišča. Pri tem se lahko površina parc\nele z manjšo površino spremeni za največ pet odstotkov, vendar ne za več kot 500 kvadratnih metrov.\nPostopek izravnave meje sestavljata tehnični in upravni del. Tehnični del postopka na podlagi naročila izvaja geodetsko podjetje, ki ima dovoljenje za opravljanje geodetskih storitev. Rezultat tehničnega dela postopka je elaborat izravnave meje, ki je strokovna podlaga za uvedbo upravnega dela postopka izravnave meje pri geodetski upravi.\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Evidentiranje_nepremicnin/izravnava.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/zemljiski-kataster/oznacitev_meje",
+   "koncni_url": "https://www.geofoto.si/storitve/zemljiski-kataster/oznacitev_meje",
+   "title": "GEOFOTO || Označitev meje",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 200,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nDomov\nUrejena meja se na zahtevo lastnika parcele označi v naravi z mejniki na podlagi podatkov zemljiškega katastra. To označitev izvede geodetsko podjetje in o času izvedbe obvesti lastnike sosednjih parcel.\nGeodetsko podjetje lahko označi mejo v naravi z mejniki takoj po mejni obravnavi, če tako zahteva lastnik parcele, in če lastniki sosednjih parcel soglašajo s predlagano mejo.\nO označitvi urejene meje v naravi geodetsko podjetje izdela tehnično poročilo in ga pošlje lastniku parcele, katere meja je bila označena, lastnikom sosednjih parcel in geodetski upravi.\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Evidentiranje_nepremicnin/oznaitev.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/zemljiski-kataster/pridobitev_hisne_stevilke",
+   "koncni_url": "https://www.geofoto.si/storitve/zemljiski-kataster/pridobitev_hisne_stevilke",
+   "title": "GEOFOTO || Pridobitev hišne številke",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 193,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nDomov\nV primeru, da gre za stavbo, ki ima po Zakonu o evidentiranju nepremičnin en del in je v lasti enega lastnika, geodetsko pojetje na zahtevo lastnika izdela elaborat evidentiranja stavbe. Elaborat evidentiranja stavbe ima sestavine elaborata za vpis zemljišča pod stavbo in sestavine elaborata vpisa stavbe v kataster stavb.\nEvidentiranje zemljišča pod stavbo v zemljiškem katastru in evidentiranje stavbe v katastru stavb sta pogoja, ki morata biti izpolnjena za pridobitev hišne številke.\nVeč o pridobitvi hišne številke.\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Evidentiranje_nepremicnin/HS.jpg",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/zemljiski-kataster/zps",
+   "koncni_url": "https://www.geofoto.si/storitve/zemljiski-kataster/zps",
+   "title": "GEOFOTO || Zemljišče pod stavbo",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 278,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nDomov\nZemljišče pod stavbo se v zemljiškem katastru evidentira v postopku evidentiranja zemljišča pod stavbo. Strokovna podlaga za uvedbo postopka evidentiranja zemljišča pod stavbo je elaborat za vpis zemljišča pod stavbo ali elaborat za evidentiranje stavbe, ki ga izdela geodetsko podjetje v postopku določitve zemljišča pod stavbo.\nZahtevo za uvedbo postopka evidentiranja zemljišča pod stavbo lahko poda lastnik zemljišča, imetnik stavbne pravice ali investitor gradnje. Če na zemljišču stoji večstanovanjska stavba, lahko zahtevo vloži tudi lastnik stavbe ali dela stavbe, uporabnik stavbe ali dela stavbe, ali upravnik stavbe.\nÄOe vlagatelj zahteva evidentiranje zemljišča pod stavbo, ki je v lasti enega lastnika in ima stavba po določbah Zakona o evidentiranju nepremičnin en del stavbe, je potrebno zahtevi za evidentiranje zemljišča pod stavbo priložiti elaborat za evidentiranje stavbe, ki vsebuje sestavine elaborata za vpis zemljišča pod stavbo in sestavine elaborata za vpis stavbe v kataster stavb. Geodetska uprava v tem primeru evidentira zemljišče pod stavbo v zemljiškem katastru, hkrati pa evidentira stavbo v katastru stavb.\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slike/Evidentiranje_nepremicnin/zps.JPG",
+     "izvor": [
+      "img",
+      "img~koren",
+      "src",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/storitve/zemljiski-kataster/kataster_stavb",
+   "koncni_url": "https://www.geofoto.si/storitve/zemljiski-kataster/kataster_stavb",
+   "title": "GEOFOTO || Kataster stavb",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 280,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nDomov\nKataster stavb je temeljna evidenca podatkov o stavbah in se povezuje z zemljiškim katastrom in zemljiško knjigo. V katastru stavb se evidentirajo podatki o stavbah* in delih stavb.\n*Stavba je objekt, v katerega lahko človek vstopi in je namenjen njegovemu stalnemu ali začasnemu prebivanju, opravljanju poslovne in druge dejavnosti ali zaščiti ter ga ni mogoče prestaviti brez škode za njegovo substanco. Posamezen del stavbe je prostor oziroma skupina prostorov v stavbi, ki se lahko samostojno pravno ureja. Kot del stavbe se v katastru stavb evidentirajo tudi skupni deli.\nPodatke o stavbi in delih stavbe mora posredovati geodetski upravi investitor gradnje najkasneje v 30 dneh po izvedbi vseh zaključnih gradbenih del oziroma ob začetku uporabe, če je ta pred zaključkom gradbenih del. Podatke o izvedenih spremembah mora posredovati lastnik, imetnik stavbne pravice ali upravnik v 30 dneh po izvedenih spremembah.\nStrokovna podlaga za uvedbo upravnega postopka vpisa stavbe v kataster stavb je elaborat vpisa stavbe v kataster stavb, ki ga izdela geodetsko podjetje ali projektant.\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "url": "https://www.geofoto.si/o-podjetju/lasersko-skeniranje.php",
+   "koncni_url": "https://www.geofoto.si/o-podjetju/lasersko-skeniranje.php",
+   "title": "GEOFOTO",
+   "description": null,
+   "robots": null,
+   "viewport": [
+    "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+   ],
+   "og_image": null,
+   "lang": "en",
+   "canonical": null,
+   "h1": [
+    "NAŠE STORITVE",
+    "Pošljite povpraševanje",
+    "Aktualno"
+   ],
+   "h2": [
+    "KONTAKT",
+    "STORITVE",
+    "O PODJETJU",
+    "DELOVNI ČAS"
+   ],
+   "h3": [],
+   "jsonld_tipi": [],
+   "st_besed": 253,
+   "besedilo": "Domov Storitve Reference O podjetju Kontakt\n02 840 13 40\ninfo@geofoto.si\n02 840 13 40\ninfo@geofoto.si\nDomov Storitve Reference O podjetju Kontakt\nInženirska geodezija\nKadar mora biti zares natančno!\nLasersko skeniranje\nMetoda skeniranja omogoča zajem velike količine podatkov v kratkem času.\nAerofotogrametrija\nFotogrametrija je veda pridobivanja informacij o iz fotografij.\nGIS\nRazvoj prostorsko-informacijskih sistemov po meri naročnika.\nNAŠE STORITVE\nPrikaži vse storitve\nINŽENIRSKA\nGEODEZIJA\nZEMLJIŠKI\nKATASTER\nLASERSKO\nSKENIRANJE\nBLIŽJESLIKOVNA\nFOTOGRAMETRIJA\nGIS\nKARTOGRAFIJA\nHIDROGRAFIJA\nSODNO\nIZVEDENIŠTVO\nPošljite povpraševanje\nPošljite povpraševanje in z veseljem se vam bomo posvetili.\nNa podlagi dvajset in več letnih izkušenj z vodenjem ter izvedbo zahtevnih projektov, vam bomo podali ustrezno ponudbo.\nPOŠLJITE POVPRAŠEVANJE\nAktualno\nGeodetski načrti in evidentiranje stavb // 13.12.2020\nV zimskem času, ko vsi razmišljajo le o oddihu na morju, smo za vas pripravili posebne akcijske cene geodetskih načrtov.\nNovi prostri v Slovenskih Konjicah // 21.9.2020\nZa Vas smo postali še dostopnejši. Odprli smo poslovno enoto v Slovenskih Konjicah, na naslovu Mestni trg 6. Vabljeni!\nKONTAKT\nSedež podjetja:\nGEOFOTO d.o.o.\nMariborska cesta 5\n2310 Slovenska Bistrica\nT: 02 840 13 40\nE: info@geofoto.si\nPE Slovenske Konjice:\nMestni trg 6\n3210 Slovenske Konjice\nT: 051 663 330\nE: info@geofoto.si\nPE Rogaška Slatina:\nGubčeva ulica 2\n3250 Rogaška Slatina\nE: info@geofoto.si\nSTORITVE\nLasersko skeniranje\nAerofotogrametrija\nGIS\nHidrografija\nKartografija\nInženirska geodezija\nZemljiški kataster\nO PODJETJU\nO nas\nReference\nKontakt\nDELOVNI ČAS\nPon: 7 - 15\nTor: 7 - 15\nSre: 7 - 16\nČet: 7 - 15\nPet: 7 - 14\n©2017 GEOFOTO D.O.O., Vse pravice pridržane Avtorji: Solve-X\nNaroči storitev",
+   "slike": [
+    {
+     "url": "https://www.geofoto.si/images/logo.png",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/o-podjetju/images/loader.GIF",
+     "izvor": [
+      "img",
+      "src"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/loader.GIF",
+     "izvor": [
+      "img~koren",
+      "src~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/o-podjetju/images/slide-1.jpg",
+     "izvor": [
+      "poster"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slide-1.jpg",
+     "izvor": [
+      "poster~koren"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/prizma_JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/Vinica_1_J_B.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/slides-fin-5JB.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/files/slider/GIS_slika.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/o-podjetju/images/slides-fin-2.jpg",
+     "izvor": [
+      "css"
+     ],
+     "alt": ""
+    },
+    {
+     "url": "https://www.geofoto.si/images/slides-fin-2.jpg",
+     "izvor": [
+      "css~koren"
+     ],
+     "alt": ""
+    }
+   ]
+  }
+ ]
+}
