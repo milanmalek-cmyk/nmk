@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://multimedija.net/ai-office/redesign/projekt.schema.json",
+  "title": "Projekt modula AI REDESIGN",
+  "description": "Manifest projekta – vmesnik za prihodnje module AI Office (CRM, e-pošta, marketing, vodenje projektov).",
+  "type": "object",
+  "required": ["verzija_sheme", "id", "modul", "stranka", "faze", "odobritve", "predogled"],
+  "properties": {
+    "verzija_sheme": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$", "description": "<stranka>/<projekt>" },
+    "modul": { "const": "redesign" },
+    "stranka": {
+      "type": "object",
+      "required": ["slug", "naziv", "url"],
+      "properties": {
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "naziv": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "crm_id": { "type": ["string", "null"], "description": "povezava na evidenco strank (kasneje)" }
+      }
+    },
+    "ustvarjeno": { "type": "string", "format": "date-time" },
+    "posodobljeno": { "type": "string", "format": "date-time" },
+    "faze": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "ime", "stanje"],
+        "properties": {
+          "id": { "enum": ["F0", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8"] },
+          "ime": { "type": "string" },
+          "stanje": { "enum": ["caka", "v_teku", "zakljuceno", "blokirano"] },
+          "posodobljeno": { "type": ["string", "null"] },
+          "izhodi": { "type": "array", "items": { "type": "string" }, "description": "poti glede na mapo projekta" },
+          "opomba": { "type": "string" }
+        }
+      }
+    },
+    "odobritve": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["vrata", "kdo", "cas"],
+        "properties": {
+          "vrata": { "enum": ["V1", "V2", "V3"] },
+          "opis": { "type": "string" },
+          "kdo": { "type": "string" },
+          "cas": { "type": "string", "format": "date-time" },
+          "opomba": { "type": "string" }
+        }
+      }
+    },
+    "predogled": {
+      "type": "object",
+      "properties": {
+        "pot": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] },
+        "pripravljeno": { "type": ["string", "null"] },
+        "objavljeno": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

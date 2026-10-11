@@ -1,0 +1,4 @@
+# Domena za predloge prenov – v korenu domene predogledov (enkrat).
+# Robots.txt v podmapi ne velja; glavni zaščiti sta geslo in glava X-Robots-Tag.
+User-agent: *
+Disallow: /

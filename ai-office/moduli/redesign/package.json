@@ -1,0 +1,9 @@
+{
+  "name": "ai-redesign",
+  "private": true,
+  "description": "Multimedija AI Office – modul AI REDESIGN (posnetki zaslona in test odzivnosti)",
+  "type": "module",
+  "dependencies": {
+    "playwright-core": "1.56.1"
+  }
+}

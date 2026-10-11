@@ -1,0 +1,93 @@
+{
+  "verzija_sheme": 1,
+  "id": "bio-sad/naslovnica-2026-10",
+  "modul": "redesign",
+  "stranka": {
+    "slug": "bio-sad",
+    "naziv": "BIO-SAD d.o.o.",
+    "url": "https://www.bio-sad.si/sl/",
+    "crm_id": null
+  },
+  "ustvarjeno": "2026-10-11T04:27:37+00:00",
+  "faze": [
+    {
+      "id": "F0",
+      "ime": "Inventar",
+      "stanje": "caka",
+      "posodobljeno": null,
+      "izhodi": [],
+      "opomba": ""
+    },
+    {
+      "id": "F1",
+      "ime": "Pregled strani",
+      "stanje": "caka",
+      "posodobljeno": null,
+      "izhodi": [],
+      "opomba": ""
+    },
+    {
+      "id": "F2",
+      "ime": "Raziskava",
+      "stanje": "caka",
+      "posodobljeno": null,
+      "izhodi": [],
+      "opomba": ""
+    },
+    {
+      "id": "F3",
+      "ime": "Vsebina",
+      "stanje": "caka",
+      "posodobljeno": null,
+      "izhodi": [],
+      "opomba": ""
+    },
+    {
+      "id": "F4",
+      "ime": "Vizualni materiali",
+      "stanje": "caka",
+      "posodobljeno": null,
+      "izhodi": [],
+      "opomba": ""
+    },
+    {
+      "id": "F5",
+      "ime": "Paket za ChatGPT",
+      "stanje": "caka",
+      "posodobljeno": null,
+      "izhodi": [],
+      "opomba": ""
+    },
+    {
+      "id": "F6",
+      "ime": "Gradnja",
+      "stanje": "caka",
+      "posodobljeno": null,
+      "izhodi": [],
+      "opomba": ""
+    },
+    {
+      "id": "F7",
+      "ime": "Predogled",
+      "stanje": "caka",
+      "posodobljeno": null,
+      "izhodi": [],
+      "opomba": ""
+    },
+    {
+      "id": "F8",
+      "ime": "Prodaja",
+      "stanje": "caka",
+      "posodobljeno": null,
+      "izhodi": [],
+      "opomba": ""
+    }
+  ],
+  "odobritve": [],
+  "predogled": {
+    "pot": null,
+    "url": null,
+    "objavljeno": null
+  },
+  "posodobljeno": "2026-10-11T04:27:37+00:00"
+}
