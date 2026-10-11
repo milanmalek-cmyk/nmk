@@ -13,17 +13,24 @@
     {
       "id": "F0",
       "ime": "Inventar",
-      "stanje": "caka",
-      "posodobljeno": null,
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T04:30:14+00:00",
       "izhodi": [],
-      "opomba": ""
+      "opomba": "Ponovno uporabljeno: 29 originalnih slik (prej materiali/), 79 strani iz predpomnilnika, 206 meritev slik. Manjkalo: raziskava, besedila, poziv."
     },
     {
       "id": "F1",
       "ime": "Pregled strani",
-      "stanje": "caka",
-      "posodobljeno": null,
-      "izhodi": [],
+      "stanje": "zakljuceno",
+      "posodobljeno": "2026-10-11T04:30:14+00:00",
+      "izhodi": [
+        "01_analiza/analiza.md",
+        "01_analiza/brand.json",
+        "01_analiza/pages.json",
+        "01_analiza/posnetki/obstojeca-1440.jpg",
+        "01_analiza/posnetki/obstojeca-390.jpg",
+        "01_analiza/slike.tsv"
+      ],
       "opomba": ""
     },
     {
@@ -89,5 +96,5 @@
     "url": null,
     "objavljeno": null
   },
-  "posodobljeno": "2026-10-11T04:27:37+00:00"
+  "posodobljeno": "2026-10-11T04:30:14+00:00"
 }

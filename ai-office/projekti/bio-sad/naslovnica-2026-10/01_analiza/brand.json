@@ -1,0 +1,363 @@
+{
+ "url": "https://www.bio-sad.si/sl/",
+ "css": [
+  "https://www.bio-sad.si/media/mod_languages/css/template.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/theme.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/custom.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/main.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/color/default.css"
+ ],
+ "css_preskoceno_knjiznice": [
+  "https://www.bio-sad.si/templates/wt_app_free/css/bootstrap.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/animate.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/hover.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/bootstrap.min.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/nivo-slider.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/flickity.min.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/lightbox.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/owl.carousel.css",
+  "https://www.bio-sad.si/templates/wt_app_free/css/owl.theme.css"
+ ],
+ "barve": [
+  {
+   "hex": "#ffffff",
+   "st": 121,
+   "kje": [
+    "@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,300'; html  (theme.css)",
+    "::-moz-selection  (theme.css)",
+    "::selection  (theme.css)",
+    ".uk-block-default  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#444444",
+   "st": 65,
+   "kje": [
+    "@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,300'; html  (theme.css)",
+    "ins  (theme.css)",
+    "mark  (theme.css)",
+    "h1, h2, h3, h4, h5, h6  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#98c93c",
+   "st": 48,
+   "kje": [
+    "a, .uk-link  (theme.css)",
+    ".uk-nav-side > li.uk-active > a  (theme.css)",
+    ".uk-nav-side ul a  (theme.css)",
+    ".uk-nav-dropdown > li > a:hover, .uk-nav-dropdown > li > a:focus  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#dddddd",
+   "st": 40,
+   "kje": [
+    "hr  (theme.css)",
+    "blockquote  (theme.css)",
+    ".well  (theme.css)",
+    ".uk-grid-divider > [class*='uk-width-1-']:not(.uk-width-1-1):nth-child(n+2), .uk  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#000000",
+   "st": 28,
+   "kje": [
+    ".blog-featured a:active, .blog-featured a:hover  (theme.css)",
+    ".uk-navbar  (theme.css)",
+    ".nivoSlider h1  (theme.css)",
+    ".nivoSlider p  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#999999",
+   "st": 25,
+   "kje": [
+    ".uk-article-meta  (theme.css)",
+    ".uk-comment-meta  (theme.css)",
+    ".uk-nav-dropdown .uk-nav-header  (theme.css)",
+    ".uk-nav-navbar .uk-nav-header  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#1abc9c",
+   "st": 23,
+   "kje": [
+    "a:hover, .uk-link:hover  (theme.css)",
+    ".uk-nav-side ul a:hover  (theme.css)",
+    ".uk-nav-dropdown ul a:hover  (theme.css)",
+    ".uk-nav-navbar > li > a:hover, .uk-nav-navbar > li > a:focus  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#f5f5f5",
+   "st": 14,
+   "kje": [
+    "pre  (theme.css)",
+    ".uk-panel-hover:hover  (theme.css)",
+    ".uk-pagination > li > a:hover, .uk-pagination > li > a:focus  (theme.css)",
+    ".uk-pagination > .uk-disabled > span  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#eeeeee",
+   "st": 12,
+   "kje": [
+    ".uk-panel-box-secondary  (theme.css)",
+    ".uk-subnav-pill > * > :hover, .uk-subnav-pill > * > :focus  (theme.css)",
+    ".uk-pagination > li > a  (theme.css)",
+    ".uk-table tbody tr.uk-active  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#cccccc",
+   "st": 7,
+   "kje": [
+    ".uk-nav-offcanvas > li > a  (theme.css)",
+    ".uk-nav-offcanvas ul a  (theme.css)",
+    ".uk-offcanvas .uk-panel-title  (theme.css)",
+    ".uk-offcanvas .uk-panel a:not([class])  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#fafafa",
+   "st": 6,
+   "kje": [
+    ".well  (theme.css)",
+    ".uk-button:hover, .uk-button:focus  (theme.css)",
+    ".uk-button:disabled  (theme.css)",
+    ".uk-dropdown-navbar  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#777777",
+   "st": 4,
+   "kje": [
+    ".uk-nav-offcanvas .uk-nav-header  (theme.css)",
+    ".uk-offcanvas .uk-panel  (theme.css)",
+    ".uk-offcanvas .uk-search:before  (theme.css)",
+    ".tm-totop-scroller:hover, .tm-totop-scroller:focus  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#c2c2c2",
+   "st": 4,
+   "kje": [
+    "#feedback form  (theme.css)",
+    "#feedback input[type=\"text\"]  (theme.css)",
+    "#feedback textarea  (theme.css)",
+    ".modal-dialog  (main.css)"
+   ]
+  },
+  {
+   "hex": "#d85030",
+   "st": 3,
+   "kje": [
+    ".uk-form-danger  (theme.css)",
+    ".uk-alert-danger  (theme.css)",
+    ".uk-text-danger  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#659f13",
+   "st": 3,
+   "kje": [
+    ".uk-form-success  (theme.css)",
+    ".uk-alert-success  (theme.css)",
+    ".uk-text-success  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#82bb42",
+   "st": 3,
+   "kje": [
+    ".uk-button-success  (theme.css)",
+    ".uk-badge-success  (theme.css)",
+    ".uk-progress-success .uk-progress-bar  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#d32c46",
+   "st": 3,
+   "kje": [
+    ".uk-button-danger  (theme.css)",
+    ".uk-badge-danger  (theme.css)",
+    ".uk-progress-danger .uk-progress-bar  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#2d7091",
+   "st": 3,
+   "kje": [
+    ".uk-alert  (theme.css)",
+    ".uk-text-primary  (theme.css)",
+    ".uk-contrast .uk-text-primary  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#323232",
+   "st": 3,
+   "kje": [
+    ".uk-dotnav > * > :active  (theme.css)",
+    ".uk-slidenav:hover, .uk-slidenav:focus  (theme.css)",
+    ".uk-slidenav:active  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#d3c3ae",
+   "st": 3,
+   "kje": [
+    ".tm-footer .uk-panel h3  (theme.css)",
+    ".tm-footer form input[type=\"text\"]  (theme.css)",
+    ".tm-footer form input[type=\"text\"]  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#efe6da",
+   "st": 3,
+   "kje": [
+    ".wt-footer  (theme.css)",
+    ".info-recipe, #footer, .ourMission  (default.css)",
+    "x  (style-atribut)"
+   ]
+  },
+  {
+   "hex": "#5c5c68",
+   "st": 3,
+   "kje": [
+    ".blink  (custom.css)",
+    "body, .sidebar .widget, .sidebar .widget a  (default.css)",
+    "x  (style-atribut)"
+   ]
+  },
+  {
+   "hex": "#565359",
+   "st": 3,
+   "kje": [
+    "x  (style-atribut)",
+    "x  (style-atribut)",
+    "x  (style-atribut)"
+   ]
+  },
+  {
+   "hex": "#dd0055",
+   "st": 2,
+   "kje": [
+    ":not(pre) > code, :not(pre) > kbd, :not(pre) > samp  (theme.css)",
+    "em  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#ffffaa",
+   "st": 2,
+   "kje": [
+    "ins  (theme.css)",
+    "mark  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#1fa2d6",
+   "st": 2,
+   "kje": [
+    "::-moz-selection  (theme.css)",
+    "::selection  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#699eb3",
+   "st": 2,
+   "kje": [
+    ".uk-panel-box-primary  (theme.css)",
+    ".uk-panel-box-primary-hover:hover  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#00a8e6",
+   "st": 2,
+   "kje": [
+    ".uk-block-primary  (theme.css)",
+    ".uk-contrast .uk-button-primary  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#1a1a1a",
+   "st": 2,
+   "kje": [
+    "html .uk-nav.uk-nav-offcanvas > li.uk-active > a  (theme.css)",
+    ".uk-nav-offcanvas .uk-nav-divider  (theme.css)"
+   ]
+  },
+  {
+   "hex": "#333333",
+   "st": 2,
+   "kje": [
+    "a.povprasevanje:hover  (theme.css)",
+    ".uk-offcanvas-bar  (theme.css)"
+   ]
+  }
+ ],
+ "pisave_google": [
+  "Norican",
+  "PT Sans",
+  "Playfair Display"
+ ],
+ "pisave_css": [
+  {
+   "ime": "FontAwesome",
+   "st": 14
+  },
+  {
+   "ime": "PT Sans",
+   "st": 10
+  },
+  {
+   "ime": "Consolas",
+   "st": 1
+  },
+  {
+   "ime": "Open Sans",
+   "st": 1
+  },
+  {
+   "ime": "Norican",
+   "st": 1
+  },
+  {
+   "ime": "futura_bk_btbook",
+   "st": 1
+  },
+  {
+   "ime": "proxima_nova_cn_ltsemibold",
+   "st": 1
+  }
+ ],
+ "logotip": {
+  "pot": "03_paket-chatgpt/slike/01_logotip/logotip.png",
+  "barve": [
+   {
+    "hex": "#ffffff",
+    "delez": 0.748
+   },
+   {
+    "hex": "#98c93c",
+    "delez": 0.104
+   },
+   {
+    "hex": "#f9f9f9",
+    "delez": 0.008
+   },
+   {
+    "hex": "#fdfdfd",
+    "delez": 0.006
+   },
+   {
+    "hex": "#fefefe",
+    "delez": 0.006
+   },
+   {
+    "hex": "#98c93d",
+    "delez": 0.004
+   }
+  ]
+ }
+}

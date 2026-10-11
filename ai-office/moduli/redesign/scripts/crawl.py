@@ -89,13 +89,19 @@ def oznake(h, tag):
             for m in re.findall(rf"(?is)<{tag}\b[^>]*>(.*?)</{tag}>", h)]
 
 
-def meta(h, ime):
+def meta_vse(h, ime):
+    vrednosti = []
     for m in re.finditer(r"(?is)<meta\b[^>]*>", h):
         t = m.group(0)
         if re.search(rf'''(name|property)\s*=\s*["']{re.escape(ime)}["']''', t, re.I):
             c = re.search(r'''content\s*=\s*["']([^"']*)["']''', t, re.I)
-            return html.unescape(c.group(1)).strip() if c else ""
-    return None
+            vrednosti.append(html.unescape(c.group(1)).strip() if c else "")
+    return vrednosti
+
+
+def meta(h, ime):
+    v = meta_vse(h, ime)
+    return v[0] if v else None
 
 
 def analiziraj(url, koncni, h, gostitelji):
@@ -142,7 +148,7 @@ def analiziraj(url, koncni, h, gostitelji):
         "title": (oznake(h, "title") or [""])[0],
         "description": meta(h, "description"),
         "robots": meta(h, "robots"),
-        "viewport": meta(h, "viewport"),
+        "viewport": meta_vse(h, "viewport"),   # več oznak: brskalnik upošteva zadnjo
         "og_image": meta(h, "og:image"),
         "lang": lang.group(1) if lang else None,
         "canonical": can.group(1) if can else None,
