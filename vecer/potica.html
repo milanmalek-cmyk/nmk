@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strokovnjaki potrdili: domača potica še vedno boljša od kupljene – Štajerski Kurir</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1a1a1a; --muted:#666; --line:#e2e2e2; --bg:#fff; --soft:#fff4ec;
+  --accent:#e8590c; --hot:#b3261e;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:"Source Sans 3",system-ui,sans-serif;line-height:1.45}
+a{color:inherit;text-decoration:none}
+a:hover h2,a:hover h3{color:var(--accent)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
+
+/* Zgornja vrstica */
+.topbar{background:#1a1a1a;color:#fff;font-size:13px}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;height:34px}
+.topbar .wx{opacity:.9}
+
+/* Glava */
+header.mast{border-bottom:1px solid var(--line)}
+header.mast .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:14px;gap:16px}
+.logo{font-family:"Playfair Display",serif;font-weight:900;font-size:44px;letter-spacing:-1px;line-height:1}
+.logo span{color:var(--accent)}
+.logo .mark{display:inline-flex;align-items:center;justify-content:center;width:1.05em;height:1.05em;background:var(--accent);color:#fff;border-radius:6px;margin-right:10px;font-size:.85em;vertical-align:-4px}
+.tag{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-top:4px}
+.hdr-right{display:flex;gap:10px;align-items:center}
+.btn{border:1px solid var(--ink);padding:7px 14px;font-size:14px;font-weight:600;border-radius:3px;background:#fff}
+.btn.fill{background:var(--accent);border-color:var(--accent);color:#fff}
+.burger{display:none;font-size:26px;background:none;border:0;cursor:pointer}
+
+/* Navigacija */
+nav.main{background:var(--accent);color:#fff;border-bottom:0;overflow-x:auto;scrollbar-width:none}
+nav.main::-webkit-scrollbar{display:none}
+nav.main ul{display:flex;list-style:none;gap:22px;white-space:nowrap;padding:11px 0;font-weight:700;font-size:15px;text-transform:uppercase}
+nav.main li.live{color:#fff;background:var(--hot);padding:0 8px;border-radius:2px}
+
+/* Udarna vrstica */
+.ticker{background:var(--soft);font-size:14px;border-bottom:1px solid var(--line)}
+.ticker .wrap{display:flex;gap:10px;padding:8px 16px;align-items:center}
+.ticker b{background:var(--hot);color:#fff;padding:2px 8px;font-size:12px;text-transform:uppercase;border-radius:2px;flex:none}
+.ticker div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* Slike (nadomestne) */
+.img{background:linear-gradient(135deg,#cfd8d3,#9fb5ab);aspect-ratio:16/9;width:100%;position:relative;overflow:hidden}
+.img.b{background:linear-gradient(135deg,#e8d9c4,#c9a97f)}
+.img.c{background:linear-gradient(135deg,#c9d3e3,#8ea2c4)}
+.img.d{background:linear-gradient(135deg,#e3c9c9,#c48e8e)}
+.img.e{background:linear-gradient(135deg,#d9e3c9,#a2c48e)}
+.img svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.img.ill::after{content:none}
+.img::after{content:"FOTO";position:absolute;right:8px;bottom:6px;font-size:10px;color:rgba(255,255,255,.8);letter-spacing:1px}
+
+.kicker{color:var(--accent);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin:10px 0 4px}
+.kicker.hot{color:var(--hot)}
+h1,h2,h3{font-family:"Playfair Display",serif;line-height:1.15}
+.lead p,.card p{color:#333;margin-top:6px}
+.meta{font-size:12px;color:var(--muted);margin-top:6px}
+
+/* Glavni del */
+.top{display:grid;grid-template-columns:2fr 1fr;gap:28px;padding:24px 0;border-bottom:1px solid var(--line)}
+.lead h1{font-size:40px;margin-top:2px}
+.lead p{font-size:18px}
+.side{display:flex;flex-direction:column;gap:18px}
+.side .card{display:grid;grid-template-columns:1fr 110px;gap:12px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.side .card:last-child{border-bottom:0}
+.side .card .img{aspect-ratio:1/1}
+.side h3{font-size:18px}
+.side .kicker{margin-top:0}
+
+.section-title{display:flex;align-items:center;gap:12px;margin:28px 0 16px;font-family:"Playfair Display",serif;font-size:24px}
+.section-title::after{content:"";flex:1;height:3px;background:var(--accent)}
+
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.grid4 h3{font-size:19px}
+
+.split{display:grid;grid-template-columns:3fr 1fr;gap:28px;margin-top:8px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid3 h3{font-size:18px}
+
+aside.box{background:var(--soft);padding:18px}
+aside.box h4{font-family:"Playfair Display",serif;font-size:20px;margin-bottom:10px}
+aside.box ol{padding-left:0;list-style:none;counter-reset:n}
+aside.box li{counter-increment:n;display:flex;gap:10px;padding:10px 0;border-top:1px solid var(--line);font-weight:600;font-size:15px}
+aside.box li::before{content:counter(n);font-family:"Playfair Display",serif;font-size:26px;color:var(--accent);line-height:1;min-width:22px}
+
+.opinion{background:var(--ink);color:#fff;margin-top:32px;padding:26px 0}
+.opinion .section-title::after{background:#fff}
+.opinion .grid4 p{color:#ccc;font-size:14px}
+.opinion .who{color:#ffb380;font-weight:700;font-size:13px;text-transform:uppercase;margin-bottom:6px}
+
+footer{border-top:4px solid var(--accent);margin-top:36px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .logo{font-size:28px;color:var(--ink)}
+footer .cols{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:10px}
+
+/* Tablica */
+@media (max-width:980px){
+  .grid4{grid-template-columns:repeat(2,1fr)}
+  .split{grid-template-columns:1fr}
+}
+/* Mobilno */
+@media (max-width:700px){
+  .logo{font-size:32px}
+  .tag,.hdr-right .btn:not(.fill){display:none}
+  .burger{display:block}
+  .top{grid-template-columns:1fr;gap:20px;padding-top:16px}
+  .lead h1{font-size:28px}
+  .lead p{font-size:16px}
+  .grid4,.grid3{grid-template-columns:1fr}
+  .grid4 .card,.grid3 .card{display:grid;grid-template-columns:1fr 120px;gap:12px;align-items:start;padding-bottom:16px;border-bottom:1px solid var(--line)}
+  .grid4 .card .img,.grid3 .card .img{order:2;aspect-ratio:4/3}
+  .grid4 .card .kicker,.grid3 .card .kicker{margin-top:0}
+  .opinion .grid4 .card{border-color:#333}
+  .topbar .wx{display:none}
+}
+
+/* Celoten članek */
+.full{display:none}
+.full:target{display:block;position:fixed;inset:0;overflow-y:auto;background:var(--bg);z-index:50}
+.full .bar{position:sticky;top:0;background:var(--accent);color:#fff;z-index:2}
+.full .bar .wrap{display:flex;justify-content:space-between;align-items:center;height:52px}
+.full .bar .logo{font-size:24px;color:#fff}
+.full .bar .logo span{color:#1a1a1a}
+.full .bar a.back{font-weight:700;font-size:15px}
+.full .body{max-width:740px;margin:0 auto;padding:28px 16px 60px}
+.full h1{font-size:42px;margin:6px 0 14px}
+.full .standfirst{font-size:20px;font-weight:600;color:#333;margin-bottom:14px}
+.full .byline{font-size:13px;color:var(--muted);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:10px 0;margin-bottom:22px}
+.full .hero{margin:0 -16px 6px}
+.full .cap{font-size:13px;color:var(--muted);margin-bottom:24px}
+.full p{font-size:18px;line-height:1.65;margin-bottom:16px}
+.full h2{font-size:28px;margin:34px 0 12px}
+.full blockquote{border-left:5px solid var(--accent);padding:6px 0 6px 18px;margin:22px 0;font-family:"Playfair Display",serif;font-size:24px;line-height:1.3}
+.full .shout{background:var(--accent);color:#fff;text-align:center;font-family:"Playfair Display",serif;font-weight:900;font-size:30px;padding:22px 14px;margin:22px 0}
+.full .end{font-weight:700;font-size:20px}
+.full .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px}
+.full .slot{aspect-ratio:4/3;background:var(--soft);border:2px dashed #e8a477;display:flex;align-items:center;justify-content:center;color:#b0703f;font-weight:700;font-size:14px;text-align:center;padding:8px}
+@media (max-width:700px){
+  .full h1{font-size:30px}
+  .full .standfirst{font-size:17px}
+  .full p{font-size:17px}
+  .full h2{font-size:23px}
+  .full blockquote{font-size:20px}
+  .full .shout{font-size:23px}
+  .full .gallery{grid-template-columns:1fr}
+  .full .bar .logo{font-size:20px}
+}
+.img.photo{background:#ddd}
+.img.photo::after{content:none}
+.img.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 60%}
+.full .gphoto{grid-column:1/-1;margin:0}
+.full .gphoto img{width:100%;display:block}
+.full .gphoto figcaption{font-size:13px;color:var(--muted);margin-top:6px}
+.more{display:inline-block;margin-top:12px;background:var(--accent);color:#fff;font-weight:700;padding:9px 18px;border-radius:3px}
+.lead:hover .more{background:#c94a08}
+.full.art{display:block;position:static}
+.logo{display:block}
+.viber{max-width:440px;margin:22px auto;border-radius:14px;overflow:hidden;background:#efeaf7;box-shadow:0 2px 10px rgba(0,0,0,.12);font-family:"Source Sans 3",system-ui,sans-serif}
+.viber .vh{background:#7360f2;color:#fff;display:flex;align-items:center;gap:10px;padding:10px 14px}
+.viber .av{width:34px;height:34px;border-radius:50%;background:#fff;color:#7360f2;display:flex;align-items:center;justify-content:center;font-weight:700}
+.viber .vh b{display:block;font-size:16px}
+.viber .vh small{font-size:12px;opacity:.85}
+.viber .chat{padding:12px;display:flex;flex-direction:column;gap:8px}
+.viber .msg{max-width:82%;background:#fff;border-radius:12px 12px 12px 3px;padding:6px;font-size:15px;line-height:1.35;align-self:flex-start}
+.viber .msg.me{align-self:flex-end;background:#d9d1ff;border-radius:12px 12px 3px 12px;padding:8px 10px}
+.viber .msg img{width:100%;display:block;border-radius:8px;margin-bottom:6px}
+.viber .msg span{display:block;padding:0 4px}
+.viber .msg i{display:block;text-align:right;font-size:11px;color:#888;font-style:normal;margin-top:2px}
+.viber + .cap{text-align:center}
+.full .gphoto.half{grid-column:auto}
+@media (max-width:700px){.full .gphoto.half{grid-column:1/-1}}
+
+/* Glava (po vzoru dnevnika) */
+.ktop{background:#efefef;font-size:14px;font-weight:700}
+.ktop .wrap{display:flex;justify-content:space-between;align-items:center;height:42px}
+.ktop .kt{display:flex;align-items:center;gap:7px;font-family:"Playfair Display",serif}
+.ktop .kt svg{width:24px;height:24px}
+.ktop .kdate{font-weight:400;font-size:13px;color:#666}
+.khead{background:#fff}
+.khead .wrap{border-bottom:1px solid #d6d6d6}
+.kh-row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:16px 0 8px}
+.klogo{font-family:"Playfair Display",serif;font-weight:900;font-size:42px;letter-spacing:-.5px;line-height:1;color:var(--ink);white-space:nowrap}
+.klogo span{color:var(--accent)}
+.kbtns{justify-self:end;display:flex;gap:12px}
+.kbtn{width:40px;height:40px;border-radius:50%;border:0;background:#f0f0f0;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.kbtn svg{width:22px;height:22px}
+.kbtn:hover{background:#e4e4e4}
+.knav ul{display:flex;justify-content:center;flex-wrap:wrap;gap:4px 32px;list-style:none;padding:12px 0 14px;font-family:"Playfair Display",serif;font-size:14px;text-transform:uppercase;letter-spacing:.3px}
+.knav a:hover,.kpanel a:hover{color:var(--accent)}
+.knav li.live a,.kpanel li.live a{color:var(--hot);font-weight:700}
+.kpanel{display:none;padding:6px 0 16px}
+.kpanel.open{display:block}
+.kpanel ul{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:4px 20px}
+.kpanel a{display:block;padding:8px 0;border-bottom:1px solid #eee;font-weight:600}
+[id]{scroll-margin-top:16px}
+.related{margin-top:40px;border-top:3px solid var(--accent);padding-top:6px}
+.related h2{margin-top:10px !important}
+.related ul{list-style:none}
+.related li{border-bottom:1px solid var(--line)}
+.related a{display:block;padding:10px 0;font-family:"Playfair Display",serif;font-weight:700;font-size:19px}
+.related a small{display:block;font-family:"Source Sans 3",sans-serif;font-size:12px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:1px}
+.related a:hover{color:var(--accent)}
+aside.box li a:hover{color:var(--accent)}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:20px 0}
+.plan{border:2px solid var(--line);padding:16px;border-radius:6px}
+.plan.hot{border-color:var(--accent);background:var(--soft)}
+.plan h3{font-size:20px;margin-bottom:6px}
+.plan .price{font-family:"Playfair Display",serif;font-weight:900;font-size:24px;color:var(--accent);margin:6px 0}
+.full .plan p{font-size:15px;margin-bottom:6px}
+@media (max-width:700px){
+  .ktop{font-size:13px}.ktop .wrap{height:38px}.ktop .kdate{display:none}
+  .kh-row{grid-template-columns:80px 1fr 80px;padding:12px 0 6px}
+  .klogo{font-size:26px;text-align:center}
+  .kbtn{width:34px;height:34px}.kbtn svg{width:19px;height:19px}.kbtns{gap:8px}
+  .knav ul{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;scrollbar-width:none;gap:24px;white-space:nowrap;padding:10px 0 12px}
+  .knav ul::-webkit-scrollbar{display:none}
+  .plans{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="ktop"><div class="wrap">
+  <a class="kt" href="narocnina.html"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#1a1a1a"/><path d="M6 7h2l1.6 7h6.6l1.3-5H9" fill="none" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/><circle cx="10.5" cy="17" r="1.1" fill="#fff"/><circle cx="15.5" cy="17" r="1.1" fill="#fff"/></svg>Naročnina</a>
+  <span class="kdate">Petek, 23. oktober 2026 · ☀ 17 °C</span>
+  <a class="kt" href="narocnina.html#prijava"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#fff" stroke="#1a1a1a" stroke-width="1.6"/><circle cx="12" cy="9.5" r="3.6" fill="#1a1a1a"/><path d="M5 19.5q7-8 14 0" fill="#1a1a1a"/></svg>Prijava</a>
+</div></div>
+<header class="khead"><div class="wrap">
+  <div class="kh-row">
+    <span></span>
+    <a class="klogo" href="index.html">Štajerski <span>Kurir</span></a>
+    <div class="kbtns"><button class="kbtn" id="ksearch" aria-label="Iskanje"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6" fill="none" stroke="#555" stroke-width="1.6"/><path d="M15 15l5 5" stroke="#555" stroke-width="1.6" stroke-linecap="round"/></svg></button><button class="kbtn" id="kmenu" aria-label="Meni" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h11M4 17h16" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/></svg></button></div>
+  </div>
+  <nav class="knav"><ul><li class=live><a href="clanek.html">● V živo</a></li><li><a href="index.html#novice">Novice</a></li><li><a href="index.html#lokalno">Štajerska</a></li><li><a href="cenejse.html">Slovenija</a></li><li><a href="clanek.html#makarska">Svet</a></li><li><a href="sprehod.html">Šport</a></li><li><a href="zbor.html">Kultura</a></li><li><a href="juha.html">Okusno</a></li><li><a href="index.html#mnenja">Mnenja</a></li><li><a href="jabolka.html">Vreme</a></li></ul></nav>
+  <div class="kpanel" id="kpanel"><ul><li class=live><a href="clanek.html">● V živo</a></li><li><a href="index.html#novice">Novice</a></li><li><a href="index.html#lokalno">Štajerska</a></li><li><a href="cenejse.html">Slovenija</a></li><li><a href="clanek.html#makarska">Svet</a></li><li><a href="sprehod.html">Šport</a></li><li><a href="zbor.html">Kultura</a></li><li><a href="juha.html">Okusno</a></li><li><a href="index.html#mnenja">Mnenja</a></li><li><a href="jabolka.html">Vreme</a></li><li><a href="narocnina.html">Naročnina</a></li></ul></div>
+</div></header>
+
+<div class="ticker"><div class="wrap">
+  <b>Zadnje</b>
+  <div>ŠOKANTNO: skrivnost babice in dedka iz Hoč razkrita · Pol penzije v Makarski, čeprav Hrvatov »ne marata« · Sosedov maček znova opažen na tuji strehi · Cena orehov na tržnici stabilna · Daljinec za televizijo še vedno pogrešan</div>
+</div></div>
+
+<div class="full art">
+<div class="body">
+<div class="kicker">Kuhinja</div>
+<h1>Strokovnjaki potrdili: domača potica še vedno boljša od kupljene</h1>
+<p class="standfirst">Neodvisna komisija treh vnukov, dveh zetov in enega psa je po temeljitem preizkusu soglasno razsodila: kupljena potica nima nobene možnosti.</p>
+<div class="byline">Kulinarična redakcija Štajerskega Kurirja · petek, 23. oktober 2026</div>
+<div class="hero"><div class="img ill" style="aspect-ratio:16/9"><svg viewBox="0 0 160 90" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="90" fill="#f2dcc4"/><rect y="60" width="160" height="30" fill="#c9a07a"/><ellipse cx="80" cy="66" rx="52" ry="10" fill="#f4f1ec"/><path d="M42 62v-16q38-20 76 0v16z" fill="#c98a3e"/><ellipse cx="80" cy="46" rx="38" ry="10" fill="#dda35a"/><ellipse cx="80" cy="46" rx="8" ry="3" fill="#f4f1ec"/><path d="M48 52q8 4 16 0M70 54q10 4 20 0M96 52q8 4 16 0" stroke="#6b3d1a" stroke-width="2.5" fill="none"/><text x="134" y="24" font-size="16" text-anchor="middle">★</text><text x="20" y="28" font-size="12" text-anchor="middle" fill="#a33">♥</text></svg></div></div>
+<div class="cap">Zmagovalna orehova potica. Ilustracija: Štajerski Kurir</div>
+<p><b>MARIBOR –</b> Vprašanje, ki že desetletja deli slovenske družine, je končno dobilo znanstven odgovor. Komisija je v slepem testu primerjala tri potice: dve iz trgovine in eno domačo, babičino.</p>
+<p>Testiranje je potekalo po strogih pravilih. Člani komisije niso vedeli, katera potica je katera, dokler pes ni začel lajati pri babičini.</p>
+<h2>Rezultati brez dvoma</h2>
+<p>Domača potica je zmagala v vseh kategorijah: okus, vonj, količina orehov, mehkoba testa in »občutek, da te ima nekdo rad«. Kupljena potica je zbrala točke samo v kategoriji »je bila že narezana«.</p>
+<blockquote>»V kupljeni potici je toliko orehov, kot je signala v Trčovi,«</blockquote>
+<p>je komentiral eden od zetov, ki je želel ostati anonimen.</p>
+<h2>Recept ostaja v družini</h2>
+<p>Ko smo babico prosili za recept, je povedala samo: »Malo moke, malo orehov, malo ljubezni. Pa nič ne merim.« Na vprašanje, koliko je »malo«, je odgovorila: »Toliko, kolikor je prav.«</p>
+<p>Komisija priporoča, da babice potico pečejo pogosteje – in da so takrat tudi doma.</p>
+<p class="end">Naslednji test: ali je domač štrudelj boljši od kupljenega. Rezultat že poznamo.</p>
+<div class="related"><h2>Preberite še</h2><ul><li><a href="clanek.html"><small>Šokantno · Ekskluzivno</small>Babica in dedek dolga leta zavajala vnuke, hčerko in ljubljenega zeta!</a></li><li><a href="klop.html"><small>Promet</small>Nova klop pred trgovino takoj postala najbolj priljubljeno zbirališče</a></li><li><a href="telefon.html"><small>Tehnologija</small>Vnuki znova pojasnili, kako se pošlje fotografija po telefonu</a></li><li><a href="paradiznik.html"><small>Vrt</small>Paradižnik letos rodil do konca oktobra, sosedje zavistni</a></li></ul></div>
+    <p style="margin-top:30px"><a href="index.html" class="back" style="color:var(--accent);font-weight:700">← Nazaj na naslovnico</a></p>
+</div>
+</div>
+<footer><div class="wrap">
+  <div class="logo">Štajerski <span>Kurir</span></div>
+  <div class="cols">
+    <span>Izmišljen družinski časopis, narejen za šalo. Vse novice so izmišljene.</span>
+    <span>© 2026 Uredništvo Štajerskega Kurirja</span>
+  </div>
+</div></footer>
+
+
+
+
+<script>
+(function(){
+  var m=document.getElementById('kmenu'),p=document.getElementById('kpanel');
+  m.addEventListener('click',function(){var o=p.classList.toggle('open');m.setAttribute('aria-expanded',o)});
+  document.getElementById('ksearch').addEventListener('click',function(){
+    alert('Iskanje trenutno ni mogoče.\nBabica in dedek imata slab signal. 📵');
+  });
+})();
+</script>
+</body>
+</html>
