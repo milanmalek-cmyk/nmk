@@ -1,2 +1,7 @@
 DirectoryIndex index.html
 Options -Indexes
+
+# Brez indeksiranja v iskalnikih – velja za vse datoteke (HTML, PDF, slike)
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet, noimageindex"
+</IfModule>
