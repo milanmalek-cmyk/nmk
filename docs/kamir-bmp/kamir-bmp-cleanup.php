@@ -4,35 +4,39 @@
  *
  * Zagon na strežniku (v korenu WordPressa) z WP-CLI:
  *
- *   wp eval-file kamir-bmp-cleanup.php dry-run              # samo izpiše, kaj bi naredil
- *   wp eval-file kamir-bmp-cleanup.php delete-unused        # izbriše 68 neuporabljenih priponk (.bmp + .webp dvojnico)
- *   wp eval-file kamir-bmp-cleanup.php convert              # priponke v uporabi preusmeri na .webp in izbriše .bmp
- *   wp eval-file kamir-bmp-cleanup.php convert dry-run      # kombinacija: konverzija samo na suho
+ *   wp eval-file kamir-bmp-cleanup.php dry-run                 # samo izpiše, kaj bi naredil
+ *   wp eval-file kamir-bmp-cleanup.php delete-orphan-webp      # izbriše osirotele .webp dvojnice 68 že izbrisanih BMP priponk
+ *   wp eval-file kamir-bmp-cleanup.php convert                 # priponke v uporabi preusmeri na .webp in izbriše .bmp
+ *   wp eval-file kamir-bmp-cleanup.php convert dry-run         # kombinacija: konverzija samo na suho
+ *
+ * 68 neuporabljenih BMP priponk je bilo 7. 11. 2026 že izbrisanih prek REST API-ja (priponka + .bmp).
+ * Njihove .webp dvojnice so ostale na disku, ker jih WordPress ob brisanju priponke ne pozna.
  *
  * Pred zagonom naredi varnostno kopijo baze in mape wp-content/uploads!
  * Po zagonu počisti LiteSpeed Cache: wp litespeed-purge all
  */
 
 if ( ! defined( 'WP_CLI' ) || ! WP_CLI ) {
-	die( "Zaženi z WP-CLI: wp eval-file kamir-bmp-cleanup.php <delete-unused|convert> [dry-run]\n" );
+	die( "Zaženi z WP-CLI: wp eval-file kamir-bmp-cleanup.php <delete-orphan-webp|convert> [dry-run]\n" );
 }
 
 $dry_run       = in_array( 'dry-run', $args, true );
-$delete_unused = in_array( 'delete-unused', $args, true );
+$delete_orphan = in_array( 'delete-orphan-webp', $args, true );
 $convert       = in_array( 'convert', $args, true );
 
-if ( ! $delete_unused && ! $convert && ! $dry_run ) {
-	WP_CLI::error( 'Podaj način: delete-unused, convert ali dry-run.' );
+if ( ! $delete_orphan && ! $convert && ! $dry_run ) {
+	WP_CLI::error( 'Podaj način: delete-orphan-webp, convert ali dry-run.' );
 }
-if ( $dry_run && ! $delete_unused && ! $convert ) {
-	$delete_unused = true;
+if ( $dry_run && ! $delete_orphan && ! $convert ) {
+	$delete_orphan = true;
 	$convert       = true;
 }
 
 /*
  * Priponke BMP, ki 7. 11. 2026 niso bile niti glavna niti galerijska slika
- * nobenega objavljenega izdelka in se njihovo ime ne pojavi na nobeni strani
- * (glej bmp-neuporabljene.csv).
+ * nobenega izdelka (tudi osnutkov in zasebnih ne) in se njihovo ime ne pojavi
+ * na nobeni strani (glej bmp-neuporabljene.csv). Izbrisane prek REST API-ja;
+ * seznam ostaja, da jih način convert zanesljivo preskoči.
  */
 $unused_ids = array(
 	8927, 8947, 8974, 8981, 10326, 10439, 10514, 10515, 10516, 10518, 10519, 10520, 10521,
@@ -52,40 +56,102 @@ function kamir_webp_twin( $bmp_path ) {
 	return preg_replace( '/\.bmp$/i', '.webp', $bmp_path );
 }
 
-/* ---------- 1) Brisanje neuporabljenih priponk ---------- */
-if ( $delete_unused ) {
-	WP_CLI::log( '== Neuporabljene BMP priponke ==' );
-	foreach ( $unused_ids as $id ) {
-		$post = get_post( $id );
-		if ( ! $post || 'attachment' !== $post->post_type ) {
-			WP_CLI::warning( "#$id ne obstaja več – preskočim." );
+/* ---------- 1) Brisanje osirotelih .webp dvojnic že izbrisanih priponk ---------- */
+$orphan_webp = array(
+	'2025/11/20251114191723060.webp',
+	'2025/11/20251114191852670.webp',
+	'2025/11/20251114192030853.webp',
+	'2025/11/20251114192053510.webp',
+	'2025/11/20251117123329297.webp',
+	'2025/11/20251118134242107.webp',
+	'2025/11/20251125091534333.webp',
+	'2025/11/20251125091538453.webp',
+	'2025/11/20251125094534763.webp',
+	'2025/11/20251125094541733.webp',
+	'2025/11/20251125094544983.webp',
+	'2025/11/20251125094547993.webp',
+	'2025/11/20251125094551667.webp',
+	'2025/11/20251125094558870.webp',
+	'2025/11/20251125094602877.webp',
+	'2025/11/20251125101530393.webp',
+	'2025/11/20251125101534240.webp',
+	'2025/11/20251125101537520.webp',
+	'2025/11/20251125101543550.webp',
+	'2025/11/20251125101547547.webp',
+	'2025/11/20251125101551610.webp',
+	'2025/11/20251125101608743.webp',
+	'2025/11/20251125101612640.webp',
+	'2025/11/20251125101620527.webp',
+	'2025/11/20251126084531453.webp',
+	'2025/11/20251126104530720.webp',
+	'2025/11/20251126104537517.webp',
+	'2025/12/20251208094555827.webp',
+	'2025/12/20251208094604293.webp',
+	'2025/12/20251208094608223.webp',
+	'2025/12/20251208094616150.webp',
+	'2025/12/20251208094620970.webp',
+	'2025/12/20251210083154680.webp',
+	'2025/12/20251210144507770.webp',
+	'2025/12/20251210145852577.webp',
+	'2025/12/20251217141509590.webp',
+	'2025/12/20251218141504567.webp',
+	'2025/12/20251223111504367.webp',
+	'2025/12/20251223111509867.webp',
+	'2025/12/20251223134742160.webp',
+	'2025/12/20251229114540603.webp',
+	'2025/12/20251229114544117.webp',
+	'2025/12/20251229114547667.webp',
+	'2025/12/20251229121539583.webp',
+	'2025/12/20251229121543510.webp',
+	'2025/12/20251229121547240.webp',
+	'2025/12/20251229123832340.webp',
+	'2025/12/20251229123835740.webp',
+	'2025/12/20251229123839580.webp',
+	'2025/12/20251229123843460.webp',
+	'2025/12/20251229131336647.webp',
+	'2025/12/20251229131411950.webp',
+	'2026/01/20260105134527680.webp',
+	'2026/01/20260105141524947.webp',
+	'2026/01/20260105141527970.webp',
+	'2026/01/20260105141529490.webp',
+	'2026/01/20260105141531400.webp',
+	'2026/01/20260105141532123.webp',
+	'2026/01/20260107091520733.webp',
+	'2026/01/20260107101538447.webp',
+	'2026/01/20260108134520577.webp',
+	'2026/01/20260108151528440.webp',
+	'2026/01/20260112111526270.webp',
+	'2026/01/20260112111529513.webp',
+	'2026/01/20260114101522653.webp',
+	'2026/01/20260119084250543.webp',
+	'2026/01/20260119084251750.webp',
+	'2026/02/20260225142951277.webp',
+);
+
+if ( $delete_orphan ) {
+	WP_CLI::log( '== Osirotele .webp dvojnice (68 izbrisanih BMP priponk) ==' );
+	foreach ( $orphan_webp as $rel ) {
+		$path = $basedir . $rel;
+		$bmp  = preg_replace( '/\.webp$/', '.bmp', $path );
+		if ( ! file_exists( $path ) ) {
+			WP_CLI::log( "ni je več: $rel" );
 			continue;
 		}
-		if ( 'image/bmp' !== $post->post_mime_type ) {
-			WP_CLI::warning( "#$id ni več BMP ({$post->post_mime_type}) – preskočim." );
+		// Varovalka: če .bmp še obstaja ali ima .webp svojo priponko, je ne brišemo.
+		if ( file_exists( $bmp ) ) {
+			WP_CLI::warning( "$rel: .bmp original še obstaja – preskočim." );
 			continue;
 		}
-		// Varovalka: če je priponka medtem postala glavna/galerijska slika kakšnega izdelka, je ne brišemo.
-		$as_thumb = get_posts( array( 'post_type' => 'any', 'post_status' => 'any', 'fields' => 'ids', 'posts_per_page' => 1, 'meta_key' => '_thumbnail_id', 'meta_value' => $id ) );
-		$in_gal   = get_posts( array( 'post_type' => 'product', 'post_status' => 'any', 'fields' => 'ids', 'posts_per_page' => 1, 'meta_query' => array( array( 'key' => '_product_image_gallery', 'value' => '(^|,)' . $id . '(,|$)', 'compare' => 'REGEXP' ) ) ) );
-		if ( $as_thumb || $in_gal ) {
-			WP_CLI::warning( "#$id je v uporabi (izdelek " . implode( ',', array_merge( $as_thumb, $in_gal ) ) . ') – preskočim.' );
+		$att = get_posts( array( 'post_type' => 'attachment', 'post_status' => 'any', 'fields' => 'ids', 'posts_per_page' => 1, 'meta_key' => '_wp_attached_file', 'meta_value' => $rel ) );
+		if ( $att ) {
+			WP_CLI::warning( "$rel: ima priponko #{$att[0]} – preskočim." );
 			continue;
 		}
-		$file = get_attached_file( $id );
-		$webp = kamir_webp_twin( $file );
-		$size = ( $file && file_exists( $file ) ? filesize( $file ) : 0 ) + ( file_exists( $webp ) ? filesize( $webp ) : 0 );
-		WP_CLI::log( ( $dry_run ? '[suho] ' : '' ) . "briši #$id " . str_replace( $basedir, '', $file ) . ' (+ .webp)' );
+		WP_CLI::log( ( $dry_run ? '[suho] ' : '' ) . "briši $rel" );
+		$freed += filesize( $path );
 		if ( ! $dry_run ) {
-			if ( false === wp_delete_attachment( $id, true ) ) {
-				WP_CLI::warning( "#$id: wp_delete_attachment ni uspel." );
-				continue;
-			}
-			if ( file_exists( $webp ) ) {
-				@unlink( $webp );
-			}
+			@unlink( $path );
 		}
-		$freed += $size;
 	}
 }
 

@@ -25,14 +25,15 @@ Pravilen postopek je: priponko preusmeriti na `.webp`, ustvariti metapodatke/pom
 
 ## Seznami
 
-- `bmp-neuporabljene.csv` – 68 priponk, ki niso glavna/galerijska slika nobenega objavljenega izdelka in
-  se njihovo ime ne pojavi na nobeni strani. 12 jih ni pripetih na noben objekt, 56 je pripetih na
-  izdelke, ki imajo zdaj drugo glavno sliko (jpg/png). **Varno za brisanje** (priponka + `.bmp` + `.webp`).
+- `bmp-neuporabljene.csv` – 68 priponk, ki niso glavna/galerijska slika nobenega izdelka (preverjeno tudi
+  za 6 osnutkov in 6 zasebnih izdelkov) in se njihovo ime ne pojavi na nobeni strani. 12 jih ni bilo pripetih
+  na noben objekt, 56 je bilo pripetih na izdelke, ki imajo zdaj drugo glavno sliko (jpg/png).
+  **Izbrisane 7. 11. 2026** prek REST API-ja (priponka + `.bmp`, preverjeno: vseh 68 `.bmp` vrača 404).
+  Njihove `.webp` dvojnice (68 datotek) so ostale na disku; izbriše jih skripta v načinu `delete-orphan-webp`.
 - `bmp-v-uporabi.csv` – 345 priponk z izdelkom, kjer so glavna slika. **Ne briši**; pretvori s skripto.
 
-Omejitev: javno so vidni samo objavljeni izdelki. Če je katera od 68 slik uporabljena v osnutku ali
-skritem izdelku, jo skripta pred brisanjem še enkrat preveri (`_thumbnail_id`, `_product_image_gallery`)
-in preskoči.
+Opomba: strežnikova zaščita pred roboti (stran "One moment, please") ob hitrem zaporedju zahtev vrne
+HTML namesto JSON-a, zato je treba skripte prek API-ja izvajati s premori in preverjati odgovore.
 
 ## Postopek na strežniku
 
@@ -43,7 +44,7 @@ wp eval-file kamir-bmp-cleanup.php dry-run
 ```
 
 ```bash
-wp eval-file kamir-bmp-cleanup.php delete-unused
+wp eval-file kamir-bmp-cleanup.php delete-orphan-webp
 ```
 
 ```bash
@@ -58,6 +59,5 @@ wp litespeed-purge all
 z `wp_generate_attachment_metadata` ustvari pomanjšane različice in izbriše `.bmp`. Če strežnikov GD/Imagick
 ne zna brati WebP, shrani osnovne metapodatke in to javi (slika kljub temu deluje, le brez pomanjšanih različic).
 
-Če WP-CLI ni na voljo, je možna alternativa za 68 neuporabljenih: brisanje prek REST API-ja z aplikacijskim
-geslom (`DELETE /wp-json/wp/v2/media/{id}?force=true`), ker WordPress pri tem izbriše tudi datoteko.
-Za 345 slik v uporabi REST API ne zadošča (ne omogoča zamenjave pripete datoteke).
+Za 345 slik v uporabi REST API ne zadošča (ne omogoča zamenjave pripete datoteke), zato je potreben
+WP-CLI na strežniku ali vtičnik, ki zna zamenjati datoteko priponke.
