@@ -8,6 +8,8 @@
  *   wp eval-file kamir-bmp-cleanup.php delete-orphan-webp      # izbriše osirotele .webp dvojnice 68 že izbrisanih BMP priponk
  *   wp eval-file kamir-bmp-cleanup.php convert                 # priponke v uporabi preusmeri na .webp in izbriše .bmp
  *   wp eval-file kamir-bmp-cleanup.php convert dry-run         # kombinacija: konverzija samo na suho
+ *   wp eval-file kamir-bmp-cleanup.php orphan-bmp                 # izpiše .bmp datoteke v uploads, ki niso v medijski knjižnici
+ *   wp eval-file kamir-bmp-cleanup.php delete-orphan-bmp          # ... in jih izbriše (če jih nič v bazi ne omenja)
  *
  * 68 neuporabljenih BMP priponk je bilo 7. 11. 2026 že izbrisanih prek REST API-ja (priponka + .bmp).
  * Njihove .webp dvojnice so ostale na disku, ker jih WordPress ob brisanju priponke ne pozna.
@@ -23,9 +25,11 @@ if ( ! defined( 'WP_CLI' ) || ! WP_CLI ) {
 $dry_run       = in_array( 'dry-run', $args, true );
 $delete_orphan = in_array( 'delete-orphan-webp', $args, true );
 $convert       = in_array( 'convert', $args, true );
+$orphan_bmp    = in_array( 'orphan-bmp', $args, true ) || in_array( 'delete-orphan-bmp', $args, true );
+$orphan_delete = in_array( 'delete-orphan-bmp', $args, true ) && ! $dry_run;
 
-if ( ! $delete_orphan && ! $convert && ! $dry_run ) {
-	WP_CLI::error( 'Podaj način: delete-orphan-webp, convert ali dry-run.' );
+if ( ! $delete_orphan && ! $convert && ! $orphan_bmp && ! $dry_run ) {
+	WP_CLI::error( 'Podaj način: delete-orphan-webp, convert, orphan-bmp, delete-orphan-bmp ali dry-run.' );
 }
 if ( $dry_run && ! $delete_orphan && ! $convert ) {
 	$delete_orphan = true;
@@ -208,6 +212,42 @@ if ( $convert ) {
 			@unlink( $bmp );
 		}
 	}
+}
+
+/* ---------- 3) BMP datoteke na disku, ki niso v medijski knjižnici ---------- */
+if ( $orphan_bmp ) {
+	global $wpdb;
+	WP_CLI::log( '== .bmp datoteke v uploads brez priponke ==' );
+	$known = $wpdb->get_col( "SELECT meta_value FROM {$wpdb->postmeta} WHERE meta_key = '_wp_attached_file' AND meta_value LIKE '%.bmp'" );
+	$known = array_flip( array_map( 'strtolower', $known ) );
+	$it    = new RecursiveIteratorIterator( new RecursiveDirectoryIterator( $basedir, FilesystemIterator::SKIP_DOTS ) );
+	$n     = 0;
+	foreach ( $it as $f ) {
+		if ( ! preg_match( '/\.bmp$/i', $f->getFilename() ) ) {
+			continue;
+		}
+		$rel = str_replace( '\\', '/', substr( $f->getPathname(), strlen( $basedir ) ) );
+		if ( isset( $known[ strtolower( $rel ) ] ) ) {
+			continue; // ima priponko – obravnava jo način convert
+		}
+		$n++;
+		$base = $f->getBasename( '.bmp' );
+		// Ali ime datoteke kje v bazi še omenjeno (vsebina, Elementor, meta)?
+		$like = '%' . $wpdb->esc_like( $base ) . '%';
+		$refs = (int) $wpdb->get_var( $wpdb->prepare( "SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_content LIKE %s", $like ) )
+		      + (int) $wpdb->get_var( $wpdb->prepare( "SELECT COUNT(*) FROM {$wpdb->postmeta} WHERE meta_value LIKE %s", $like ) );
+		$size = $f->getSize();
+		if ( $refs ) {
+			WP_CLI::warning( sprintf( '%s (%.1f MB): brez priponke, a omenjena %d-krat v bazi – preskočim.', $rel, $size / 1048576, $refs ) );
+			continue;
+		}
+		WP_CLI::log( ( $orphan_delete ? 'briši ' : '[seznam] ' ) . sprintf( '%s (%.1f MB)', $rel, $size / 1048576 ) );
+		$freed += $size;
+		if ( $orphan_delete ) {
+			@unlink( $f->getPathname() );
+		}
+	}
+	WP_CLI::log( "$n .bmp datotek brez priponke." );
 }
 
 WP_CLI::success( sprintf( '%s Sproščeno: %.1f MB', $dry_run ? '(suhi tek)' : 'Končano.', $freed / 1048576 ) );

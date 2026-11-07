@@ -52,8 +52,21 @@ wp eval-file kamir-bmp-cleanup.php convert
 ```
 
 ```bash
+wp eval-file kamir-bmp-cleanup.php orphan-bmp
+```
+
+```bash
+wp eval-file kamir-bmp-cleanup.php delete-orphan-bmp
+```
+
+```bash
 wp litespeed-purge all
 ```
+
+`orphan-bmp` prebrska celo mapo uploads in izpiše `.bmp` datoteke, ki nimajo priponke v medijski knjižnici
+(prek API-ja jih ni mogoče videti). `delete-orphan-bmp` jih izbriše, razen tistih, katerih ime se še kje
+pojavi v bazi (vsebina, Elementor, meta). Datoteka `bmp-ostale-v-knjiznici.txt` našteva 345 BMP priponk,
+ki po brisanju ostajajo v knjižnici, po mapah (2026/01: 122 datotek, 376 MB).
 
 `convert` pri vsaki priponki: `_wp_attached_file` → `.webp`, `post_mime_type` → `image/webp`, popravi `guid`,
 z `wp_generate_attachment_metadata` ustvari pomanjšane različice in izbriše `.bmp`. Če strežnikov GD/Imagick
